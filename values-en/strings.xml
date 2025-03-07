@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation" tools:locale="en">
-<!--    <string name="app_name" translatable="false">App name</string>-->
-<!--    <string name="device_name" translatable="false">Watch</string>-->
+    <!--    <string name="app_name" translatable="false">App name</string>-->
+    <!--    <string name="device_name" translatable="false">Watch</string>-->
 
     <string name="menu_nav_home">@string/device_name</string>
     <string name="menu_nav_notification">Notification</string>
@@ -33,16 +33,16 @@
     <string name="info_name">Information</string>
     <string name="more_name">More</string>
 
-<!--    <string name="mi_band_tracker_title">Steps・distance・calories・goal・pulse</string>-->
+    <!--    <string name="mi_band_tracker_title">Steps・distance・calories・goal・pulse</string>-->
     <string name="main_tracker_title">Steps・goal</string>
-<!--    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>-->
+    <!--    <string name="mi_band_battery">Battery level・last charging time・estimated remaining time</string>-->
     <string name="device_battery">Battery level・last charging time</string>
     <string name="device_state_connected_disconnected_last_time">Last connection and disconnection time</string>
     <string name="device_alarm">Next alarm</string>
     <string name="device_reminder">Next reminder</string>
 
-    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
-    <string name="device_setting">%1$s setting</string> <!-- %1$s = Watch name -->
+    <string name="device_search">%1$s search</string>    <!-- %1$s = Watch name -->
+    <string name="device_setting">%1$s setting</string>    <!-- %1$s = Watch name -->
 
     <string name="device_mac_address">MAC address</string>
     <string name="device_mac_address_invalid">MAC address is invalid</string>
@@ -68,8 +68,8 @@
     <string name="mi_band_setting_menu_text">Text</string>
     <string name="mi_band_setting_menu_call">Call</string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%3$s requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use %3$s. If you want to use %1$s application, choose this.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
+    <string name="mi_band_setting_auth_mi_fit">%1$s cooperation</string>    <!-- Haylou Fit-->
+    <string name="mi_band_setting_auth_mi_fit_hint">%3$s requires the installation of the %1$s app on the same phone. At first you have to pair %2$s in %1$s app, then you can use %3$s. If you want to use %1$s application, choose this.</string>    <!-- %1$s= Official app name; %2$s= Watch name, %3$s= App name-->
     <string name="mi_band_setting_auth_standalone">Standalone</string>
     <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application. If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
     <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
@@ -82,7 +82,7 @@
 
     <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string> <!-- %1$s = Watch name -->
+    <string name="message_mi_band_setting_auth_press_band_button">Press the %1$s button to pair</string>    <!-- %1$s = Watch name -->
     <string name="message_mi_band_setting_auth_success">%1$s paired successfully</string>
     <string name="message_mi_band_setting_auth_fail">%1$s pairing failed</string>
     <string name="message_mi_band_setting_auth_key_invalid">Invalid authentication key</string>
@@ -95,7 +95,7 @@
     <br>- Turn Bluetooth off and on
     <br>- Force close the Application or restart the phone
     <br>- Pair your watch again on the main screen
-    ]]></string>
+    ]]>    </string>
 
     <string name="mi_band_setting_dial">Dial</string>
     <string name="mi_band_setting_language">Language</string>
@@ -197,11 +197,11 @@
 
     <string name="message_app_chooser_no_selected">Select an application</string>
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string>    <!-- %1$,d = 1 or more  -->
 
     <string name="message_notification_free_groups">Up to %1$,d groups can be used in free mode</string>
     <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>    <!-- %1$s = 2 or more  -->
 
     <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
 
@@ -213,7 +213,7 @@
 
     <string name="message_touch_pattern_error">The specified pattern is similar to a sample of another function, record another</string>
     <string name="message_touch_free_patterns">You can not use more than %1$,d controls in free mode</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
+    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string>    <!-- %1$s = smartwatch -->
 
     <string name="message_premium_mode_only">This feature is only available in premium mode</string>
     <string name="message_feature_is_not_supported">%1$s does not support this feature</string>
@@ -231,7 +231,7 @@
 
     <string name="message_new_message">A new message is received, view it on the phone.</string>
 
-    <string name="message_permission_not_granted">Permission not granted: %1$s</string> <!-- %1$s = permission name -->
+    <string name="message_permission_not_granted">Permission not granted: %1$s</string>    <!-- %1$s = permission name -->
 
     <!-- Dialog -->
     <string name="dialog_welcome_title">Welcome!</string>
@@ -245,7 +245,7 @@
     <br>- Phone/apps: clear Bluetooth Share and other \'Bluetooth\' apps data.
     <br>- More information: https://dontkillmyapp.com
     <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
-    ]]></string>
+    ]]>    </string>
 
     <string name="dialog_welcome_message_watch_types" translatable="false"/>
 
@@ -258,7 +258,7 @@
     <string name="notification_group_name">Name</string>
     <string name="notification_group_monitoring">Monitoring notifications</string>
     <string name="notification_group_monitoring_disabled">Disable notifications (do not show the application notifications)</string>
-    <string name="notification_group_alert_title">%1$s signal</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="notification_group_alert_title">%1$s signal</string>    <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
     <string name="notification_group_text">Text display</string>
     <string name="notification_group_text_app_name">App name</string>
     <string name="notification_group_text_name">Name</string>
@@ -316,7 +316,7 @@
     <string name="call_tab_contacts">Contacts</string>
 
     <string name="pref_cat_call">Incoming call</string>
-    <string name="pref_call_summary_on">Do not forget to turn off incoming call alerts in the %1$s app</string> <!-- %1$s = official app name -->
+    <string name="pref_call_summary_on">Do not forget to turn off incoming call alerts in the %1$s app</string>    <!-- %1$s = official app name -->
     <string name="pref_call_text_title">Display caller ID</string>
 
     <string name="pref_call_notification_rejected">Show notification about rejected call</string>
@@ -328,7 +328,7 @@
     <string name="pref_cat_call_missed">Missed call</string>
     <string name="pref_call_missed_title">Missed call signal</string>
 
-    <string name="pref_call_missed_alert_title">%1$s signal</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+    <string name="pref_call_missed_alert_title">%1$s signal</string>    <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
 
     <string name="call_reject_button_action">Reject button action</string>
 
@@ -364,11 +364,11 @@
     <!-- Activity -->
     <string name="step_details">Activity details</string>
 
-    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometer -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+    <string name="mi_band_tracker_step_title">%1$,d</string>    <!-- none -->
+    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>    <!-- meter -->
+    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>    <!-- kilometer -->
+    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>    <!-- mile -->
+    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>    <!-- kilo calorie -->
 
     <string name="action_tracker_step">Steps</string>
     <string name="action_tracker_distance">Distance</string>
@@ -424,12 +424,12 @@
     <string name="action_time_alarm_sort_watch_asc">Watch ascending</string>
     <string name="action_time_alarm_sort_name_asc">Name ascending</string>
 
-    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="message_time_alarm_sync">Synchronize %1$s alarms (deleting and setting alarms on your smartwatch)</string>    <!-- %1$s = Haylou Smart watch ... -->
 
     <string name="info_dialog_alarm"><![CDATA[
         <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         The last operation performed will take effect.
-    ]]></string>
+    ]]>    </string>
 
 
     <!-- Reminder -->
@@ -453,7 +453,7 @@
 
     <string name="info_dialog_dnd"><![CDATA[
         If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]>    </string>    <!-- %1$s Haylou fit-->
 
 
     <!-- Watch face -->
@@ -470,7 +470,7 @@
     <string name="watch_face_upload_prepare">Preparing for the upload…</string>
     <string name="watch_face_upload_progress">Uploading %1$,d%%</string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
+    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string>    <!-- %1$s = Haylou Smart watch ... -->
     <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
     <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
     <string name="watch_face_watch_rewarded_ads">Watch a video to continue</string>
@@ -561,7 +561,7 @@
     <string name="touch_tab_setting">@string/setting_name</string>
 
     <string name="touch_function_summary">Set these features if you are using standalone mode or not properly managed by Mi Fit</string>
-    <string name="touch_function">%1$s function</string> <!-- %1$s = Watch name -->
+    <string name="touch_function">%1$s function</string>    <!-- %1$s = Watch name -->
     <string name="touch_function_as_touch">Use function as a touch in the control menu</string>
 
     <string name="touch_headline_incoming_call_title">Incoming call</string>
@@ -660,7 +660,7 @@
     <string name="touch_setting_recognition_start_trigger_title">Trigger</string>
     <string name="touch_setting_recognition_time_title">Recognition time</string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string> <!-- %1$s = Watch name -->
+    <string name="touch_setting_recognition_mi_band_signal_title">%1$s signal</string>    <!-- %1$s = Watch name -->
     <string name="touch_setting_recognition_succeeded_title">Recognisable touch pattern</string>
     <string name="touch_setting_recognition_failed_title">Not recognisable touch pattern</string>
 
@@ -674,7 +674,7 @@
         <br><device_type/> find my phone
         </p>
         Multiple touches can be recorded for each function.
-    ]]></string>
+    ]]>    </string>
 
 
     <!-- Weather  -->
@@ -768,7 +768,7 @@
         <p>• touch setting is not limited</p>
         <p>• detailed daily graphs</p>
         • removing other restrictions…
-    ]]></string>
+    ]]>    </string>
     <string name="purchase_policy_title">Terms and conditions of Premium mode</string>
     <string name="purchase_policy"><![CDATA[
         <p>• I have tested the app and it is working properly.</p>
@@ -776,7 +776,7 @@
         <p>• All sales are final and can not be refund (except Google refund policy).</p>
         <p>• There is no warranty included.</p>
         <i>After purchasing you need to restart the app.</i>
-    ]]></string>
+    ]]>    </string>
 
     <string name="purchase_google_play_services_not_available">Google Play Services are not available</string>
 
@@ -785,8 +785,9 @@
     <string name="purchase_order_id">Order ID</string>
     <string name="purchase_order_id_help">Copy from:
         \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
-        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_info">One-time fee ・ %1$s</string> <!-- %1$s = price</string>-->
+        \n<a href="https://payments.google.com">https://payments.google.com</a>
+    </string>
+    <string name="purchase_info">One-time fee ・ %1$s</string>    <!-- %1$s = price</string>-->
     <string name="purchase_button_purchase">Purchase</string>
 
     <!-- Feedback -->
@@ -795,7 +796,7 @@
     <string name="feedback_google_play_title">Rate this app</string>
     <string name="feedback_request_feature_title">Feature request, bug report</string>
     <string name="feedback_request_feature_summary">Automatic e-mail processing, you may not get an response</string>
-    <string name="feedback_translation_title">%1$s translation</string> <!-- %1$s = App name -->
+    <string name="feedback_translation_title">%1$s translation</string>    <!-- %1$s = App name -->
     <string name="feedback_translation_title_summary">Please help with the translation</string>
 
     <!-- Privacy policy -->
@@ -814,23 +815,23 @@
         The Firebase Platform collects data such as Firebase installation ID, application state, relevant device metadata (device model, CPU architecture, RAM and disk size, OS, screen orientation, country, locale/language), stack traces, performance metrics (including app start time and network request latency, network URLs), CPU/memory usage, IP address …
         </p>
         • We collect location data to update the weather based on your current location (optional).
-    ]]></string>
+    ]]>    </string>
 
     <string name="privacy_policy_not_collect_title">Information we do not collect</string>
     <string name="privacy_policy_not_collect"><![CDATA[
         <p>• We do not collect personally identifiable information about you. In other words, we do not collect information such as your name, address, phone number, email address or MAC address.</p>
         • We do not collect personal health data, contacts and phone notification texts.
-    ]]></string>
+    ]]>    </string>
 
     <string name="privacy_policy_share_title">Information we share</string>
     <string name="privacy_policy_share"><![CDATA[
         • We do not share any data with companies or organisations other than Google and advertising providers.
-    ]]></string>
+    ]]>    </string>
 
     <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
     <string name="privacy_policy_use"><![CDATA[
         • We use location data to update the weather (optional).
-    ]]></string>
+    ]]>    </string>
 
     <string name="privacy_policy_links_title">Privacy policy of third party service providers</string>
     <string name="privacy_policy_links"><![CDATA[
@@ -839,7 +840,7 @@
         <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
         <p><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></p>
         <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
-    ]]></string>
+    ]]>    </string>
 
     <string name="privacy_policy_eu_consent_title">Status</string>
     <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>

@@ -1,54 +1,66 @@
-El soporte de Smart Watch de Haylou, amplía la capacidad de las aplicaciones de Haylou
+Haylou Smart Watch support, extiende la capacidad de las aplicaciones de Haylou
 
 <b>Dispositivos soportados</b>
-- Haylou Solar (LS05)
-- Haylou Smart Watch 2 (LS02)
-- Haylou Smart Watch (LS01)
+• Haylou Solar (LS05)
+• Haylou Smart Watch 2 (LS02)
+• Haylou Smart Watch (LS01)
 
 Esta aplicación funciona con o sin las aplicaciones originales de Haylou (pero no tenemos ninguna afiliación con Xiaomi/Haylou).
 
 <b>Si tienes un problema de conexión</b>
-- Pantalla de aplicaciones recientes: bloquea el Hello Haylou (pulsa la aplicación y haz clic en el icono de bloqueo)
-- Ajustes de la batería del teléfono/optimización de la batería: ajustar la aplicación Hola Haylou a no optimizada
+- Pantalla de aplicaciones recientes: bloquea el Hello Haylou (pulsa sobre la aplicación y haz clic en el icono de bloqueo)
+- Ajustes de la batería del teléfono/optimización de la batería: establece la aplicación Hello Haylou como no optimizada
 
 <b>Si el problema persiste</b>
-- reinicie su teléfono
-- escríbeme un correo electrónico...
+- reinicia tu teléfono
+- escríbenos un correo electrónico
 
 <b>Características principales</b>
-- la cooperación con las aplicaciones oficiales de Haylou o el modo de trabajo completamente independiente
-- señal de llamada entrante normal y de Internet con pantalla de llamada
-- señal de llamada perdida con pantalla de llamada
-- muestra los textos de notificación de la aplicación en el reloj
-- muestran los emoticonos más comunes
-- conversión de mayúsculas
-- Personalizar el personaje y el reemplazo de los emoji.
+- cooperación con las aplicaciones oficiales de Haylou o modo de trabajo completamente independiente
+- señal de llamada entrante normal y por Internet con pantalla de identificación
+- señal de llamada perdida con identificación de llamante
+- muestra los textos de notificación de aplicaciones en el reloj
+- muestra los emoticonos más comunes
+- conversión a mayúsculas
+- personalización de caracteres y reemplazo de emojis
 - mostrar el estado de la batería
 - notificación de nivel de batería bajo
 
 <b>Pasos</b>
-- gráficos diarios/semanales/mensuales
+- gráficos diarios/semanales/mensuales/anuales
 
 <b>Pulso</b>
-- gráficos diarios/semanales/mensuales
-- valores medidos, valores trimestrales, valores semihorarios
+- gráficos diarios/semanales/mensuales/anuales
+- valores medidos, valores cada cuarto de hora, valores cada media hora, valores por hora
+
+<b>Sueño</b>
+- gráficos diarios/semanales/mensuales/anuales
+
+<b>Pronóstico del tiempo</b>
+- pronóstico del tiempo en el reloj inteligente (LS05, LS02)
 
 <b>Control táctil</b>
-- acción del botón de rechazo de llamadas entrantes: rechazo de llamadas, silenciamiento de llamadas, respuesta de llamadas
+- acción del botón de rechazo de llamadas entrantes: rechazar llamada, silenciar llamada, responder llamada
 - encontrar mi teléfono
 - control de la música
-- volumen de la música arriba/abajo
-- conmutador de silencio del teléfono
-- la luz de la linterna cambia
+- subir/bajar volumen de la música
+- activar/desactivar silencio del teléfono
+- activar/desactivar la linterna
 
 <b>Alarmas</b>
 
-<b>No molestar el modo </b>
-- activar y desactivar el Bluetooth 
+<b>Recordatorios de eventos</b>
+- repetición horaria
+
+<b>Modo No molestar</b>
+- activar y desactivar Bluetooth 
 - activar y desactivar la alerta de llamada o de notificación
 
-<b>Lenguajes</b>
-Inglés, húngaro, ruso, ucraniano, portugués, español, polaco, checo, turco, italiano, francés, alemán, rumano, griego, coreano, japonés, chino
+<b>Exportación</b>
+- exportar datos en formato CSV
+
+<b>Idiomas</b>
+Inglés, Húngaro, Ruso, Ucraniano, Portugués, Español, Polaco, Checo, Eslovaco, Turco, Italiano, Francés, Alemán, Rumano, Griego, Coreano, Japonés, Chino
 
 <b>Traducido por Peter Cuevas (petercuevas.6@gmail.com)</b>
 

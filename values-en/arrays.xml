@@ -295,17 +295,17 @@
         <item>180</item>
     </integer-array>
 
-<!--    <integer-array name="pref_menu_id">-->
-<!--        <item>@id/navigation_fragment_notifications</item>-->
-<!--        <item>@id/navigation_fragment_call</item>-->
-<!--        <item>@id/navigation_fragment_step</item>-->
-<!--        <item>@id/navigation_fragment_sleep</item>-->
-<!--        <item>@id/navigation_fragment_pulse</item>-->
-<!--        <item>@id/navigation_fragment_alarm</item>-->
-<!--        <item>@id/navigation_fragment_dnd</item>-->
-<!--        <item>@id/navigation_graph_watch_face</item>-->
-<!--        <item>@id/navigation_graph_weather</item>-->
-<!--        <item>@id/navigation_fragment_touch</item>-->
-<!--    </integer-array>-->
+    <!--    <integer-array name="pref_menu_id">-->
+    <!--        <item>@id/navigation_fragment_notifications</item>-->
+    <!--        <item>@id/navigation_fragment_call</item>-->
+    <!--        <item>@id/navigation_fragment_step</item>-->
+    <!--        <item>@id/navigation_fragment_sleep</item>-->
+    <!--        <item>@id/navigation_fragment_pulse</item>-->
+    <!--        <item>@id/navigation_fragment_alarm</item>-->
+    <!--        <item>@id/navigation_fragment_dnd</item>-->
+    <!--        <item>@id/navigation_graph_watch_face</item>-->
+    <!--        <item>@id/navigation_graph_weather</item>-->
+    <!--        <item>@id/navigation_fragment_touch</item>-->
+    <!--    </integer-array>-->
 
 </resources>
