@@ -1,104 +1,105 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
+  <string-array name="pref_connected_have_notif_reminder_repeat_interval">
+    <item>3 Minuten</item>
+    <item>5 Minuten</item>
+    <item>10 Minuten</item>
+    <item>15 Minuten</item>
+    <item>20 Minuten</item>
+    <item>30 Minuten</item>
+    <item>1 Stunde</item>
+    <item>2 Stunden</item>
+    <item>3 Stunden</item>
+  </string-array>
 
-    <string-array name="pref_connected_have_notif_reminder_repeat_interval">
-        <item>3 Minuten</item>
-        <item>5 Minuten</item>
-        <item>10 Minuten</item>
-        <item>15 Minuten</item>
-        <item>20 Minuten</item>
-        <item>30 Minuten</item>
-        <item>1 Stunde</item>
-        <item>2 Stunden</item>
-        <item>3 Stunden</item>
-    </string-array>
+  <string-array name="notification_group_repeat">
+    <item>Immer</item>
+    <item>Noch nie</item>
+    <item>Einmal</item>
+    <item>Zweimal</item>
+    <item>Dreimal</item>
+  </string-array>
 
-    <string-array name="notification_group_repeat">
-        <item>Immer</item>
-        <item>Noch nie</item>
-        <item>Einmal</item>
-        <item>Zweimal</item>
-        <item>Dreimal</item>
-    </string-array>
+  <string-array name="notification_group_grouped_dispay">
+    <item>
+      Show all when the device is connecting, otherwise only the latest
+      notification
+    </item>
+    <item>Show all notifications</item>
+    <item>Show only the latest notification</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_dispay">
-        <item>Show all when the device is connecting, otherwise only the latest notification</item>
-        <item>Show all notifications</item>
-        <item>Show only the latest notification</item>
-    </string-array>
+  <string-array name="notification_group_grouped_order">
+    <item>normale Reihenfolge</item>
+    <item>umgekehrte Reihenfolge</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_order">
-        <item>normale Reihenfolge</item>
-        <item>umgekehrte Reihenfolge</item>
-    </string-array>
+  <string-array name="notification_group_display_time">
+    <item>Auto (3 – 5 Sekunden)</item>
+    <item>3 Sekunden</item>
+    <item>4 Sekunden</item>
+    <item>5 Sekunden</item>
+    <item>6 Sekunden</item>
+    <item>7 Sekunden</item>
+  </string-array>
 
-    <string-array name="notification_group_display_time">
-        <item>Auto (3 – 5 Sekunden)</item>
-        <item>3 Sekunden</item>
-        <item>4 Sekunden</item>
-        <item>5 Sekunden</item>
-        <item>6 Sekunden</item>
-        <item>7 Sekunden</item>
-    </string-array>
+  <string-array name="call_button_action">
+    <item>Anruf ablehnen, beenden</item>
+    <item>Stumm schalten</item>
+    <item>Anruf annehmen</item>
+  </string-array>
 
-    <string-array name="call_button_action">
-        <item>Anruf ablehnen, beenden</item>
-        <item>Stumm schalten</item>
-        <item>Anruf annehmen</item>
-    </string-array>
+  <string-array name="pref_distance_unit">
+    <item>Metrisch (Kilometer)</item>
+    <item>Imperial (Meilen)</item>
+  </string-array>
 
-    <string-array name="pref_distance_unit">
-        <item>Metrisch (Kilometer)</item>
-        <item>Imperial (Meilen)</item>
-    </string-array>
+  <string-array name="touch_mute_toggle_ringer_mode">
+    <item>Vibrieren</item>
+    <item>Lautlos</item>
+    <item>Nicht stören (nur mit Priorität)</item>
+    <item>Nicht stören (nur Wecker)</item>
+    <item>Nicht stören (lautlos)</item>
+  </string-array>
 
-    <string-array name="touch_mute_toggle_ringer_mode">
-        <item>Vibrieren</item>
-        <item>Lautlos</item>
-        <item>Nicht stören (nur mit Priorität)</item>
-        <item>Nicht stören (nur Wecker)</item>
-        <item>Nicht stören (lautlos)</item>
-    </string-array>
+  <string-array name="pref_theme_day_night">
+    <item>Standard</item>
+    <item>Hell</item>
+    <item>Dunkel</item>
+  </string-array>
 
-    <string-array name="pref_theme_day_night">
-        <item>Standard</item>
-        <item>Hell</item>
-        <item>Dunkel</item>
-    </string-array>
-
-    <string-array name="workout">
-        <item>Unbekannt</item>
-        <item>Laufen</item>
-        <item>Laufband</item>
-        <item>Spazieren</item>
-        <item>Radfahren</item>
-        <item>Wandern</item>
-        <item>Spinnen</item>
-        <item>Joga</item>
-        <item>Freies Training</item>
-        <item>Gymnastik</item>
-        <item>Basketball</item>
-        <item>Fußball</item>
-        <item>Volleyball</item>
-        <item>Bootfahren</item>
-        <item>Seilspringen</item>
-        <item>Tennis</item>
-        <item>Baseball</item>
-        <item>Badminton</item>
-        <item>Rugby</item>
-        <item>Tischtennis</item>
-        <item>Cricket</item>
-        <item>Swimming</item>
-        <item>Schwimmen (Halle)</item>
-        <item>Schwimmen im Freien</item>
-        <item>Sit-Ups</item>
-        <item>Hampelmann</item>
-        <item>Golf</item>
-        <item>Dance</item>
-        <item>Skateboarding</item>
-        <item>Fishing</item>
-        <item>Martial arts</item>
-        <item>Combat sport</item>
-    </string-array>
-
+  <string-array name="workout">
+    <item>Unbekannt</item>
+    <item>Laufen</item>
+    <item>Laufband</item>
+    <item>Spazieren</item>
+    <item>Radfahren</item>
+    <item>Wandern</item>
+    <item>Spinnen</item>
+    <item>Joga</item>
+    <item>Freies Training</item>
+    <item>Gymnastik</item>
+    <item>Basketball</item>
+    <item>Fußball</item>
+    <item>Volleyball</item>
+    <item>Bootfahren</item>
+    <item>Seilspringen</item>
+    <item>Tennis</item>
+    <item>Baseball</item>
+    <item>Badminton</item>
+    <item>Rugby</item>
+    <item>Tischtennis</item>
+    <item>Cricket</item>
+    <item>Swimming</item>
+    <item>Schwimmen (Halle)</item>
+    <item>Schwimmen im Freien</item>
+    <item>Sit-Ups</item>
+    <item>Hampelmann</item>
+    <item>Golf</item>
+    <item>Dance</item>
+    <item>Skateboarding</item>
+    <item>Fishing</item>
+    <item>Martial arts</item>
+    <item>Combat sport</item>
+  </string-array>
 </resources>

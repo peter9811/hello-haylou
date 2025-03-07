@@ -1,104 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
+  <string-array name="pref_connected_have_notif_reminder_repeat_interval">
+    <item>3 minute</item>
+    <item>5 minute</item>
+    <item>10 minute</item>
+    <item>15 minute</item>
+    <item>20 minute</item>
+    <item>30 minute</item>
+    <item>1 oră</item>
+    <item>2 ore</item>
+    <item>3 ore</item>
+  </string-array>
 
-    <string-array name="pref_connected_have_notif_reminder_repeat_interval">
-        <item>3 minute</item>
-        <item>5 minute</item>
-        <item>10 minute</item>
-        <item>15 minute</item>
-        <item>20 minute</item>
-        <item>30 minute</item>
-        <item>1 oră</item>
-        <item>2 ore</item>
-        <item>3 ore</item>
-    </string-array>
+  <string-array name="notification_group_repeat">
+    <item>Întotdeauna</item>
+    <item>Niciodată</item>
+    <item>O dată</item>
+    <item>De două ori</item>
+    <item>De trei ori</item>
+  </string-array>
 
-    <string-array name="notification_group_repeat">
-        <item>Întotdeauna</item>
-        <item>Niciodată</item>
-        <item>O dată</item>
-        <item>De două ori</item>
-        <item>De trei ori</item>
-    </string-array>
+  <string-array name="notification_group_grouped_dispay">
+    <item>
+      Arată toate notificările cand dispozitivul se conectează, altfel
+      arată numai ultima notificare
+    </item>
+    <item>Arată toate notificările</item>
+    <item>Arată numai ultimele notificări</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_dispay">
-        <item>Arată toate notificările cand dispozitivul se conectează, altfel arată numai ultima notificare</item>
-        <item>Arată toate notificările</item>
-        <item>Arată numai ultimele notificări</item>
-    </string-array>
+  <string-array name="notification_group_grouped_order">
+    <item>În ordine normala</item>
+    <item>În ordine inversă</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_order">
-        <item>În ordine normala</item>
-        <item>În ordine inversă</item>
-    </string-array>
+  <string-array name="notification_group_display_time">
+    <item>Auto (3 – 5 secunde)</item>
+    <item>3 secunde</item>
+    <item>4 secunde</item>
+    <item>5 secunde</item>
+    <item>6 secunde</item>
+    <item>7 secunde</item>
+  </string-array>
 
-    <string-array name="notification_group_display_time">
-        <item>Auto (3 – 5 secunde)</item>
-        <item>3 secunde</item>
-        <item>4 secunde</item>
-        <item>5 secunde</item>
-        <item>6 secunde</item>
-        <item>7 secunde</item>
-    </string-array>
+  <string-array name="call_button_action">
+    <item>Respingere, oprire apel</item>
+    <item>Comutator apel silențios</item>
+    <item>Răspuns la apel</item>
+  </string-array>
 
-    <string-array name="call_button_action">
-        <item>Respingere, oprire apel</item>
-        <item>Comutator apel silențios</item>
-        <item>Răspuns la apel</item>
-    </string-array>
+  <string-array name="pref_distance_unit">
+    <item>Metric (kilometru)</item>
+    <item>Imperial (milă)</item>
+  </string-array>
 
-    <string-array name="pref_distance_unit">
-        <item>Metric (kilometru)</item>
-        <item>Imperial (milă)</item>
-    </string-array>
+  <string-array name="touch_mute_toggle_ringer_mode">
+    <item>Vibrație</item>
+    <item>Mut</item>
+    <item>Nu deranja (doar prioritare)</item>
+    <item>Nu deranja (doar alarme)</item>
+    <item>Nu deranja (liniște totală)</item>
+  </string-array>
 
-    <string-array name="touch_mute_toggle_ringer_mode">
-        <item>Vibrație</item>
-        <item>Mut</item>
-        <item>Nu deranja (doar prioritare)</item>
-        <item>Nu deranja (doar alarme)</item>
-        <item>Nu deranja (liniște totală)</item>
-    </string-array>
+  <string-array name="pref_theme_day_night">
+    <item>Implicit</item>
+    <item>Luminos</item>
+    <item>Întunecat</item>
+  </string-array>
 
-    <string-array name="pref_theme_day_night">
-        <item>Implicit</item>
-        <item>Luminos</item>
-        <item>Întunecat</item>
-    </string-array>
-
-    <string-array name="workout">
-        <item>Necunoscut</item>
-        <item>Alergare în aer liber</item>
-        <item>Alergare pe banda</item>
-        <item>Plimbare</item>
-        <item>Biciclism</item>
-        <item>Drumeție</item>
-        <item>Bicicleta fitness</item>
-        <item>Yoga</item>
-        <item>Antrenament</item>
-        <item>Gimnastică</item>
-        <item>Baschet</item>
-        <item>Fotbal</item>
-        <item>Volleyball</item>
-        <item>Canotaj</item>
-        <item>Sarituri cu coarda</item>
-        <item>Tenis</item>
-        <item>Baseball</item>
-        <item>Badminton</item>
-        <item>Rugby</item>
-        <item>Table tennis</item>
-        <item>Cricket</item>
-        <item>Swimming</item>
-        <item>Indoor swimming</item>
-        <item>Outdoor swimming</item>
-        <item>Sit up</item>
-        <item>Jumping jack</item>
-        <item>Golf</item>
-        <item>Dance</item>
-        <item>Skateboarding</item>
-        <item>Fishing</item>
-        <item>Martial arts</item>
-        <item>Combat sport</item>
-    </string-array>
-
+  <string-array name="workout">
+    <item>Necunoscut</item>
+    <item>Alergare în aer liber</item>
+    <item>Alergare pe banda</item>
+    <item>Plimbare</item>
+    <item>Biciclism</item>
+    <item>Drumeție</item>
+    <item>Bicicleta fitness</item>
+    <item>Yoga</item>
+    <item>Antrenament</item>
+    <item>Gimnastică</item>
+    <item>Baschet</item>
+    <item>Fotbal</item>
+    <item>Volleyball</item>
+    <item>Canotaj</item>
+    <item>Sarituri cu coarda</item>
+    <item>Tenis</item>
+    <item>Baseball</item>
+    <item>Badminton</item>
+    <item>Rugby</item>
+    <item>Table tennis</item>
+    <item>Cricket</item>
+    <item>Swimming</item>
+    <item>Indoor swimming</item>
+    <item>Outdoor swimming</item>
+    <item>Sit up</item>
+    <item>Jumping jack</item>
+    <item>Golf</item>
+    <item>Dance</item>
+    <item>Skateboarding</item>
+    <item>Fishing</item>
+    <item>Martial arts</item>
+    <item>Combat sport</item>
+  </string-array>
 </resources>

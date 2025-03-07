@@ -1,104 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
+  <string-array name="pref_connected_have_notif_reminder_repeat_interval">
+    <item>3분</item>
+    <item>5분</item>
+    <item>10분</item>
+    <item>15분</item>
+    <item>20분</item>
+    <item>30분</item>
+    <item>1시간</item>
+    <item>2시간</item>
+    <item>3시간</item>
+  </string-array>
 
-    <string-array name="pref_connected_have_notif_reminder_repeat_interval">
-        <item>3분</item>
-        <item>5분</item>
-        <item>10분</item>
-        <item>15분</item>
-        <item>20분</item>
-        <item>30분</item>
-        <item>1시간</item>
-        <item>2시간</item>
-        <item>3시간</item>
-    </string-array>
+  <string-array name="notification_group_repeat">
+    <item>항 상</item>
+    <item>정 지</item>
+    <item>한 번</item>
+    <item>두 번</item>
+    <item>세 번</item>
+  </string-array>
 
-    <string-array name="notification_group_repeat">
-        <item>항 상</item>
-        <item>정 지</item>
-        <item>한 번</item>
-        <item>두 번</item>
-        <item>세 번</item>
-    </string-array>
+  <string-array name="notification_group_grouped_dispay">
+    <item>장치가 연결될 때 모두 표시하고 그렇지 않으면 최신 알림만 표시</item>
+    <item>모든 알림 표시</item>
+    <item>최신 알림 만 표시</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_dispay">
-        <item>장치가 연결될 때 모두 표시하고 그렇지 않으면 최신 알림만 표시</item>
-        <item>모든 알림 표시</item>
-        <item>최신 알림 만 표시</item>
-    </string-array>
+  <string-array name="notification_group_grouped_order">
+    <item>내림차순</item>
+    <item>오름차순</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_order">
-        <item>내림차순</item>
-        <item>오름차순</item>
-    </string-array>
+  <string-array name="notification_group_display_time">
+    <item>자동 (3 – 5초)</item>
+    <item>3초</item>
+    <item>4초</item>
+    <item>5초</item>
+    <item>6초</item>
+    <item>7초</item>
+  </string-array>
 
-    <string-array name="notification_group_display_time">
-        <item>자동 (3 – 5초)</item>
-        <item>3초</item>
-        <item>4초</item>
-        <item>5초</item>
-        <item>6초</item>
-        <item>7초</item>
-    </string-array>
+  <string-array name="call_button_action">
+    <item>전화 거절, 종료</item>
+    <item>전화 음소거</item>
+    <item>전화 회신</item>
+  </string-array>
 
-    <string-array name="call_button_action">
-        <item>전화 거절, 종료</item>
-        <item>전화 음소거</item>
-        <item>전화 회신</item>
-    </string-array>
+  <string-array name="pref_distance_unit">
+    <item>미터 (킬로미터)</item>
+    <item>마일 (야드파운드법)</item>
+  </string-array>
 
-    <string-array name="pref_distance_unit">
-        <item>미터 (킬로미터)</item>
-        <item>마일 (야드파운드법)</item>
-    </string-array>
+  <string-array name="touch_mute_toggle_ringer_mode">
+    <item>진동</item>
+    <item>음소거</item>
+    <item>방해 금지 (priority only)</item>
+    <item>방해 금지 (alarms only)</item>
+    <item>방해 금지 (total silence)</item>
+  </string-array>
 
-    <string-array name="touch_mute_toggle_ringer_mode">
-        <item>진동</item>
-        <item>음소거</item>
-        <item>방해 금지 (priority only)</item>
-        <item>방해 금지 (alarms only)</item>
-        <item>방해 금지 (total silence)</item>
-    </string-array>
+  <string-array name="pref_theme_day_night">
+    <item>기본</item>
+    <item>밝음</item>
+    <item>어두움</item>
+  </string-array>
 
-    <string-array name="pref_theme_day_night">
-        <item>기본</item>
-        <item>밝음</item>
-        <item>어두움</item>
-    </string-array>
-
-    <string-array name="workout">
-        <item>Unknown</item>
-        <item>Running</item>
-        <item>Treadmill</item>
-        <item>Walking</item>
-        <item>Cycling</item>
-        <item>Hiking</item>
-        <item>Spinning</item>
-        <item>Yoga</item>
-        <item>Training</item>
-        <item>Gymnastics</item>
-        <item>Basketball</item>
-        <item>Football</item>
-        <item>Volleyball</item>
-        <item>Rowing</item>
-        <item>Jump rope</item>
-        <item>Tennis</item>
-        <item>Baseball</item>
-        <item>Badminton</item>
-        <item>Rugby</item>
-        <item>Table tennis</item>
-        <item>Cricket</item>
-        <item>Swimming</item>
-        <item>Indoor swimming</item>
-        <item>Outdoor swimming</item>
-        <item>Sit up</item>
-        <item>Jumping jack</item>
-        <item>Golf</item>
-        <item>Dance</item>
-        <item>Skateboarding</item>
-        <item>Fishing</item>
-        <item>Martial arts</item>
-        <item>Combat sport</item>
-    </string-array>
-
+  <string-array name="workout">
+    <item>Unknown</item>
+    <item>Running</item>
+    <item>Treadmill</item>
+    <item>Walking</item>
+    <item>Cycling</item>
+    <item>Hiking</item>
+    <item>Spinning</item>
+    <item>Yoga</item>
+    <item>Training</item>
+    <item>Gymnastics</item>
+    <item>Basketball</item>
+    <item>Football</item>
+    <item>Volleyball</item>
+    <item>Rowing</item>
+    <item>Jump rope</item>
+    <item>Tennis</item>
+    <item>Baseball</item>
+    <item>Badminton</item>
+    <item>Rugby</item>
+    <item>Table tennis</item>
+    <item>Cricket</item>
+    <item>Swimming</item>
+    <item>Indoor swimming</item>
+    <item>Outdoor swimming</item>
+    <item>Sit up</item>
+    <item>Jumping jack</item>
+    <item>Golf</item>
+    <item>Dance</item>
+    <item>Skateboarding</item>
+    <item>Fishing</item>
+    <item>Martial arts</item>
+    <item>Combat sport</item>
+  </string-array>
 </resources>

@@ -1,104 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
+  <string-array name="pref_connected_have_notif_reminder_repeat_interval">
+    <item>3 perc</item>
+    <item>5 perc</item>
+    <item>10 perc</item>
+    <item>15 perc</item>
+    <item>20 perc</item>
+    <item>30 perc</item>
+    <item>1 óra</item>
+    <item>2 óra</item>
+    <item>3 óra</item>
+  </string-array>
 
-    <string-array name="pref_connected_have_notif_reminder_repeat_interval">
-        <item>3 perc</item>
-        <item>5 perc</item>
-        <item>10 perc</item>
-        <item>15 perc</item>
-        <item>20 perc</item>
-        <item>30 perc</item>
-        <item>1 óra</item>
-        <item>2 óra</item>
-        <item>3 óra</item>
-    </string-array>
+  <string-array name="notification_group_repeat">
+    <item>Mindig</item>
+    <item>Soha</item>
+    <item>Egyszer</item>
+    <item>Kétszer</item>
+    <item>Háromszor</item>
+  </string-array>
 
-    <string-array name="notification_group_repeat">
-        <item>Mindig</item>
-        <item>Soha</item>
-        <item>Egyszer</item>
-        <item>Kétszer</item>
-        <item>Háromszor</item>
-    </string-array>
+  <string-array name="notification_group_grouped_dispay">
+    <item>
+      Amikor az eszköz csatlakozik az összes, egyébként csak a
+      legutolsó értesítés megjelenítése
+    </item>
+    <item>Az összes értesítés megjelenítése</item>
+    <item>Csak a legutolsó értesítés megjelenítése</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_dispay">
-        <item>Amikor az eszköz csatlakozik az összes, egyébként csak a legutolsó értesítés megjelenítése</item>
-        <item>Az összes értesítés megjelenítése</item>
-        <item>Csak a legutolsó értesítés megjelenítése</item>
-    </string-array>
+  <string-array name="notification_group_grouped_order">
+    <item>Normál sorrendben</item>
+    <item>Fordított sorrendben</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_order">
-        <item>Normál sorrendben</item>
-        <item>Fordított sorrendben</item>
-    </string-array>
+  <string-array name="notification_group_display_time">
+    <item>Automatikus (3 – 5 másodperc)</item>
+    <item>3 másodperc</item>
+    <item>4 másodperc</item>
+    <item>5 másodperc</item>
+    <item>6 másodperc</item>
+    <item>7 másodperc</item>
+  </string-array>
 
-    <string-array name="notification_group_display_time">
-        <item>Automatikus (3 – 5 másodperc)</item>
-        <item>3 másodperc</item>
-        <item>4 másodperc</item>
-        <item>5 másodperc</item>
-        <item>6 másodperc</item>
-        <item>7 másodperc</item>
-    </string-array>
+  <string-array name="call_button_action">
+    <item>Híváselutasítás, befejezés</item>
+    <item>Hívásnémítás</item>
+    <item>Hívásfogadás</item>
+  </string-array>
 
-    <string-array name="call_button_action">
-        <item>Híváselutasítás, befejezés</item>
-        <item>Hívásnémítás</item>
-        <item>Hívásfogadás</item>
-    </string-array>
+  <string-array name="pref_distance_unit">
+    <item>Metrikus (kilométer)</item>
+    <item>Imperial (mérföld)</item>
+  </string-array>
 
-    <string-array name="pref_distance_unit">
-        <item>Metrikus (kilométer)</item>
-        <item>Imperial (mérföld)</item>
-    </string-array>
+  <string-array name="touch_mute_toggle_ringer_mode">
+    <item>Vibrálás</item>
+    <item>Néma</item>
+    <item>Ne zavarjanak (csak prioritás)</item>
+    <item>Ne zavarjanak (csak ébresztés)</item>
+    <item>Ne zavarjanak (teljes némítás)</item>
+  </string-array>
 
-    <string-array name="touch_mute_toggle_ringer_mode">
-        <item>Vibrálás</item>
-        <item>Néma</item>
-        <item>Ne zavarjanak (csak prioritás)</item>
-        <item>Ne zavarjanak (csak ébresztés)</item>
-        <item>Ne zavarjanak (teljes némítás)</item>
-    </string-array>
+  <string-array name="pref_theme_day_night">
+    <item>Alapértelmezett</item>
+    <item>Világos</item>
+    <item>Sötét</item>
+  </string-array>
 
-    <string-array name="pref_theme_day_night">
-        <item>Alapértelmezett</item>
-        <item>Világos</item>
-        <item>Sötét</item>
-    </string-array>
-
-    <string-array name="workout">
-        <item>Ismeretlen</item>
-        <item>Futás</item>
-        <item>Futópad</item>
-        <item>Gyaloglás</item>
-        <item>Kerékpározás</item>
-        <item>Túrázás</item>
-        <item>Spinning</item>
-        <item>Jóga</item>
-        <item>Edzés</item>
-        <item>Torna</item>
-        <item>Kosárlabda</item>
-        <item>Labdarúgás</item>
-        <item>Volleyball</item>
-        <item>Evezés</item>
-        <item>Ugrókötelezés</item>
-        <item>Tenisz</item>
-        <item>Baseball</item>
-        <item>Tollaslabdázás</item>
-        <item>Rögbi</item>
-        <item>Asztalitenisz</item>
-        <item>Cricket</item>
-        <item>Swimming</item>
-        <item>Medencés úszás</item>
-        <item>Nyíltvízi úszás</item>
-        <item>Felülés</item>
-        <item>Terpeszugrás</item>
-        <item>Golf</item>
-        <item>Dance</item>
-        <item>Skateboarding</item>
-        <item>Fishing</item>
-        <item>Martial arts</item>
-        <item>Combat sport</item>
-    </string-array>
-
+  <string-array name="workout">
+    <item>Ismeretlen</item>
+    <item>Futás</item>
+    <item>Futópad</item>
+    <item>Gyaloglás</item>
+    <item>Kerékpározás</item>
+    <item>Túrázás</item>
+    <item>Spinning</item>
+    <item>Jóga</item>
+    <item>Edzés</item>
+    <item>Torna</item>
+    <item>Kosárlabda</item>
+    <item>Labdarúgás</item>
+    <item>Volleyball</item>
+    <item>Evezés</item>
+    <item>Ugrókötelezés</item>
+    <item>Tenisz</item>
+    <item>Baseball</item>
+    <item>Tollaslabdázás</item>
+    <item>Rögbi</item>
+    <item>Asztalitenisz</item>
+    <item>Cricket</item>
+    <item>Swimming</item>
+    <item>Medencés úszás</item>
+    <item>Nyíltvízi úszás</item>
+    <item>Felülés</item>
+    <item>Terpeszugrás</item>
+    <item>Golf</item>
+    <item>Dance</item>
+    <item>Skateboarding</item>
+    <item>Fishing</item>
+    <item>Martial arts</item>
+    <item>Combat sport</item>
+  </string-array>
 </resources>

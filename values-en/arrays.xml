@@ -1,311 +1,313 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
+  <string-array name="pref_connected_have_notif_reminder_repeat_interval">
+    <item>3 minutes</item>
+    <item>5 minutes</item>
+    <item>10 minutes</item>
+    <item>15 minutes</item>
+    <item>20 minutes</item>
+    <item>30 minutes</item>
+    <item>1 hour</item>
+    <item>2 hours</item>
+    <item>3 hours</item>
+  </string-array>
 
-    <string-array name="pref_connected_have_notif_reminder_repeat_interval">
-        <item>3 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>2 hours</item>
-        <item>3 hours</item>
-    </string-array>
+  <integer-array
+    name="pref_connected_have_notif_reminder_repeat_interval_values"
+  >
+    <item>3</item>
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+    <item>20</item>
+    <item>30</item>
+    <item>60</item>
+    <item>120</item>
+    <item>180</item>
+  </integer-array>
 
-    <integer-array name="pref_connected_have_notif_reminder_repeat_interval_values">
-        <item>3</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
-    </integer-array>
+  <string-array name="notification_group_repeat">
+    <item>Always</item>
+    <item>Never</item>
+    <item>Once</item>
+    <item>Twice</item>
+    <item>Three times</item>
+  </string-array>
 
-    <string-array name="notification_group_repeat">
-        <item>Always</item>
-        <item>Never</item>
-        <item>Once</item>
-        <item>Twice</item>
-        <item>Three times</item>
-    </string-array>
+  <string-array name="notification_group_grouped_dispay">
+    <item>
+      Show all when the device is connecting, otherwise only the latest
+      notification
+    </item>
+    <item>Show all notifications</item>
+    <item>Show only the latest notification</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_dispay">
-        <item>Show all when the device is connecting, otherwise only the latest notification</item>
-        <item>Show all notifications</item>
-        <item>Show only the latest notification</item>
-    </string-array>
+  <string-array name="notification_group_grouped_display_values">
+    <item>AUTO</item>
+    <item>ALL</item>
+    <item>LATEST</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_display_values">
-        <item>AUTO</item>
-        <item>ALL</item>
-        <item>LATEST</item>
-    </string-array>
+  <string-array name="notification_group_grouped_order">
+    <item>In normal order</item>
+    <item>In reverse order</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_order">
-        <item>In normal order</item>
-        <item>In reverse order</item>
-    </string-array>
+  <string-array name="notification_group_grouped_order_values">
+    <item>NORMAL</item>
+    <item>REVERSE</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_order_values">
-        <item>NORMAL</item>
-        <item>REVERSE</item>
-    </string-array>
+  <string-array name="notification_group_display_time">
+    <item>Auto (3 – 5 seconds)</item>
+    <item>3 seconds</item>
+    <item>4 seconds</item>
+    <item>5 seconds</item>
+    <item>6 seconds</item>
+    <item>7 seconds</item>
+  </string-array>
 
-    <string-array name="notification_group_display_time">
-        <item>Auto (3 – 5 seconds)</item>
-        <item>3 seconds</item>
-        <item>4 seconds</item>
-        <item>5 seconds</item>
-        <item>6 seconds</item>
-        <item>7 seconds</item>
-    </string-array>
+  <integer-array name="notification_group_display_time_values">
+    <item>0</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+  </integer-array>
 
-    <integer-array name="notification_group_display_time_values">
-        <item>0</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-    </integer-array>
+  <integer-array name="notification_group_display_time_millis">
+    <item>0</item>
+    <item>1000</item>
+    <item>2000</item>
+    <item>3200</item>
+    <item>4400</item>
+    <item>5600</item>
+    <item>6700</item>
+    <item>7800</item>
+  </integer-array>
 
-    <integer-array name="notification_group_display_time_millis">
-        <item>0</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3200</item>
-        <item>4400</item>
-        <item>5600</item>
-        <item>6700</item>
-        <item>7800</item>
-    </integer-array>
+  <string-array name="call_button_action">
+    <item>Call rejecting, ending</item>
+    <item>Call mute</item>
+    <item>Call answering</item>
+  </string-array>
 
-    <string-array name="call_button_action">
-        <item>Call rejecting, ending</item>
-        <item>Call mute</item>
-        <item>Call answering</item>
-    </string-array>
+  <string-array name="call_button_action_values">
+    <item>REJECT</item>
+    <item>MUTE</item>
+    <item>ANSWER</item>
+  </string-array>
 
-    <string-array name="call_button_action_values">
-        <item>REJECT</item>
-        <item>MUTE</item>
-        <item>ANSWER</item>
-    </string-array>
+  <string-array name="pref_distance_unit">
+    <item>Metric (kilometer)</item>
+    <item>Imperial (miles)</item>
+  </string-array>
 
-    <string-array name="pref_distance_unit">
-        <item>Metric (kilometer)</item>
-        <item>Imperial (miles)</item>
-    </string-array>
+  <string-array name="pref_distance_unit_values">
+    <item>METRIC</item>
+    <item>IMPERIAL</item>
+  </string-array>
 
-    <string-array name="pref_distance_unit_values">
-        <item>METRIC</item>
-        <item>IMPERIAL</item>
-    </string-array>
+  <string-array name="touch_mute_toggle_ringer_mode">
+    <item>Vibrate</item>
+    <item>Mute</item>
+    <item>Do not disturb (priority only)</item>
+    <item>Do not disturb (alarms only)</item>
+    <item>Do not disturb (total silence)</item>
+  </string-array>
 
-    <string-array name="touch_mute_toggle_ringer_mode">
-        <item>Vibrate</item>
-        <item>Mute</item>
-        <item>Do not disturb (priority only)</item>
-        <item>Do not disturb (alarms only)</item>
-        <item>Do not disturb (total silence)</item>
-    </string-array>
+  <string-array name="touch_mute_toggle_ringer_mode_value">
+    <item>VIBRATE</item>
+    <item>MUTE</item>
+    <item>FILTER_ALARMS</item>
+    <item>FILTER_PRIORITY</item>
+    <item>FILTER_NONE</item>
+  </string-array>
 
-    <string-array name="touch_mute_toggle_ringer_mode_value">
-        <item>VIBRATE</item>
-        <item>MUTE</item>
-        <item>FILTER_ALARMS</item>
-        <item>FILTER_PRIORITY</item>
-        <item>FILTER_NONE</item>
-    </string-array>
+  <string-array name="pref_theme_day_night">
+    <item>Default</item>
+    <item>Light</item>
+    <item>Dark</item>
+  </string-array>
 
-    <string-array name="pref_theme_day_night">
-        <item>Default</item>
-        <item>Light</item>
-        <item>Dark</item>
-    </string-array>
+  <string-array name="pref_theme_day_night_values">
+    <item>DAY_NIGHT</item>
+    <item>LIGHT</item>
+    <item>DARK</item>
+  </string-array>
 
-    <string-array name="pref_theme_day_night_values">
-        <item>DAY_NIGHT</item>
-        <item>LIGHT</item>
-        <item>DARK</item>
-    </string-array>
+  <string-array name="workout">
+    <item>Unknown</item>
+    <item>Outdoor running</item>
+    <item>Treadmill</item>
+    <item>Walking</item>
+    <item>Cycling</item>
+    <item>Hiking</item>
+    <item>Spinning</item>
+    <item>Yoga</item>
+    <item>Training</item>
+    <item>Gymnastics</item>
+    <item>Basketball</item>
+    <item>Football</item>
+    <item>Volleyball</item>
+    <item>Rowing</item>
+    <item>Jump rope</item>
+    <item>Tennis</item>
+    <item>Baseball</item>
+    <item>Badminton</item>
+    <item>Rugby</item>
+    <item>Table tennis</item>
+    <item>Cricket</item>
+    <item>Swimming</item>
+    <item>Indoor swimming</item>
+    <item>Outdoor swimming</item>
+    <item>Sit up</item>
+    <item>Jumping jack</item>
+    <item>Golf</item>
+    <item>Dance</item>
+    <item>Skateboarding</item>
+    <item>Fishing</item>
+    <item>Martial arts</item>
+    <item>Combat sport</item>
+  </string-array>
 
-    <string-array name="workout">
-        <item>Unknown</item>
-        <item>Outdoor running</item>
-        <item>Treadmill</item>
-        <item>Walking</item>
-        <item>Cycling</item>
-        <item>Hiking</item>
-        <item>Spinning</item>
-        <item>Yoga</item>
-        <item>Training</item>
-        <item>Gymnastics</item>
-        <item>Basketball</item>
-        <item>Football</item>
-        <item>Volleyball</item>
-        <item>Rowing</item>
-        <item>Jump rope</item>
-        <item>Tennis</item>
-        <item>Baseball</item>
-        <item>Badminton</item>
-        <item>Rugby</item>
-        <item>Table tennis</item>
-        <item>Cricket</item>
-        <item>Swimming</item>
-        <item>Indoor swimming</item>
-        <item>Outdoor swimming</item>
-        <item>Sit up</item>
-        <item>Jumping jack</item>
-        <item>Golf</item>
-        <item>Dance</item>
-        <item>Skateboarding</item>
-        <item>Fishing</item>
-        <item>Martial arts</item>
-        <item>Combat sport</item>
-    </string-array>
+  <string-array name="workout_values">
+    <item>UNKNOWN</item>
+    <item>OUTDOOR_RUNNING</item>
+    <item>TREADMILL</item>
+    <item>WALKING</item>
+    <item>OUTDOOR_CYCLING</item>
+    <item>HIKING</item>
+    <item>SPINNING</item>
+    <item>YOGA</item>
+    <item>TRAINING</item>
+    <item>GYMNASTICS</item>
+    <item>BASKETBALL</item>
+    <item>FOOTBALL</item>
+    <item>VOLLEYBALL</item>
+    <item>ROWING</item>
+    <item>JUMP_ROPE</item>
+    <item>TENNIS</item>
+    <item>BASEBALL</item>
+    <item>BADMINTON</item>
+    <item>RUGBY</item>
+    <item>TABLE_TENNIS</item>
+    <item>CRICKET</item>
+    <item>SWIMMING</item>
+    <item>INDOOR_SWIMMING</item>
+    <item>OUTDOOR_SWIMMING</item>
+    <item>SIT_UP</item>
+    <item>JUMPING_JACK</item>
+    <item>GOLF</item>
+    <item>DANCE</item>
+    <item>SKATEBOARDING</item>
+    <item>FISHING</item>
+    <item>MARTIAL_ARTS</item>
+    <item>COMBAT_SPORT</item>
+  </string-array>
 
-    <string-array name="workout_values">
-        <item>UNKNOWN</item>
-        <item>OUTDOOR_RUNNING</item>
-        <item>TREADMILL</item>
-        <item>WALKING</item>
-        <item>OUTDOOR_CYCLING</item>
-        <item>HIKING</item>
-        <item>SPINNING</item>
-        <item>YOGA</item>
-        <item>TRAINING</item>
-        <item>GYMNASTICS</item>
-        <item>BASKETBALL</item>
-        <item>FOOTBALL</item>
-        <item>VOLLEYBALL</item>
-        <item>ROWING</item>
-        <item>JUMP_ROPE</item>
-        <item>TENNIS</item>
-        <item>BASEBALL</item>
-        <item>BADMINTON</item>
-        <item>RUGBY</item>
-        <item>TABLE_TENNIS</item>
-        <item>CRICKET</item>
-        <item>SWIMMING</item>
-        <item>INDOOR_SWIMMING</item>
-        <item>OUTDOOR_SWIMMING</item>
-        <item>SIT_UP</item>
-        <item>JUMPING_JACK</item>
-        <item>GOLF</item>
-        <item>DANCE</item>
-        <item>SKATEBOARDING</item>
-        <item>FISHING</item>
-        <item>MARTIAL_ARTS</item>
-        <item>COMBAT_SPORT</item>
-    </string-array>
+  <string-array name="pref_language">
+    <item>@string/default_</item>
+    <item>English</item>
+    <item>Magyar</item>
+    <item>Русский</item>
+    <item>Українська</item>
+    <item>Português</item>
+    <item>Español</item>
+    <item>Italiano</item>
+    <item>Türkçe</item>
+    <item>Polski</item>
+    <item>Tiếng Việt</item>
+    <item>Deutsch</item>
+    <item>Nederlands</item>
+    <item>Čeština</item>
+    <item>Slovenský</item>
+    <item>Français</item>
+    <item>Norsk</item>
+    <item>Ελληνικά</item>
+    <item>Indonesia</item>
+    <item>Română</item>
+    <item>简体中文</item>
+    <item>繁體中文</item>
+    <item>한국어</item>
+    <item>日本語</item>
+    <item>ارسی</item>
+  </string-array>
 
-    <string-array name="pref_language">
-        <item>@string/default_</item>
-        <item>English</item>
-        <item>Magyar</item>
-        <item>Русский</item>
-        <item>Українська</item>
-        <item>Português</item>
-        <item>Español</item>
-        <item>Italiano</item>
-        <item>Türkçe</item>
-        <item>Polski</item>
-        <item>Tiếng Việt</item>
-        <item>Deutsch</item>
-        <item>Nederlands</item>
-        <item>Čeština</item>
-        <item>Slovenský</item>
-        <item>Français</item>
-        <item>Norsk</item>
-        <item>Ελληνικά</item>
-        <item>Indonesia</item>
-        <item>Română</item>
-        <item>简体中文</item>
-        <item>繁體中文</item>
-        <item>한국어</item>
-        <item>日本語</item>
-        <item>ارسی</item>
-    </string-array>
+  <string-array name="pref_language_values">
+    <item>DEFAULT</item>
+    <item>en</item>
+    <item>hu</item>
+    <item>ru-RU</item>
+    <item>uk-UA</item>
+    <item>pt</item>
+    <item>es</item>
+    <item>it</item>
+    <item>tr</item>
+    <item>pl</item>
+    <item>vi</item>
+    <item>de</item>
+    <item>nl</item>
+    <item>cs</item>
+    <item>sk</item>
+    <item>fr</item>
+    <item>no</item>
+    <item>el</item>
+    <item>in</item>
+    <item>ro</item>
+    <item>zh-CN</item>
+    <item>zh-TW</item>
+    <item>ko</item>
+    <item>ja</item>
+    <item>fa</item>
+  </string-array>
 
-    <string-array name="pref_language_values">
-        <item>DEFAULT</item>
-        <item>en</item>
-        <item>hu</item>
-        <item>ru-RU</item>
-        <item>uk-UA</item>
-        <item>pt</item>
-        <item>es</item>
-        <item>it</item>
-        <item>tr</item>
-        <item>pl</item>
-        <item>vi</item>
-        <item>de</item>
-        <item>nl</item>
-        <item>cs</item>
-        <item>sk</item>
-        <item>fr</item>
-        <item>no</item>
-        <item>el</item>
-        <item>in</item>
-        <item>ro</item>
-        <item>zh-CN</item>
-        <item>zh-TW</item>
-        <item>ko</item>
-        <item>ja</item>
-        <item>fa</item>
-    </string-array>
+  <string-array name="pref_language_watch">
+    <item>@string/default_by_phone</item>
+  </string-array>
 
-    <string-array name="pref_language_watch">
-        <item>@string/default_by_phone</item>
-    </string-array>
+  <string-array name="pref_language_watch_values">
+    <item>DEFAULT</item>
+  </string-array>
 
-    <string-array name="pref_language_watch_values">
-        <item>DEFAULT</item>
-    </string-array>
+  <string-array name="pref_menu_values">
+    <item>NOTIFICATION</item>
+    <item>CALL</item>
+    <item>ACTIVITY</item>
+    <item>SLEEP</item>
+    <item>PULSE</item>
+    <item>BLOOD_OXYGEN</item>
+    <item>BLOOD_PRESSURE</item>
+    <item>WORKOUT</item>
+    <item>ALARM</item>
+    <item>REMINDER</item>
+    <item>DND</item>
+    <item>WATCH_FACE</item>
+    <item>WEATHER</item>
+    <item>TOUCH</item>
+  </string-array>
 
-    <string-array name="pref_menu_values">
-        <item>NOTIFICATION</item>
-        <item>CALL</item>
-        <item>ACTIVITY</item>
-        <item>SLEEP</item>
-        <item>PULSE</item>
-        <item>BLOOD_OXYGEN</item>
-        <item>BLOOD_PRESSURE</item>
-        <item>WORKOUT</item>
-        <item>ALARM</item>
-        <item>REMINDER</item>
-        <item>DND</item>
-        <item>WATCH_FACE</item>
-        <item>WEATHER</item>
-        <item>TOUCH</item>
-    </string-array>
+  <integer-array name="blood_oxygen_time_interval_min_values">
+    <item>10</item>
+    <item>20</item>
+    <item>30</item>
+    <item>60</item>
+    <item>120</item>
+    <item>180</item>
+  </integer-array>
 
-
-    <integer-array name="blood_oxygen_time_interval_min_values">
-        <item>10</item>
-        <item>20</item>
-        <item>30</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
-    </integer-array>
-
-    <!--    <integer-array name="pref_menu_id">-->
-    <!--        <item>@id/navigation_fragment_notifications</item>-->
-    <!--        <item>@id/navigation_fragment_call</item>-->
-    <!--        <item>@id/navigation_fragment_step</item>-->
-    <!--        <item>@id/navigation_fragment_sleep</item>-->
-    <!--        <item>@id/navigation_fragment_pulse</item>-->
-    <!--        <item>@id/navigation_fragment_alarm</item>-->
-    <!--        <item>@id/navigation_fragment_dnd</item>-->
-    <!--        <item>@id/navigation_graph_watch_face</item>-->
-    <!--        <item>@id/navigation_graph_weather</item>-->
-    <!--        <item>@id/navigation_fragment_touch</item>-->
-    <!--    </integer-array>-->
-
+  <!--    <integer-array name="pref_menu_id">-->
+  <!--        <item>@id/navigation_fragment_notifications</item>-->
+  <!--        <item>@id/navigation_fragment_call</item>-->
+  <!--        <item>@id/navigation_fragment_step</item>-->
+  <!--        <item>@id/navigation_fragment_sleep</item>-->
+  <!--        <item>@id/navigation_fragment_pulse</item>-->
+  <!--        <item>@id/navigation_fragment_alarm</item>-->
+  <!--        <item>@id/navigation_fragment_dnd</item>-->
+  <!--        <item>@id/navigation_graph_watch_face</item>-->
+  <!--        <item>@id/navigation_graph_weather</item>-->
+  <!--        <item>@id/navigation_fragment_touch</item>-->
+  <!--    </integer-array>-->
 </resources>

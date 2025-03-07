@@ -1,239 +1,417 @@
-<?xml version="1.0"?>
-
+<?xml version="1.0" ?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pt">
-    <string name="menu_nav_home">@string/device_name</string>
-    <string name="menu_nav_notification">Notificações</string>
-    <string name="menu_nav_call">Chamadas</string>
-    <string name="menu_nav_step">Atividade</string>
-    <string name="menu_nav_sleep">Sono</string>
-    <string name="menu_nav_pulse">Pulsação</string>
-    <string name="menu_nav_blood_oxygen">Oxigênio no sangue</string>
-    <string name="menu_nav_blood_pressure">Pressão sanguínea</string>
-    <string name="menu_nav_workout">Treino</string>
-    <string name="menu_nav_alarm">Despertador</string>
-    <string name="menu_nav_reminder">Lembrete de evento</string>
-    <string name="menu_nav_dnd">Modo não perturbe</string>
-    <string name="menu_nav_watch_face">Watch Face</string>
-    <string name="menu_nav_weather">Meteorologia</string>
-    <string name="menu_nav_touch">Toque</string>
-    <string name="menu_nav_more">Mais</string>
-    <string name="menu_nav_text_display">Exibir texto</string>
-    <string name="menu_nav_theme">Tema</string>
-    <string name="menu_nav_premium_mode">Modo Premium</string>
-    <string name="menu_nav_feedback">Feedback</string>
-    <string name="menu_nav_privacy_policy">Política de privacidade</string>
-    <string name="menu_nav_export">Exportar</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
+  <string name="menu_nav_home">@string/device_name</string>
+  <string name="menu_nav_notification">Notificações</string>
+  <string name="menu_nav_call">Chamadas</string>
+  <string name="menu_nav_step">Atividade</string>
+  <string name="menu_nav_sleep">Sono</string>
+  <string name="menu_nav_pulse">Pulsação</string>
+  <string name="menu_nav_blood_oxygen">Oxigênio no sangue</string>
+  <string name="menu_nav_blood_pressure">Pressão sanguínea</string>
+  <string name="menu_nav_workout">Treino</string>
+  <string name="menu_nav_alarm">Despertador</string>
+  <string name="menu_nav_reminder">Lembrete de evento</string>
+  <string name="menu_nav_dnd">Modo não perturbe</string>
+  <string name="menu_nav_watch_face">Watch Face</string>
+  <string name="menu_nav_weather">Meteorologia</string>
+  <string name="menu_nav_touch">Toque</string>
+  <string name="menu_nav_more">Mais</string>
+  <string name="menu_nav_text_display">Exibir texto</string>
+  <string name="menu_nav_theme">Tema</string>
+  <string name="menu_nav_premium_mode">Modo Premium</string>
+  <string name="menu_nav_feedback">Feedback</string>
+  <string name="menu_nav_privacy_policy">Política de privacidade</string>
+  <string name="menu_nav_export">Exportar</string>
+  <!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
-    <string name="setting_name">Definições</string>
-    <string name="settings_name">Definições</string>
-    <string name="info_name">Informações</string>
-    <string name="more_name">Mais</string>
+  <string name="setting_name">Definições</string>
+  <string name="settings_name">Definições</string>
+  <string name="info_name">Informações</string>
+  <string name="more_name">Mais</string>
 
-<!--    <string name="mi_band_tracker_title">Passos・distância・calorias・objetivo・pulsação</string>-->
-    <string name="main_tracker_title">Passos・Objetivo</string>
-<!--    <string name="mi_band_battery">Bateria・último carregamento・tempo restante de bateria</string>-->
-    <string name="device_battery">Bateria・último carregamento</string>
-    <string name="device_state_connected_disconnected_last_time">Hora da última conexão e desconexão</string>
-    <string name="device_alarm">Próximo alarme</string>
-    <string name="device_reminder">Próximo lembrete</string>
+  <!--    <string name="mi_band_tracker_title">Passos・distância・calorias・objetivo・pulsação</string>-->
+  <string name="main_tracker_title">Passos・Objetivo</string>
+  <!--    <string name="mi_band_battery">Bateria・último carregamento・tempo restante de bateria</string>-->
+  <string name="device_battery">Bateria・último carregamento</string>
+  <string name="device_state_connected_disconnected_last_time">
+    Hora da última conexão e desconexão
+  </string>
+  <string name="device_alarm">Próximo alarme</string>
+  <string name="device_reminder">Próximo lembrete</string>
 
-    <string name="device_search">Localizar %1$s</string> <!-- %1$s = Watch name -->
-    <string name="device_setting">Definições da %1$s</string> <!-- %1$s = Watch name -->
+  <string name="device_search">Localizar %1$s</string>
+  <!-- %1$s = Watch name -->
+  <string name="device_setting">Definições da %1$s</string>
+  <!-- %1$s = Watch name -->
 
-    <string name="device_mac_address">Endereço MAC</string>
-    <string name="device_mac_address_invalid">O endereço MAC é inválido</string>
+  <string name="device_mac_address">Endereço MAC</string>
+  <string name="device_mac_address_invalid">O endereço MAC é inválido</string>
 
-    <string name="device_state_connected">Conectado</string>
-    <string name="device_state_disconnected">Desconectado</string>
-    <string name="device_state_bonded">Dispositivo conectado</string>
-    <string name="device_state_not_bonded">Dispositivo não conectado</string>
+  <string name="device_state_connected">Conectado</string>
+  <string name="device_state_disconnected">Desconectado</string>
+  <string name="device_state_bonded">Dispositivo conectado</string>
+  <string name="device_state_not_bonded">Dispositivo não conectado</string>
 
-    <string name="pref_dnd_title">Modo não perturbe</string>
+  <string name="pref_dnd_title">Modo não perturbe</string>
 
-    <string name="error_title">Ups! Coś poszło nie tak</string>
-    <string name="error_message">Atualize o aplicativo para a versão mais recente</string>
+  <string name="error_title">Ups! Coś poszło nie tak</string>
+  <string name="error_message">
+    Atualize o aplicativo para a versão mais recente
+  </string>
 
+  <!-- Haylou setting -->
+  <string name="mi_band_setting_button_title">
+    Definições da %1$s・Perfil・Texto・Chamadas・Menu
+  </string>
+  <string name="mi_band_setting_title">Definições da %1$s</string>
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">Definições da %1$s・Perfil・Texto・Chamadas・Menu</string>
-    <string name="mi_band_setting_title">Definições da %1$s</string>
+  <string name="mi_band_setting_menu_connection">Conexão</string>
+  <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+  <string name="mi_band_setting_menu_profile">Perfil</string>
+  <string name="mi_band_setting_menu_text">Texto</string>
+  <string name="mi_band_setting_menu_call">Chamadas</string>
 
-    <string name="mi_band_setting_menu_connection">Conexão</string>
-    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
-    <string name="mi_band_setting_menu_profile">Perfil</string>
-    <string name="mi_band_setting_menu_text">Texto</string>
-    <string name="mi_band_setting_menu_call">Chamadas</string>
+  <string name="mi_band_setting_auth_mi_fit">Compartilhado com a %1$s</string>
+  <string name="mi_band_setting_auth_mi_fit_hint">
+    A %3$s precisa que a %1$s esteja instalada no mesmo dispositivo. Primeiro
+    você tem de emparelhar a %2$s na aplicação %1$s e só depois poderá usar
+    a %3$s. Se você pretende usar a %1$s, escolha esta opção.
+  </string>
+  <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
+  <string name="mi_band_setting_auth_standalone">Autônomo</string>
+  <string name="mi_band_setting_auth_standalone_hint">
+    A aplicação %1$s não é necessária para a %3$s funcionar. Depois de
+    emparelhar, desinstale a aplicação %1$s. Quando restaurar o modo Autônomo
+    da %1$s, você vai precisar de emparelhar novamente a sua %2$s na
+    aplicação %1$s. Se você usar a função desemparelhar, os dados do smartwatch
+    serão excluídos. A tela %2$s deve estar ligada durante execução das
+    operações.
+  </string>
+  <string name="mi_band_standalone_sync_error">
+    Data synchronization is not possible in cooperation mode, since
+    synchronization would result in the data being deleted from the smartwatch
+    and incorrect data being displayed in both apps.
+  </string>
 
-    <string name="mi_band_setting_auth_mi_fit">Compartilhado com a %1$s</string>
-    <string name="mi_band_setting_auth_mi_fit_hint">A %3$s precisa que a %1$s esteja instalada no mesmo dispositivo. Primeiro você tem de emparelhar a %2$s na aplicação %1$s e só depois poderá usar a %3$s. Se você pretende usar a %1$s, escolha esta opção.</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
-    <string name="mi_band_setting_auth_standalone">Autônomo</string>
-    <string name="mi_band_setting_auth_standalone_hint">A aplicação %1$s não é necessária para a %3$s funcionar. Depois de emparelhar, desinstale a aplicação %1$s. Quando restaurar o modo Autônomo da %1$s, você vai precisar de emparelhar novamente a sua %2$s na aplicação %1$s. Se você usar a função desemparelhar, os dados do smartwatch serão excluídos. A tela %2$s deve estar ligada durante execução das operações.</string>
-    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
+  <string name="mi_band_setting_auth_key">Chave de autenticação</string>
+  <string name="mi_band_setting_auth_key_help">
+    Entre com um valor de 4 números
+  </string>
+  <string name="mi_band_setting_auth_request">Pedido de chave</string>
+  <string name="mi_band_setting_auth_pair">Emparelhar</string>
+  <string name="mi_band_setting_auth_unpair">Desemparelhar</string>
 
-    <string name="mi_band_setting_auth_key">Chave de autenticação</string>
-    <string name="mi_band_setting_auth_key_help">Entre com um valor de 4 números</string>
-    <string name="mi_band_setting_auth_request">Pedido de chave</string>
-    <string name="mi_band_setting_auth_pair">Emparelhar</string>
-    <string name="mi_band_setting_auth_unpair">Desemparelhar</string>
+  <string name="message_auth_request">
+    Está emparelhado, se você não souber a chave, use o desemparelhar
+  </string>
 
-    <string name="message_auth_request">Está emparelhado, se você não souber a chave, use o desemparelhar</string>
+  <string name="message_mi_band_setting_auth_press_band_button">
+    Pressione o botão %1$s para emparelhar
+  </string>
+  <!-- %1$s = Mi Band 3, Zepp Bip ... -->
+  <string name="message_mi_band_setting_auth_success">
+    %1$s emparelhada com sucesso
+  </string>
+  <string name="message_mi_band_setting_auth_fail">
+    O emparelhamento com a %1$s falhou
+  </string>
+  <string name="message_mi_band_setting_auth_key_invalid">
+    Chave de autenticação inválida
+  </string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">Pressione o botão %1$s para emparelhar</string> <!-- %1$s = Mi Band 3, Zepp Bip ... -->
-    <string name="message_mi_band_setting_auth_success">%1$s emparelhada com sucesso</string>
-    <string name="message_mi_band_setting_auth_fail">O emparelhamento com a %1$s falhou</string>
-    <string name="message_mi_band_setting_auth_key_invalid">Chave de autenticação inválida</string>
+  <string name="pref_disconnect_device">Desconexão</string>
 
-    <string name="pref_disconnect_device">Desconexão</string>
-
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
-    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+  <string name="mi_band_setting_connection_problem_title">
+    In case of connection problem
+  </string>
+  <string
+    name="mi_band_setting_connection_problem_hint"
+  ><![CDATA[
     - Unpair the watch in the phone\'s Bluetooth settings
     <br>- Turn Bluetooth off and on
     <br>- Force close the Application or restart the phone
     <br>- Pair your watch again on the main screen
     ]]></string>
 
-    <string name="mi_band_setting_dial">Discar</string>
-    <string name="mi_band_setting_language">Linguagem</string>
-    <string name="mi_band_setting_time_24h">Formato 24 horas</string>
-    <string name="mi_band_setting_distance_unit">Unidade de distância</string>
-    <string name="mi_band_setting_lift_wrist">Girar o pulso para ver a informação</string>
-    <string name="mi_band_setting_screen_on_duration">Duração na tela</string>
-    <string name="mi_band_setting_idle_alert">Alertas de inatividade</string>
-    <string name="mi_band_setting_idle_alert_time">Tempo de inatividade</string>
-    <string name="mi_band_setting_idle_alert_dnd">Não perturbar enquanto estiver a descansar (12:00-14:00)</string>
+  <string name="mi_band_setting_dial">Discar</string>
+  <string name="mi_band_setting_language">Linguagem</string>
+  <string name="mi_band_setting_time_24h">Formato 24 horas</string>
+  <string name="mi_band_setting_distance_unit">Unidade de distância</string>
+  <string name="mi_band_setting_lift_wrist">
+    Girar o pulso para ver a informação
+  </string>
+  <string name="mi_band_setting_screen_on_duration">Duração na tela</string>
+  <string name="mi_band_setting_idle_alert">Alertas de inatividade</string>
+  <string name="mi_band_setting_idle_alert_time">Tempo de inatividade</string>
+  <string name="mi_band_setting_idle_alert_dnd">
+    Não perturbar enquanto estiver a descansar (12:00-14:00)
+  </string>
 
-    <string name="pref_synchronization">Sincronização</string>
-    <string name="pref_synchronization_fetch_interval">Frequência de sincronização</string>
-    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+  <string name="pref_synchronization">Sincronização</string>
+  <string name="pref_synchronization_fetch_interval">
+    Frequência de sincronização
+  </string>
+  <string name="pref_synchronization_summary">
+    Select the data to be automatically synchronised in the background. If you
+    do not need any of the data, turn it off for better performance. Data can
+    still be synchronised manually on the home screen or in the appropriate
+    menus (by sweeping down).
+  </string>
 
-    <string name="mi_band_setting_profile">Esses dados são necessários para calcular corretamente o número de passos, distância e calorias queimadas.</string>
-    <string name="mi_band_setting_gender">Gênero</string>
-    <string name="mi_band_setting_gender_male">Masculino</string>
-    <string name="mi_band_setting_gender_female">Feminino</string>
-    <string name="mi_band_setting_birthday">Data de nascimento</string>
-    <string name="mi_band_setting_height">Altura</string>
-    <string name="mi_band_setting_weight">Peso</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">Pulso esquerdo</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">Pulso direito</string>
+  <string name="mi_band_setting_profile">
+    Esses dados são necessários para calcular corretamente o número de
+    passos, distância e calorias queimadas.
+  </string>
+  <string name="mi_band_setting_gender">Gênero</string>
+  <string name="mi_band_setting_gender_male">Masculino</string>
+  <string name="mi_band_setting_gender_female">Feminino</string>
+  <string name="mi_band_setting_birthday">Data de nascimento</string>
+  <string name="mi_band_setting_height">Altura</string>
+  <string name="mi_band_setting_weight">Peso</string>
+  <string name="mi_band_setting_wearing_place">Wearing place</string>
+  <string name="mi_band_setting_wearing_place_left_wrist">
+    Pulso esquerdo
+  </string>
+  <string name="mi_band_setting_wearing_place_right_wrist">
+    Pulso direito
+  </string>
 
+  <!-- Battery -->
+  <string name="battery_details">Utilização de bateria</string>
 
-    <!-- Battery -->
-    <string name="battery_details">Utilização de bateria</string>
+  <string name="mi_band_battery_settings">Definições de bateria</string>
+  <string name="mi_band_battery_notification">
+    Notificação de Bateria baixa
+  </string>
+  <string name="mi_band_battery_notification_level">
+    Limite do nível de Bateria
+  </string>
+  <string name="mi_band_battery_notification_repeat_interval">
+    Repetir notificação a cada
+  </string>
+  <string name="mi_band_battery_notification_shade">
+    Notificar-me no dispositivo
+  </string>
+  <string name="mi_band_battery_notification_shade_error">
+    Notification display permission is restricted
+  </string>
+  <string name="mi_band_battery_notification_shade_ongoing">
+    Notificação persistente (Não removível)
+  </string>
+  <string name="mi_band_battery_notification_shade_message">
+    Bateria baixa %1$,d%%
+  </string>
+  <string name="mi_band_battery_notification_mi_band">
+    Notificar-me no Relógio
+  </string>
+  <string name="mi_band_battery_notification_mi_band_message">
+    Bateria: %1$,d%%
+  </string>
 
-    <string name="mi_band_battery_settings">Definições de bateria</string>
-    <string name="mi_band_battery_notification">Notificação de Bateria baixa</string>
-    <string name="mi_band_battery_notification_level">Limite do nível de Bateria</string>
-    <string name="mi_band_battery_notification_repeat_interval">Repetir notificação a cada</string>
-    <string name="mi_band_battery_notification_shade">Notificar-me no dispositivo</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">Notificação persistente (Não removível)</string>
-    <string name="mi_band_battery_notification_shade_message">Bateria baixa %1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">Notificar-me no Relógio</string>
-    <string name="mi_band_battery_notification_mi_band_message">Bateria: %1$,d%%</string>
+  <!-- PreferenceScreen -->
+  <string name="pref_connected_have_notif_interval_title">
+    Tempo para repetir o lembrete
+  </string>
+  <string name="pref_connected_have_notif_interval_summary">
+    A função de sinal de notificação/lembrete usa este tempo
+  </string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">Tempo para repetir o lembrete</string>
-    <string name="pref_connected_have_notif_interval_summary">A função de sinal de notificação/lembrete usa este tempo</string>
+  <string name="pref_battery_phone">Bateria do dispositivo</string>
+  <string name="pref_battery_phone_summary">
+    Notificações de bateria Baixa e Cheia
+  </string>
+  <string name="pref_cat_battery_phone_low">Nível de bateria baixo</string>
+  <string name="pref_battery_phone_low_title">
+    Notificação de Bateria baixa
+  </string>
+  <string name="pref_battery_phone_low_level_title">
+    Limite do nível de bateria
+  </string>
+  <string name="pref_battery_phone_low_repeat_interval_title">
+    Repetir notificação a cada
+  </string>
+  <string name="pref_cat_battery_phone_full">Nível de bateria cheio</string>
+  <string name="pref_battery_phone_full_title">
+    Notificação de Bateria cheia
+  </string>
+  <string name="pref_battery_phone_full_plugged_ac">
+    Conectado ao carregador AC
+  </string>
+  <string name="pref_battery_phone_full_plugged_usb">
+    Conectado à porta USB
+  </string>
+  <string name="pref_battery_phone_full_plugged_wireless">
+    Conectado ao carregador Wireless
+  </string>
 
-    <string name="pref_battery_phone">Bateria do dispositivo</string>
-    <string name="pref_battery_phone_summary">Notificações de bateria Baixa e Cheia</string>
-    <string name="pref_cat_battery_phone_low">Nível de bateria baixo</string>
-    <string name="pref_battery_phone_low_title">Notificação de Bateria baixa</string>
-    <string name="pref_battery_phone_low_level_title">Limite do nível de bateria</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">Repetir notificação a cada</string>
-    <string name="pref_cat_battery_phone_full">Nível de bateria cheio</string>
-    <string name="pref_battery_phone_full_title">Notificação de Bateria cheia</string>
-    <string name="pref_battery_phone_full_plugged_ac">Conectado ao carregador AC</string>
-    <string name="pref_battery_phone_full_plugged_usb">Conectado à porta USB</string>
-    <string name="pref_battery_phone_full_plugged_wireless">Conectado ao carregador Wireless</string>
+  <string name="pref_battery_phone_message">
+    Bateria do dispositivo:\n %1$,d%%
+  </string>
 
-    <string name="pref_battery_phone_message">Bateria do dispositivo:\n %1$,d%%</string>
+  <string name="pref_language">Linguagem</string>
+  <string name="pref_cat_language">Aplicação</string>
+  <string name="pref_language_title">Linguagem</string>
 
-    <string name="pref_language">Linguagem</string>
-    <string name="pref_cat_language">Aplicação</string>
-    <string name="pref_language_title">Linguagem</string>
+  <string name="pref_menu">Menu</string>
+  <string name="pref_cat_menu">Bara de menu principal</string>
+  <string name="pref_menu_item_2">Segundo item do menu</string>
+  <string name="pref_menu_item_3">Terceiro item do menu</string>
 
-    <string name="pref_menu">Menu</string>
-    <string name="pref_cat_menu">Bara de menu principal</string>
-    <string name="pref_menu_item_2">Segundo item do menu</string>
-    <string name="pref_menu_item_3">Terceiro item do menu</string>
+  <string name="pref_diagnostic">Diagnóstico</string>
+  <string name="pref_cat_diagnostic_closing_protection">
+    Proteção Anti-Close
+  </string>
+  <string name="pref_diagnostic_battery_optimisation">
+    Otimização de Bateria desligado
+  </string>
+  <string name="pref_diagnostic_companion_device">
+    Emparelhamento de dispositivos complementares
+  </string>
+  <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
+  <string name="pref_diagnostic_autostart">Autostart</string>
+  <string name="pref_diagnostic_autostart_summary">
+    Enable the application to restart automatically in the phone\'s Auto-start
+    manager
+  </string>
+  <string name="pref_diagnostic_info">Mais Informações</string>
+  <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
-    <string name="pref_diagnostic">Diagnóstico</string>
-    <string name="pref_cat_diagnostic_closing_protection">Proteção Anti-Close</string>
-    <string name="pref_diagnostic_battery_optimisation">Otimização de Bateria desligado</string>
-    <string name="pref_diagnostic_companion_device">Emparelhamento de dispositivos complementares</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
-    <string name="pref_diagnostic_autostart">Autostart</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
-    <string name="pref_diagnostic_info">Mais Informações</string>
-    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+  <string name="pref_cat_diagnostic_permissions">Permissões</string>
+  <string name="pref_diagnostic_permission_allow_notification_access_settings">
+    Allow notification access
+  </string>
+  <string name="pref_diagnostic_permission_schedule_exact_alarm">
+    Agendar um alarme exato
+  </string>
+  <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">
+    Additional permission is required to schedule the task at an exact time.
+  </string>
+  <string name="pref_diagnostic_permission_post_notifications">
+    Post notifications
+  </string>
+  <string name="pref_diagnostic_permission_post_notifications_summary">
+    Additional permission is required to display the notification
+  </string>
+  <string name="pref_diagnostic_permission_access_notification_policy">
+    Acesso ao modo DND
+  </string>
 
-    <string name="pref_cat_diagnostic_permissions">Permissões</string>
-    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">Agendar um alarme exato</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">Acesso ao modo DND</string>
+  <!-- Snackbar Messages -->
+  <string name="message_enable_bluetooth">
+    Por favor, habilite o Bluetooth e aproxime o smartwatch do telefone
+  </string>
+  <string name="message_discover_device">
+    A %1$s não está configurado. Encontre-a por favor
+  </string>
+  <string name="message_discovering_device">
+    Procurando a %1$s (isso pode demorar 1 minuto) &#8230;
+  </string>
+  <string name="message_discover_device_succeeded">
+    %1$s conectada com sucesso
+  </string>
+  <string name="message_discover_device_failed">A conexão %1$s falhou</string>
+  <string name="message_discover_device_not_found">
+    Se a %1$s não for encontrada, ative: Haylou Sport/Play/Discoverable ou
+    conecte nas definições de Bluetooth do dispositivo
+  </string>
+  <string name="message_enable_notification_listener_access">
+    Ative o acesso às notificações: Definições/Notificações/Acesso às
+    notificações
+  </string>
+  <string name="message_enable_notification_listener_access_4_4">
+    Ative o acesso às notificações: Definições/Segurança/Acesso às notificações
+  </string>
 
+  <string name="message_deleted">Apagado</string>
+  <string name="message_undo">Desfazer</string>
 
-    <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Por favor, habilite o Bluetooth e aproxime o smartwatch do telefone</string>
-    <string name="message_discover_device">A %1$s não está configurado. Encontre-a por favor</string>
-    <string name="message_discovering_device">Procurando a %1$s (isso pode demorar 1 minuto) &#8230;</string>
-    <string name="message_discover_device_succeeded">%1$s conectada com sucesso</string>
-    <string name="message_discover_device_failed">A conexão %1$s falhou</string>
-    <string name="message_discover_device_not_found">Se a %1$s não for encontrada, ative: Haylou Sport/Play/Discoverable ou conecte nas definições de Bluetooth do dispositivo</string>
-    <string name="message_enable_notification_listener_access">Ative o acesso às notificações: Definições/Notificações/Acesso às notificações</string>
-    <string name="message_enable_notification_listener_access_4_4">Ative o acesso às notificações: Definições/Segurança/Acesso às notificações</string>
+  <string name="message_app_chooser_no_selected">
+    Selecione uma aplicação
+  </string>
 
-    <string name="message_deleted">Apagado</string>
-    <string name="message_undo">Desfazer</string>
+  <string name="message_free_counter">
+    Até %1$,d configuração pode ser usada no modo grátis
+  </string>
+  <!-- %1$,d = 1 or more  -->
 
-    <string name="message_app_chooser_no_selected">Selecione uma aplicação</string>
+  <string name="message_notification_free_groups">
+    Só pode usar até %1$,d grupos no modo grátis
+  </string>
+  <string name="message_notification_free_app">
+    Até 1 aplicativo pode ser selecionado no modo grátis
+  </string>
+  <string name="message_notification_free_apps">
+    Até %1$,d aplicativos pode, ser selecionados no modo grátis
+  </string>
+  <!-- %1$s = 2 or more  -->
 
-    <string name="message_free_counter">Até %1$,d configuração pode ser usada no modo grátis</string> <!-- %1$,d = 1 or more  -->
+  <string name="message_notification_free_text">
+    Até 1 texto pode ser gravado no modo grátis
+  </string>
 
-    <string name="message_notification_free_groups">Só pode usar até %1$,d grupos no modo grátis</string>
-    <string name="message_notification_free_app">Até 1 aplicativo pode ser selecionado no modo grátis</string>
-    <string name="message_notification_free_apps">Até %1$,d aplicativos pode, ser selecionados no modo grátis</string>   <!-- %1$s = 2 or more  -->
+  <string name="message_time_alarm_free_counter">
+    Só pode usar 1 alarme no modo grátis
+  </string>
+  <string name="message_time_alarm_max_counter">
+    Só pode usar %1$d alarmes no máximo
+  </string>
+  <string name="message_time_alarm_enabled">Alarme ativado</string>
+  <string name="message_time_alarm_disabled">Alarme desativado</string>
+  <string name="message_time_alarm_off">Alarme desligado</string>
 
-    <string name="message_notification_free_text">Até 1 texto pode ser gravado no modo grátis</string>
+  <string name="message_touch_pattern_error">
+    O padrão gravado é semelhante ao de outra função, grave outro
+  </string>
+  <string name="message_touch_free_patterns">
+    Não pode usar mais de %1$,d Controles no modo grátis
+  </string>
+  <string name="message_touch_record_help">
+    Use a %1$s para controlar música/Recurso encontre meu telefone
+  </string>
+  <!-- %1$s = smartwatch -->
 
-    <string name="message_time_alarm_free_counter">Só pode usar 1 alarme no modo grátis</string>
-    <string name="message_time_alarm_max_counter">Só pode usar %1$d alarmes no máximo</string>
-    <string name="message_time_alarm_enabled">Alarme ativado</string>
-    <string name="message_time_alarm_disabled">Alarme desativado</string>
-    <string name="message_time_alarm_off">Alarme desligado</string>
+  <string name="message_premium_mode_only">
+    Esta definição só está disponível no modo Premium
+  </string>
+  <string name="message_feature_is_not_supported">
+    A %1$s não suporta esta característica
+  </string>
+  <string name="message_general_error">
+    A configuração falhou (conexão perdida), tente novamente
+  </string>
+  <string name="message_internet_error">Sem acesso à internet</string>
+  <string name="message_internet_traffic_blocked">
+    O tráfego de rede está bloqueado
+  </string>
+  <string name="message_internet_ads_blocked">
+    Os anúncios estão bloqueados
+  </string>
+  <string name="message_gps_enable">Ligue o GPS</string>
+  <string name="message_location_enable">
+    Habilite a permissão de informações de localização
+  </string>
 
-    <string name="message_touch_pattern_error">O padrão gravado é semelhante ao de outra função, grave outro</string>
-    <string name="message_touch_free_patterns">Não pode usar mais de %1$,d Controles no modo grátis</string>
-    <string name="message_touch_record_help">Use a %1$s para controlar música/Recurso encontre meu telefone</string> <!-- %1$s = smartwatch -->
+  <string name="message_in_progress">Processando…</string>
+  <string name="message_no_data">Não existe informação disponível</string>
 
-    <string name="message_premium_mode_only">Esta definição só está disponível no modo Premium</string>
-    <string name="message_feature_is_not_supported">A %1$s não suporta esta característica</string>
-    <string name="message_general_error">A configuração falhou (conexão perdida), tente novamente</string>
-    <string name="message_internet_error">Sem acesso à internet</string>
-    <string name="message_internet_traffic_blocked">O tráfego de rede está bloqueado</string>
-    <string name="message_internet_ads_blocked">Os anúncios estão bloqueados</string>
-    <string name="message_gps_enable">Ligue o GPS</string>
-    <string name="message_location_enable">Habilite a permissão de informações de localização</string>
+  <string name="message_rewarded_error">
+    Não foi possível carregar o video
+  </string>
 
-    <string name="message_in_progress">Processando…</string>
-    <string name="message_no_data">Não existe informação disponível</string>
+  <string name="message_new_message">
+    Você recebeu uma nova mensagem. Visualize-a no dispositivo.
+  </string>
 
-    <string name="message_rewarded_error">Não foi possível carregar o video</string>
+  <string name="message_permission_not_granted">
+    Permissão não concedida: %1$s
+  </string>
+  <!-- %1$s = permission name -->
 
-    <string name="message_new_message">Você recebeu uma nova mensagem. Visualize-a no dispositivo.</string>
-
-    <string name="message_permission_not_granted">Permissão não concedida: %1$s</string> <!-- %1$s = permission name -->
-
-    <!-- Dialog -->
-    <string name="dialog_welcome_title">Bem vindo!</string>
-    <string name="dialog_welcome_message"><![CDATA[Dispositivos suportados:
+  <!-- Dialog -->
+  <string name="dialog_welcome_title">Bem vindo!</string>
+  <string
+    name="dialog_welcome_message"
+  ><![CDATA[Dispositivos suportados:
     <watch_types/>
     <p><app_name/> requer a instalação do aplicativo oficial da <device_type/> no mesmo telefone. Em primeiro lugar, você deve emparelhar seu relógio inteligente no aplicativo <device_type/>, então você pode usar este aplicativo.</p>
     <p>Se a <device_type/> não for encontrada, você pode configurar o endereço MAC manualmente.</p>
@@ -245,420 +423,660 @@
     <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
     ]]></string>
 
+  <!-- Notification Dialog -->
+  <string name="notification_group_nav_setting">Definições</string>
+  <string name="notification_group_nav_filter">Filtro</string>
+  <string name="notification_group_nav_correction">Corrigir</string>
 
-    <!-- Notification Dialog -->
-    <string name="notification_group_nav_setting">Definições</string>
-    <string name="notification_group_nav_filter">Filtro</string>
-    <string name="notification_group_nav_correction">Corrigir</string>
+  <string name="notification_group_name">Nome</string>
+  <string name="notification_group_monitoring">Monitorar notificações</string>
+  <string name="notification_group_monitoring_disabled">
+    Desativar notificações (não será notificado pelas aplicações deste grupo)
+  </string>
+  <string name="notification_group_alert_title">Aviso da %1$s</string>
+  <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+  <string name="notification_group_text">Exibir texto</string>
+  <string name="notification_group_text_app_name">Nome da Aplicação</string>
+  <string name="notification_group_text_name">Nome deste grupo</string>
+  <string name="notification_group_text_title">Título</string>
+  <string name="notification_group_text_content">Conteúdo</string>
+  <string name="notification_group_text_big_content">Conteúdo completo</string>
+  <string name="notification_group_text_content_slice_title">
+    Comprimento do texto
+  </string>
+  <string name="notification_group_display_time_title">
+    Tempo de exibição
+  </string>
+  <string name="notification_group_display_notification_title">
+    Mostrar notificação
+  </string>
+  <string name="notification_group_immediate">
+    Notificar quando receber a notificação
+  </string>
+  <string name="notification_group_connecting">
+    Notificar quando conectar ao dispositivo
+  </string>
+  <string name="notification_group_reminder">Lembrete</string>
+  <string name="notification_group_ongoing">
+    Notificar notificações persistentes (não removível)
+  </string>
+  <string name="notification_group_screen_off">
+    Notificar apenas quando a tela estiver desligada
+  </string>
+  <string name="notification_group_repeat_title">Repetir os avisos</string>
+  <string name="notification_group_wakelock">
+    Ligar a tela do dispositivo
+  </string>
+  <string name="notification_group_grouped_display_title">
+    Configuração de exibição para as notificações de grupo
+  </string>
+  <string name="notification_group_grouped_sort_order_title">
+    Ordem de classificação para as notificações de grupo
+  </string>
 
-    <string name="notification_group_name">Nome</string>
-    <string name="notification_group_monitoring">Monitorar notificações</string>
-    <string name="notification_group_monitoring_disabled">Desativar notificações (não será notificado pelas aplicações deste grupo)</string>
-    <string name="notification_group_alert_title">Aviso da %1$s</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text">Exibir texto</string>
-    <string name="notification_group_text_app_name">Nome da Aplicação</string>
-    <string name="notification_group_text_name">Nome deste grupo</string>
-    <string name="notification_group_text_title">Título</string>
-    <string name="notification_group_text_content">Conteúdo</string>
-    <string name="notification_group_text_big_content">Conteúdo completo</string>
-    <string name="notification_group_text_content_slice_title">Comprimento do texto</string>
-    <string name="notification_group_display_time_title">Tempo de exibição</string>
-    <string name="notification_group_display_notification_title">Mostrar notificação</string>
-    <string name="notification_group_immediate">Notificar quando receber a notificação</string>
-    <string name="notification_group_connecting">Notificar quando conectar ao dispositivo</string>
-    <string name="notification_group_reminder">Lembrete</string>
-    <string name="notification_group_ongoing">Notificar notificações persistentes (não removível)</string>
-    <string name="notification_group_screen_off">Notificar apenas quando a tela estiver desligada</string>
-    <string name="notification_group_repeat_title">Repetir os avisos</string>
-    <string name="notification_group_wakelock">Ligar a tela do dispositivo</string>
-    <string name="notification_group_grouped_display_title">Configuração de exibição para as notificações de grupo</string>
-    <string name="notification_group_grouped_sort_order_title">Ordem de classificação para as notificações de grupo</string>
+  <string name="notification_group_filter">Filtrar as notificações</string>
+  <string name="notification_group_filter_title">Filtrar os Títulos</string>
+  <string name="notification_group_filter_content">Filtrar o Conteúdo</string>
+  <string name="notification_group_filter_regex">Expressão Regular</string>
+  <string name="notification_group_filter_hint">
+    Notifica apenas quando o título ou o conteúdo da notificação (Insensível a
+    MAIÚSCULAS e minúsculas):
+  </string>
+  <string name="notification_group_filter_contains">
+    Contém qualquer frase
+  </string>
+  <string name="notification_group_filter_not_contains">
+    Não contém nenhuma frase
+  </string>
 
-    <string name="notification_group_filter">Filtrar as notificações</string>
-    <string name="notification_group_filter_title">Filtrar os Títulos</string>
-    <string name="notification_group_filter_content">Filtrar o Conteúdo</string>
-    <string name="notification_group_filter_regex">Expressão Regular</string>
-    <string name="notification_group_filter_hint">Notifica apenas quando o título ou o conteúdo da notificação (Insensível a MAIÚSCULAS e minúsculas):</string>
-    <string name="notification_group_filter_contains">Contém qualquer frase</string>
-    <string name="notification_group_filter_not_contains">Não contém nenhuma frase</string>
+  <string name="notification_group_sample_sms">SMS</string>
+  <string name="notification_group_sample_facebook">Messenger</string>
+  <string name="notification_group_sample_whatsapp">WhatsApp</string>
 
-    <string name="notification_group_sample_sms">SMS</string>
-    <string name="notification_group_sample_facebook">Messenger</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+  <string name="notification_group_correction">Corrigir texto</string>
+  <string name="notification_group_correction_title">Corrigir título</string>
+  <string name="notification_group_correction_content">
+    Corrigir conteúdo
+  </string>
+  <string name="notification_group_correction_regex">Expressão Regular</string>
+  <string name="notification_group_correction_hint">
+    Insensível a MAIÚSCULAS e minúsculas
+  </string>
+  <string name="notification_group_correction_items">
+    Texto a ser corrigido
+  </string>
+  <string name="notification_group_correction_find">Procurar</string>
+  <string name="notification_group_correction_replace">Reescrever com</string>
 
-    <string name="notification_group_correction">Corrigir texto</string>
-    <string name="notification_group_correction_title">Corrigir título</string>
-    <string name="notification_group_correction_content">Corrigir conteúdo</string>
-    <string name="notification_group_correction_regex">Expressão Regular</string>
-    <string name="notification_group_correction_hint">Insensível a MAIÚSCULAS e minúsculas</string>
-    <string name="notification_group_correction_items">Texto a ser corrigido</string>
-    <string name="notification_group_correction_find">Procurar</string>
-    <string name="notification_group_correction_replace">Reescrever com</string>
+  <string name="notification_regex_hint">
+    Caracteres Não-Alfanuméricos têm um significado especial. Se você não souber
+    Expressões Regulares, não selecione esta opção
+  </string>
 
-    <string name="notification_regex_hint">Caracteres Não-Alfanuméricos têm um significado especial. Se você não souber Expressões Regulares, não selecione esta opção</string>
+  <string name="notification_confirm_close">
+    Tem a certeza de que deseja descartar as alterações?
+  </string>
 
-    <string name="notification_confirm_close">Tem a certeza de que deseja descartar as alterações?</string>
+  <string name="notification_edit_play_text_title">
+    Título da notificação
+  </string>
+  <string name="notification_edit_play_text_content">
+    Conteúdo da notificação:
+    Na publicação e no design gráfico, lorem ipsum é um texto de preenchimento
+    ou esquisito comumente usado para demonstrar os elementos textuais de um
+    documento gráfico ou apresentação visual.
+        \nSubstituir conteúdo significativo pelo texto do espaço reservado
+    permite que os designers projetem a forma do conteúdo antes que o próprio
+    conteúdo seja produzido.
+  </string>
+  <string
+    name="notification_edit_play_info"
+  ><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ícone: escolha este ícone para mostrar o título/conteúdo das notificações]]></string>
 
-    <string name="notification_edit_play_text_title">Título da notificação</string>
-    <string name="notification_edit_play_text_content">Conteúdo da notificação:
-    Na publicação e no design gráfico, lorem ipsum é um texto de preenchimento ou esquisito comumente usado para demonstrar os elementos textuais de um documento gráfico ou apresentação visual.
-        \nSubstituir conteúdo significativo pelo texto do espaço reservado permite que os designers projetem a forma do conteúdo antes que o próprio conteúdo seja produzido.
-    </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT"> ícone: escolha este ícone para mostrar o título/conteúdo das notificações]]></string>
+  <!-- Call -->
+  <string name="call_tab_call">Chamada recebida</string>
+  <string name="call_tab_contacts">Contatos</string>
 
+  <string name="pref_cat_call">Chamada recebida</string>
+  <string name="pref_call_summary_on">
+    Não se esqueça de desligar \'Alertas de chamadas recebidas\' na
+    aplicação \'%1$s\'
+  </string>
+  <!-- %1$s = official app name -->
+  <string name="pref_call_text_title">Exibir o número do contato</string>
 
-    <!-- Call -->
-    <string name="call_tab_call">Chamada recebida</string>
-    <string name="call_tab_contacts">Contatos</string>
+  <string name="pref_call_notification_rejected">
+    Exibir notificações sobre chamadas rejeitadas
+  </string>
+  <string name="pref_call_notification_rejected_message">
+    Chamada rejeitada
+  </string>
+  <string name="pref_call_notification_rejected_action">Chamada</string>
 
-    <string name="pref_cat_call">Chamada recebida</string>
-    <string name="pref_call_summary_on">Não se esqueça de desligar \'Alertas de chamadas recebidas\' na aplicação \'%1$s\'</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">Exibir o número do contato</string>
+  <string name="pref_call_net_text_title">
+    Notificar chamada online recebida
+  </string>
 
-    <string name="pref_call_notification_rejected">Exibir notificações sobre chamadas rejeitadas</string>
-    <string name="pref_call_notification_rejected_message">Chamada rejeitada</string>
-    <string name="pref_call_notification_rejected_action">Chamada</string>
+  <string name="pref_cat_call_missed">Chamada perdida</string>
+  <string name="pref_call_missed_title">Notificar chamada perdida</string>
 
-    <string name="pref_call_net_text_title">Notificar chamada online recebida</string>
+  <string name="pref_call_missed_alert_title">Aviso da %1$s</string>
+  <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
 
-    <string name="pref_cat_call_missed">Chamada perdida</string>
-    <string name="pref_call_missed_title">Notificar chamada perdida</string>
+  <string name="call_reject_button_action">Botão \'Rejeitar\'</string>
 
-    <string name="pref_call_missed_alert_title">Aviso da %1$s</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+  <string name="touch_call_answer_title">Atender</string>
+  <string name="touch_call_answer_speakerphone_title">Viva-voz</string>
 
-    <string name="call_reject_button_action">Botão \'Rejeitar\'</string>
+  <string name="touch_call_end_title">Rejeitar/Terminar</string>
 
-    <string name="touch_call_answer_title">Atender</string>
-    <string name="touch_call_answer_speakerphone_title">Viva-voz</string>
+  <string name="touch_call_mute_title">Silenciar</string>
+  <string name="touch_call_mute_only_call_state_ringing_title">
+    Só se estiver recebendo uma chamada
+  </string>
+  <string name="touch_call_mute_recognition_title">Chamada recebida</string>
 
-    <string name="touch_call_end_title">Rejeitar/Terminar</string>
+  <string name="call_contact_edit_contact">Contato</string>
+  <string name="call_contact_edit_name">Nome</string>
+  <string name="call_contact_edit_phone_number">Número de telefone</string>
 
-    <string name="touch_call_mute_title">Silenciar</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">Só se estiver recebendo uma chamada</string>
-    <string name="touch_call_mute_recognition_title">Chamada recebida</string>
+  <string name="call_contact_edit_setting_name_order">Ordem de nomes</string>
+  <string name="call_contact_edit_setting_default">@string/default_</string>
+  <string name="call_contact_edit_setting_first_name">Primeiro nome</string>
+  <string name="call_contact_edit_setting_last_name">Sobrenome</string>
 
-    <string name="call_contact_edit_contact">Contato</string>
-    <string name="call_contact_edit_name">Nome</string>
-    <string name="call_contact_edit_phone_number">Número de telefone</string>
+  <string name="message_call_contacts_free_counter">
+    Up to %1$d contacts can be used in free mode
+  </string>
+  <!-- %1$d = 1, 2 ,3 ... -->
+  <string name="message_call_contacts_max_counter">
+    Up to %1$d contacts can be used
+  </string>
+  <!-- %1$d = 1, 2 ,3 ... -->
 
-    <string name="call_contact_edit_setting_name_order">Ordem de nomes</string>
-    <string name="call_contact_edit_setting_default">@string/default_</string>
-    <string name="call_contact_edit_setting_first_name">Primeiro nome</string>
-    <string name="call_contact_edit_setting_last_name">Sobrenome</string>
+  <!-- App chooser dialog -->
+  <string name="app_chooser">Escolher aplicação</string>
+  <string name="action_search">Procurar</string>
+  <string name="action_filter_notification">Filtro de notificações</string>
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+  <string name="main_control">Controles</string>
 
-    <!-- App chooser dialog -->
-    <string name="app_chooser">Escolher aplicação</string>
-    <string name="action_search">Procurar</string>
-    <string name="action_filter_notification">Filtro de notificações</string>
+  <!-- Activity -->
+  <string name="step_details">Detalhes sobre a atividade</string>
 
-    <string name="main_control">Controles</string>
+  <string name="mi_band_tracker_step_title">%1$,d</string>
+  <!-- none -->
+  <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+  <!-- meter -->
+  <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+  <!-- kilometre -->
+  <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+  <!-- mile -->
+  <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
+  <!-- kilo calorie -->
 
-    <!-- Activity -->
-    <string name="step_details">Detalhes sobre a atividade</string>
+  <string name="action_tracker_step">Passos</string>
+  <string name="action_tracker_distance">Distância</string>
+  <string name="action_tracker_calorie">Calorias</string>
+  <string name="action_tracker_duration">Duração do treino</string>
 
-    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+  <string name="step_goal_default_title">Objetivo padrão</string>
 
-    <string name="action_tracker_step">Passos</string>
-    <string name="action_tracker_distance">Distância</string>
-    <string name="action_tracker_calorie">Calorias</string>
-    <string name="action_tracker_duration">Duração do treino</string>
+  <!-- Sleep monitoring -->
+  <string name="sleep_details">Detalhes acerca do sono</string>
 
-    <string name="step_goal_default_title">Objetivo padrão</string>
+  <string name="sleep_awake">Acordado</string>
+  <string name="sleep_light">Sono Leve</string>
+  <string name="sleep_deep">Sono Profundo</string>
+  <string name="sleep_rem">REM</string>
 
+  <!-- Pulse -->
+  <string name="pulse_details">Detalhes sobre a pulsação</string>
 
-    <!-- Sleep monitoring -->
-    <string name="sleep_details">Detalhes acerca do sono</string>
+  <string name="pulse_continuous_title">
+    Monitoramento contínua da pulsação
+  </string>
 
-    <string name="sleep_awake">Acordado</string>
-    <string name="sleep_light">Sono Leve</string>
-    <string name="sleep_deep">Sono Profundo</string>
-    <string name="sleep_rem">REM</string>
+  <string name="heart_rate_warning_title">Aviso de freqüência cardíaca</string>
+  <string name="low_and_high_heart_rates">
+    Low and high heart rate thresholds
+  </string>
+  <string name="low_heart_rate">Baixa freqüência cardíaca</string>
+  <string name="high_heart_rate">Ritmo cardíaco alto</string>
 
+  <!-- Blood oxygen -->
+  <string name="blood_oxygen_details">Detalhes de oxigênio no sangue</string>
 
-    <!-- Pulse -->
-    <string name="pulse_details">Detalhes sobre a pulsação</string>
+  <string name="blood_oxygen_level_measurement">
+    Blood oxygen level measurement
+  </string>
+  <string name="measurement_interval">Measurement interval</string>
 
-    <string name="pulse_continuous_title">Monitoramento contínua da pulsação</string>
+  <!-- Blood pressure -->
+  <string name="blood_pressure_details">Detalhes da pressão arterial</string>
 
-    <string name="heart_rate_warning_title">Aviso de freqüência cardíaca</string>
-    <string name="low_and_high_heart_rates">Low and high heart rate thresholds</string>
-    <string name="low_heart_rate">Baixa freqüência cardíaca</string>
-    <string name="high_heart_rate">Ritmo cardíaco alto</string>
+  <string name="blood_pressure_level_measurement">
+    Blood pressure level measurement
+  </string>
 
+  <string name="blood_pressure_systolic_abbreviation">Sys</string>
+  <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+  <string name="blood_pressure_unit">mmHg</string>
 
-    <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">Detalhes de oxigênio no sangue</string>
+  <!-- Workout -->
+  <string name="workout_details">Detalhes de treino</string>
 
-    <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
-    <string name="measurement_interval">Measurement interval</string>
+  <!-- Alarm -->
+  <string name="action_time_alarm_sort_state_asc">Ascender por estado</string>
+  <string name="action_time_alarm_sort_watch_asc">Ascender por hora</string>
+  <string name="action_time_alarm_sort_name_asc">Ascender por nome</string>
 
+  <string name="message_time_alarm_sync">
+    Sincronizar os alarmes da %1$s (apagar e configurar os alarmes no seu
+    smartwatch)
+  </string>
+  <!-- %1$s = Haylou Smart Watch ... -->
 
-    <!-- Blood pressure -->
-    <string name="blood_pressure_details">Detalhes da pressão arterial</string>
-
-    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
-
-    <string name="blood_pressure_systolic_abbreviation">Sys</string>
-    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
-    <string name="blood_pressure_unit">mmHg</string>
-
-
-    <!-- Workout -->
-    <string name="workout_details">Detalhes de treino</string>
-
-
-    <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">Ascender por estado</string>
-    <string name="action_time_alarm_sort_watch_asc">Ascender por hora</string>
-    <string name="action_time_alarm_sort_name_asc">Ascender por nome</string>
-
-    <string name="message_time_alarm_sync">Sincronizar os alarmes da %1$s (apagar e configurar os alarmes no seu smartwatch)</string> <!-- %1$s = Haylou Smart Watch ... -->
-
-    <string name="info_dialog_alarm"><![CDATA[
+  <string
+    name="info_dialog_alarm"
+  ><![CDATA[
         <p>Ao usar o modo compartilhado, as configurações do aplicativo original e do aplicativo <app_name/> podem substituir e excluir as configurações um do outro.</p>
         A última operação realizada terá efeito.
     ]]></string>
 
+  <!-- Reminder -->
+  <string name="message_reminder_enabled">Lembrete ativado</string>
+  <string name="message_reminder_disabled">Lembrete desativado</string>
 
-    <!-- Reminder -->
-    <string name="message_reminder_enabled">Lembrete ativado</string>
-    <string name="message_reminder_disabled">Lembrete desativado</string>
+  <string name="reminder_repeat">Repetir de hora em hora</string>
+  <string name="reminder_notification_shade">
+    Notificar-me no dispositivo
+  </string>
 
-    <string name="reminder_repeat">Repetir de hora em hora</string>
-    <string name="reminder_notification_shade">Notificar-me no dispositivo</string>
+  <string name="message_time_reminder_free_counter">
+    Up to 1 reminder can be used in free mode
+  </string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
-
-    <string name="info_dialog_reminder"><![CDATA[
+  <string
+    name="info_dialog_reminder"
+  ><![CDATA[
         >É necessário estar conectado por Bluetooth para apresentar os lembretes.
         ]]>
     </string>
 
+  <!-- Do not disturb -->
+  <string name="pref_dnd_summary">
+    Estado das funções no modo não perturbe - DND
+  </string>
+  <string name="pref_dnd_enable_bluetooth">
+    Desligar Bluetooth ao iniciar o modo DND e voltar a ligar quando terminar
+  </string>
 
-    <!-- Do not disturb -->
-    <string name="pref_dnd_summary">Estado das funções no modo não perturbe - DND</string>
-    <string name="pref_dnd_enable_bluetooth">Desligar Bluetooth ao iniciar o modo DND e voltar a ligar quando terminar</string>
-
-    <string name="info_dialog_dnd"><![CDATA[
+  <string
+    name="info_dialog_dnd"
+  ><![CDATA[
         Se você estiver usando o modo compartilhado, no aplicativo oficial <device_type/> o modo não perturbe (DnD) deve estar entre 00:00 e 23:59 e seu status deve ser desligado.
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
+  <!-- %1$s Haylou fit-->
 
+  <!-- Watch face -->
+  <string name="watch_face_tab_watch_faces">Watch faces</string>
+  <string name="watch_face_tab_watch_face_custom">
+    Arquivos Personalizados
+  </string>
+  <string name="watch_face_tab_watch_face_editor">Editor</string>
 
-    <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">Watch faces</string>
-    <string name="watch_face_tab_watch_face_custom">Arquivos Personalizados</string>
-    <string name="watch_face_tab_watch_face_editor">Editor</string>
+  <string name="watch_face_download_title">Baixar watch faces</string>
+  <string name="watch_face_upload_title">Upload Watch Face</string>
+  <string name="watch_face_tool_title">Tools</string>
 
-    <string name="watch_face_download_title">Baixar watch faces</string>
-    <string name="watch_face_upload_title">Upload Watch Face</string>
-    <string name="watch_face_tool_title">Tools</string>
+  <string name="watch_face_share_content">
+    Você pode compartilhar o mostrador do relógio que criou com outras
+    pessoas. Envie por e-mail o mostrador do relógio e os arquivos de
+    visualização e insira as seguintes informações: autor, nome do mostrador do
+    relógio (máximo de 30 caracteres no total) e o idioma do mostrador do
+    relógio. Publicamos apenas mostradores de alta qualidade.
+  </string>
 
-    <string name="watch_face_share_content">Você pode compartilhar o mostrador do relógio que criou com outras pessoas. Envie por e-mail o mostrador do relógio e os arquivos de visualização e insira as seguintes informações: autor, nome do mostrador do relógio (máximo de 30 caracteres no total) e o idioma do mostrador do relógio. Publicamos apenas mostradores de alta qualidade.</string>
+  <string name="watch_face_upload_prepare">
+    Preparando para realizar o Envio…
+  </string>
+  <string name="watch_face_upload_progress">Fazendo Upload de %1$,d%%</string>
 
-    <string name="watch_face_upload_prepare">Preparando para realizar o Envio…</string>
-    <string name="watch_face_upload_progress">Fazendo Upload de %1$,d%%</string>
+  <string name="watch_face_invalid_firmware">
+    %1$s o firmware não suporta o upload do mostrador do relógio, atualize o
+    firmware no aplicativo oficial
+  </string>
+  <!-- %1$s = Haylou Smart watch ... -->
+  <string name="watch_face_invalid_auth">
+    Use no modo autônomo, ao usar o modo compartilhado, o aplicativo oficial
+    pode bloquear o upload do mostrador do relógio
+  </string>
+  <string name="watch_face_invalid_free">
+    No modo grátis, mais Watch faces não podem ser carregadas hoje
+  </string>
+  <string name="watch_face_watch_rewarded_ads">
+    Assista a um vídeo para continuar
+  </string>
+  <string name="watch_face_watch_rewarded_ads_uploading">
+    Watch a video to continue uploading
+  </string>
+  <string name="watch_face_watch_rewarded_ads_countdown">
+    Video starting…
+  </string>
 
-    <string name="watch_face_invalid_firmware">%1$s o firmware não suporta o upload do mostrador do relógio, atualize o firmware no aplicativo oficial</string> <!-- %1$s = Haylou Smart watch ... -->
-    <string name="watch_face_invalid_auth">Use no modo autônomo, ao usar o modo compartilhado, o aplicativo oficial pode bloquear o upload do mostrador do relógio</string>
-    <string name="watch_face_invalid_free">No modo grátis, mais Watch faces não podem ser carregadas hoje</string>
-    <string name="watch_face_watch_rewarded_ads">Assista a um vídeo para continuar</string>
-    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+  <string name="watch_face_upload_method_title">Method</string>
+  <string name="watch_face_upload_method_default">@string/default_</string>
+  <string name="watch_face_upload_method_alternative">Alternative</string>
 
-    <string name="watch_face_upload_method_title">Method</string>
-    <string name="watch_face_upload_method_default">@string/default_</string>
-    <string name="watch_face_upload_method_alternative">Alternative</string>
+  <string name="watch_face_upload_speed_title">Velocidade de Upload</string>
+  <string name="watch_face_upload_invalid_speed_hint">
+    Defina uma velocidade mais baixa se o processo de envio do mostrador do
+    relógio for interrompido
+  </string>
+  <string name="watch_face_upload_invalid_size_hint">
+    Invalid watch face file size, set lower watch face quality or remove items
+    from watch face
+  </string>
+  <string name="watch_face_upload_invalid_battery_hint">
+    The smartwatch battery is running low, please charge the watch
+  </string>
 
-    <string name="watch_face_upload_speed_title">Velocidade de Upload</string>
-    <string name="watch_face_upload_invalid_speed_hint">Defina uma velocidade mais baixa se o processo de envio do mostrador do relógio for interrompido</string>
-    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
-    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
+  <string name="watch_face_tbwf_quality_title">
+    .tbwf watch face quality setting
+  </string>
+  <string name="watch_face_tbwf_quality_hint">
+    The file size can be reduced if the watch allows it
+  </string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
-    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+  <string name="watch_face_tbwf_locale_title">
+    .tbwf watch face language and country setting
+  </string>
+  <string name="watch_face_tbwf_locale_hint">
+    Day of week, month separator and decimal separator
+  </string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
-    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+  <string name="message_watch_face_file_invalid">
+    O arquivo da watch face não é válido
+  </string>
+  <string name="message_watch_face_file_invalid_size">
+    Invalid watch face file size
+  </string>
+  <string name="message_watch_face_file_invalid_battery">
+    The smartwatch battery is running low
+  </string>
+  <string name="message_watch_face_image_file_error">
+    Arquivo de imagem inválido
+  </string>
+  <string name="message_watch_face_font_file_error">
+    Arquivo de fonte inválido
+  </string>
 
-    <string name="message_watch_face_file_invalid">O arquivo da watch face não é válido</string>
-    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
-    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
-    <string name="message_watch_face_image_file_error">Arquivo de imagem inválido</string>
-    <string name="message_watch_face_font_file_error">Arquivo de fonte inválido</string>
+  <string name="action_chart_layout_2_columns">Layout em 2 colunas</string>
+  <string name="action_chart_layout_3_columns">Layout em 3 colunas</string>
 
-    <string name="action_chart_layout_2_columns">Layout em 2 colunas</string>
-    <string name="action_chart_layout_3_columns">Layout em 3 colunas</string>
+  <string name="watch_face_edit_dial">Dial</string>
+  <string name="watch_face_edit_preview">Preview</string>
+  <string name="watch_face_edit_hour_digital">Hora</string>
+  <string name="watch_face_edit_minute_digital">Minuto</string>
+  <string name="watch_face_edit_second_digital">Segundo</string>
+  <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+  <string name="watch_face_edit_am">AM</string>
+  <string name="watch_face_edit_pm">PM</string>
+  <string name="watch_face_edit_hour_analog">Hour hand</string>
+  <string name="watch_face_edit_minute_analog">Minute hand</string>
+  <string name="watch_face_edit_second_analog">Second hand</string>
+  <string name="watch_face_edit_axis">Axis of rotation</string>
+  <string name="watch_face_edit_hour_minute_separator">
+    Hora e minuto separador
+  </string>
+  <string name="watch_face_edit_year">Ano</string>
+  <string name="watch_face_edit_year_month_separator">
+    Separador de ano e mês
+  </string>
+  <string name="watch_face_edit_month">Mês</string>
+  <string name="watch_face_edit_month_name">Nome do mês</string>
+  <string name="watch_face_edit_month_day_separator">
+    Separador de mês e dia
+  </string>
+  <string name="watch_face_edit_day">Dia</string>
+  <string name="watch_face_edit_dayOfWeek">O dia da semana</string>
+  <string name="watch_face_edit_battery_level">Bateria</string>
+  <string name="watch_face_edit_battery_level_percent_sign">Bateria %</string>
+  <string name="watch_face_edit_battery_level_image">Imagem da bateria</string>
+  <string name="watch_face_edit_weather_temperature">Temperatura</string>
+  <string name="watch_face_edit_weather_temperature_unit_sign">
+    Unidade de temperatura °
+  </string>
+  <string name="watch_face_edit_weather_image">Weather image</string>
+  <string name="watch_face_edit_connection_indicator_image">
+    Connection indicator image
+  </string>
+  <string name="watch_face_edit_connected">Conectado</string>
+  <string name="watch_face_edit_disconnected">Desconectado</string>
+  <string name="watch_face_edit_steps">Passos</string>
+  <string name="watch_face_edit_steps_image">Imagem de etapas</string>
+  <string name="watch_face_edit_steps_goal_progress">
+    Steps goal progress
+  </string>
+  <string name="watch_face_edit_distance">Distância</string>
+  <string name="watch_face_edit_distance_image">Distance image</string>
+  <string name="watch_face_edit_calories">Calorias</string>
+  <string name="watch_face_edit_calories_image">Imagem de calorias</string>
+  <string name="watch_face_edit_heart_rate">Frequência cardíaca</string>
+  <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
-    <string name="watch_face_edit_preview">Preview</string>
-    <string name="watch_face_edit_hour_digital">Hora</string>
-    <string name="watch_face_edit_minute_digital">Minuto</string>
-    <string name="watch_face_edit_second_digital">Segundo</string>
-    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
-    <string name="watch_face_edit_am">AM</string>
-    <string name="watch_face_edit_pm">PM</string>
-    <string name="watch_face_edit_hour_analog">Hour hand</string>
-    <string name="watch_face_edit_minute_analog">Minute hand</string>
-    <string name="watch_face_edit_second_analog">Second hand</string>
-    <string name="watch_face_edit_axis">Axis of rotation</string>
-    <string name="watch_face_edit_hour_minute_separator">Hora e minuto separador</string>
-    <string name="watch_face_edit_year">Ano</string>
-    <string name="watch_face_edit_year_month_separator">Separador de ano e mês</string>
-    <string name="watch_face_edit_month">Mês</string>
-    <string name="watch_face_edit_month_name">Nome do mês</string>
-    <string name="watch_face_edit_month_day_separator">Separador de mês e dia</string>
-    <string name="watch_face_edit_day">Dia</string>
-    <string name="watch_face_edit_dayOfWeek">O dia da semana</string>
-    <string name="watch_face_edit_battery_level">Bateria</string>
-    <string name="watch_face_edit_battery_level_percent_sign">Bateria %</string>
-    <string name="watch_face_edit_battery_level_image">Imagem da bateria</string>
-    <string name="watch_face_edit_weather_temperature">Temperatura</string>
-    <string name="watch_face_edit_weather_temperature_unit_sign">Unidade de temperatura °</string>
-    <string name="watch_face_edit_weather_image">Weather image</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
-    <string name="watch_face_edit_connected">Conectado</string>
-    <string name="watch_face_edit_disconnected">Desconectado</string>
-    <string name="watch_face_edit_steps">Passos</string>
-    <string name="watch_face_edit_steps_image">Imagem de etapas</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
-    <string name="watch_face_edit_distance">Distância</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
-    <string name="watch_face_edit_calories">Calorias</string>
-    <string name="watch_face_edit_calories_image">Imagem de calorias</string>
-    <string name="watch_face_edit_heart_rate">Frequência cardíaca</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+  <string name="watch_face_edit_color">Cor</string>
+  <string name="watch_face_edit_font_family">Fonte</string>
+  <string name="watch_face_edit_font_size">Tamanho da fonte</string>
+  <string name="watch_face_edit_character">Character</string>
+  <string name="watch_face_edit_image">Imagem</string>
+  <string name="watch_face_edit_image_png_jpeg">Imagem (.png, .jpeg)</string>
+  <string name="watch_face_edit_image_png">Imagem (.png)</string>
+  <string name="watch_face_edit_icon">Icon</string>
+  <string name="watch_face_edit_image_size">Tamanho da imagem</string>
 
-    <string name="watch_face_edit_color">Cor</string>
-    <string name="watch_face_edit_font_family">Fonte</string>
-    <string name="watch_face_edit_font_size">Tamanho da fonte</string>
-    <string name="watch_face_edit_character">Character</string>
-    <string name="watch_face_edit_image">Imagem</string>
-    <string name="watch_face_edit_image_png_jpeg">Imagem (.png, .jpeg)</string>
-    <string name="watch_face_edit_image_png">Imagem (.png)</string>
-    <string name="watch_face_edit_icon">Icon</string>
-    <string name="watch_face_edit_image_size">Tamanho da imagem</string>
+  <string name="watch_face_custom_watch_face_not_supported_title">
+    The watch does not support uploading a custom watch face
+  </string>
+  <string name="watch_face_custom_watch_face_under_development_title">
+    The ability to upload custom watch faces is currently in development and may
+    be available in the future, but it is not yet confirmed
+  </string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+  <!-- Touch monitoring -->
+  <string name="touch_tab_function">Funções</string>
+  <string name="touch_tab_control">Controles</string>
+  <string name="touch_tab_testing">Testar</string>
+  <string name="touch_tab_setting">@string/setting_name</string>
 
-    <!-- Touch monitoring -->
-    <string name="touch_tab_function">Funções</string>
-    <string name="touch_tab_control">Controles</string>
-    <string name="touch_tab_testing">Testar</string>
-    <string name="touch_tab_setting">@string/setting_name</string>
+  <string name="touch_function_summary">
+    Configure estes recursos se você estiver utilizando o modo \'Autônomo^\' ou
+    se não estiverem a ser corretamente controladas pela Mi Fit
+  </string>
+  <string name="touch_function">Função da %1$s</string>
+  <!-- %1$s = Watch name -->
+  <string name="touch_function_as_touch">
+    Usar a função como um toque no menu de controle
+  </string>
 
-    <string name="touch_function_summary">Configure estes recursos se você estiver utilizando o modo \'Autônomo^\' ou se não estiverem a ser corretamente controladas pela Mi Fit</string>
-    <string name="touch_function">Função da %1$s</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">Usar a função como um toque no menu de controle</string>
+  <string name="touch_headline_incoming_call_title">Chamadas recebidas</string>
+  <string name="touch_headline_other_function_title">Outras funções</string>
+  <string name="touch_headline_call_title">Controlar chamadas</string>
+  <string name="touch_headline_music_title">Controlar multimídia</string>
+  <string name="touch_headline_time_title">
+    Controlar Cronômetro/Temporizador
+  </string>
+  <string name="touch_headline_other_title">Outros controles</string>
 
-    <string name="touch_headline_incoming_call_title">Chamadas recebidas</string>
-    <string name="touch_headline_other_function_title">Outras funções</string>
-    <string name="touch_headline_call_title">Controlar chamadas</string>
-    <string name="touch_headline_music_title">Controlar multimídia</string>
-    <string name="touch_headline_time_title">Controlar Cronômetro/Temporizador</string>
-    <string name="touch_headline_other_title">Outros controles</string>
+  <string name="touch_device_location_title">
+    Localizar o meu dispositivo
+  </string>
+  <string name="touch_device_location_not_muted_only_title">
+    Emitir som apenas se não estiver silenciado ou em modo DND
+  </string>
 
-    <string name="touch_device_location_title">Localizar o meu dispositivo</string>
-    <string name="touch_device_location_not_muted_only_title">Emitir som apenas se não estiver silenciado ou em modo DND</string>
+  <string name="touch_mute_toggle_title">Silenciar Dispositivo</string>
+  <string name="touch_mute_toggle_ringer_mode_title">Modo mudo</string>
+  <string name="touch_mute_toggle_mute_off_title">Mudo desligado</string>
 
-    <string name="touch_mute_toggle_title">Silenciar Dispositivo</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Modo mudo</string>
-    <string name="touch_mute_toggle_mute_off_title">Mudo desligado</string>
+  <string name="touch_music_title">Música</string>
+  <string name="touch_music_function_launch">
+    Iniciar música com o botão \'Play\' se for encontrada alguma na lista de
+    reprodução
+  </string>
+  <string name="touch_music_function_mi_band_message_launch">
+    Iniciar música com o botão \'Play\'
+  </string>
+  <string name="touch_music_function_mi_band_message_no_track_title">
+    Não foi possível obter o nome da música
+  </string>
 
-    <string name="touch_music_title">Música</string>
-    <string name="touch_music_function_launch">Iniciar música com o botão \'Play\' se for encontrada alguma na lista de reprodução</string>
-    <string name="touch_music_function_mi_band_message_launch">Iniciar música com o botão \'Play\'</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">Não foi possível obter o nome da música</string>
+  <string name="touch_call_out_title">Ligar para</string>
+  <string name="touch_call_out_no_contact">Selecionar um contato</string>
+  <string name="touch_call_out_summary">
+    Pressionar duas vezes para atender a chamada
+  </string>
+  <string name="touch_call_out_summary_support_call_display_button">
+    Pressione o botão para atender a chamada
+  </string>
+  <string name="touch_call_out_speakerphone_title">Viva-voz</string>
+  <string name="touch_call_out_call_text">Telefonar: %1$s</string>
 
-    <string name="touch_call_out_title">Ligar para</string>
-    <string name="touch_call_out_no_contact">Selecionar um contato</string>
-    <string name="touch_call_out_summary">Pressionar duas vezes para atender a chamada</string>
-    <string name="touch_call_out_summary_support_call_display_button">Pressione o botão para atender a chamada</string>
-    <string name="touch_call_out_speakerphone_title">Viva-voz</string>
-    <string name="touch_call_out_call_text">Telefonar: %1$s</string>
+  <string name="touch_weather_title">Previsão do tempo</string>
+  <string name="touch_weather_location">Atualizar localização</string>
+  <string name="touch_weather_precipitation">Precipitação</string>
+  <string name="touch_weather_cloud_cover">Nevoeiro</string>
+  <string name="touch_weather_wind">Vento</string>
 
-    <string name="touch_weather_title">Previsão do tempo</string>
-    <string name="touch_weather_location">Atualizar localização</string>
-    <string name="touch_weather_precipitation">Precipitação</string>
-    <string name="touch_weather_cloud_cover">Nevoeiro</string>
-    <string name="touch_weather_wind">Vento</string>
+  <string name="touch_repeat_notif_title">Repetir as notificações</string>
+  <string name="touch_repeat_notif_clear_all">
+    Limpar todas as notificações depois de repetir
+  </string>
 
-    <string name="touch_repeat_notif_title">Repetir as notificações</string>
-    <string name="touch_repeat_notif_clear_all">Limpar todas as notificações depois de repetir</string>
+  <string name="touch_clear_notif_title">
+    Limpar as notificações do dispositivo
+  </string>
 
-    <string name="touch_clear_notif_title">Limpar as notificações do dispositivo</string>
+  <string name="touch_music_play_pause_title">
+    Iniciar aplicação, iniciar/pausar música
+  </string>
+  <string name="touch_music_skip_previous_title">
+    Iniciar aplicação, música anterior
+  </string>
+  <string name="touch_music_skip_next_title">
+    Iniciar aplicação, próxima música
+  </string>
+  <string name="touch_music_headset_only_title">
+    Apenas se o headset estiver conectado
+  </string>
+  <string name="touch_music_launch">Iniciar reprodutor de música</string>
+  <string name="touch_music_volume_up_title">Aumentar o volume</string>
+  <string name="touch_music_volume_down_title">Diminuir o volume</string>
+  <string name="touch_music_track_info_title">
+    Mostrar informação sobre a música
+  </string>
 
-    <string name="touch_music_play_pause_title">Iniciar aplicação, iniciar/pausar música</string>
-    <string name="touch_music_skip_previous_title">Iniciar aplicação, música anterior</string>
-    <string name="touch_music_skip_next_title">Iniciar aplicação, próxima música</string>
-    <string name="touch_music_headset_only_title">Apenas se o headset estiver conectado</string>
-    <string name="touch_music_launch">Iniciar reprodutor de música</string>
-    <string name="touch_music_volume_up_title">Aumentar o volume</string>
-    <string name="touch_music_volume_down_title">Diminuir o volume</string>
-    <string name="touch_music_track_info_title">Mostrar informação sobre a música</string>
+  <string name="touch_time_launch_title">Iniciar Cronômetro</string>
+  <string name="touch_time_launch_type_timer_title">Temporizador</string>
+  <string name="touch_time_launch_type_stopper_title">Cronômetro</string>
+  <string name="touch_time_launch_type_interval_title">Treino</string>
+  <string name="touch_time_launch_restart">
+    Reiniciar se estiver a decorrer
+  </string>
+  <string name="touch_time_reminder_title">
+    Mostrar tempo restante/decorrido
+  </string>
 
-    <string name="touch_time_launch_title">Iniciar Cronômetro</string>
-    <string name="touch_time_launch_type_timer_title">Temporizador</string>
-    <string name="touch_time_launch_type_stopper_title">Cronômetro</string>
-    <string name="touch_time_launch_type_interval_title">Treino</string>
-    <string name="touch_time_launch_restart">Reiniciar se estiver a decorrer</string>
-    <string name="touch_time_reminder_title">Mostrar tempo restante/decorrido</string>
+  <string name="touch_google_assistant_title">Google Assistente</string>
 
-    <string name="touch_google_assistant_title">Google Assistente</string>
+  <string name="touch_flashlight_title">Ligar/desligar a lanterna</string>
 
-    <string name="touch_flashlight_title">Ligar/desligar a lanterna</string>
+  <string name="touch_camera_title">Tirar uma foto</string>
+  <string name="touch_camera_front_title">Frontal</string>
+  <string name="touch_camera_rear_title">Traseira</string>
+  <string name="touch_camera_install_title">Instalar</string>
 
-    <string name="touch_camera_title">Tirar uma foto</string>
-    <string name="touch_camera_front_title">Frontal</string>
-    <string name="touch_camera_rear_title">Traseira</string>
-    <string name="touch_camera_install_title">Instalar</string>
+  <string name="touch_app_launcher1_title">Iniciar aplicações</string>
+  <string name="touch_app_launcher_package_no_title">
+    Selecionar uma aplicação
+  </string>
+  <string name="touch_app_launcher1_not_wakelock_only_title">
+    Apenas se a tela estiver desbloqueada
+  </string>
 
-    <string name="touch_app_launcher1_title">Iniciar aplicações</string>
-    <string name="touch_app_launcher_package_no_title">Selecionar uma aplicação</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">Apenas se a tela estiver desbloqueada</string>
+  <string name="touch_broadcast1_title">Enviar transmissão</string>
+  <string name="touch_broadcast1_action_title">Ação intencional</string>
+  <string name="touch_broadcast1_package_title">
+    Nome do pacote de intenção
+  </string>
 
-    <string name="touch_broadcast1_title">Enviar transmissão</string>
-    <string name="touch_broadcast1_action_title">Ação intencional</string>
-    <string name="touch_broadcast1_package_title">Nome do pacote de intenção</string>
+  <string name="touch_http_request1_title">1. pedido HTTP</string>
+  <string name="touch_http_request2_title">2. pedido HTTP</string>
+  <string name="touch_http_request_url_title">URL</string>
+  <string name="touch_http_request_method_title">Método</string>
+  <string name="touch_http_request_body_title">Corpo</string>
+  <string name="touch_http_request_show_response_title">
+    Mostrar a resposta
+  </string>
 
-    <string name="touch_http_request1_title">1. pedido HTTP</string>
-    <string name="touch_http_request2_title">2. pedido HTTP</string>
-    <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Método</string>
-    <string name="touch_http_request_body_title">Corpo</string>
-    <string name="touch_http_request_show_response_title">Mostrar a resposta</string>
+  <string name="touch_tasker_launcher1_title">
+    1. Iniciar tarefa do Gestor de tarefas
+  </string>
+  <string name="touch_tasker_launcher2_title">
+    2. Iniciar tarefa do Gestor de tarefas
+  </string>
+  <string name="touch_tasker_launcher_no_permission_title">
+    Você tem que instalar o \'Gerenciador de tarefas\' primeiro e só depois
+    a \'Mi Bandage\'.
+  </string>
+  <string name="touch_tasker_launcher_no_access_title">
+    Permitir acesso externo
+  </string>
+  <string name="touch_tasker_launcher_no_task_title">
+    Selecionar um tarefa
+  </string>
 
-    <string name="touch_tasker_launcher1_title">1. Iniciar tarefa do Gestor de tarefas</string>
-    <string name="touch_tasker_launcher2_title">2. Iniciar tarefa do Gestor de tarefas</string>
-    <string name="touch_tasker_launcher_no_permission_title">Você tem que instalar o \'Gerenciador de tarefas\' primeiro e só depois a \'Mi Bandage\'.</string>
-    <string name="touch_tasker_launcher_no_access_title">Permitir acesso externo</string>
-    <string name="touch_tasker_launcher_no_task_title">Selecionar um tarefa</string>
+  <string name="touch_testing_title">Monitorar o Touch</string>
+  <string name="touch_testing_second">seg.</string>
 
-    <string name="touch_testing_title">Monitorar o Touch</string>
-    <string name="touch_testing_second">seg.</string>
+  <string name="touch_setting_detection_time_title">
+    Tempo para detectar o touch
+  </string>
+  <string name="touch_setting_detection_time_music_hint">
+    Se você colocar um valor baixo, a tela \'música\' deverá ser fechado mais
+    rápido
+  </string>
+  <string name="touch_setting_detection_time_button_hint">
+    Se você colocar um valor baixo, você terá de pressionar o botão mais rápido
+  </string>
 
-    <string name="touch_setting_detection_time_title">Tempo para detectar o touch</string>
-    <string name="touch_setting_detection_time_music_hint">Se você colocar um valor baixo, a tela \'música\' deverá ser fechado mais rápido</string>
-    <string name="touch_setting_detection_time_button_hint">Se você colocar um valor baixo, você terá de pressionar o botão mais rápido</string>
+  <string name="touch_setting_detection_method_title">
+    Método de monitoramento do Touch
+  </string>
 
-    <string name="touch_setting_detection_method_title">Método de monitoramento do Touch</string>
+  <string name="touch_setting_recognition_start_title">
+    Iniciar reconhecimento do Padrão
+  </string>
+  <string name="touch_setting_recognition_start_trigger_title">Gatilho</string>
+  <string name="touch_setting_recognition_time_title">
+    Tempo de reconhecimento
+  </string>
 
-    <string name="touch_setting_recognition_start_title">Iniciar reconhecimento do Padrão</string>
-    <string name="touch_setting_recognition_start_trigger_title">Gatilho</string>
-    <string name="touch_setting_recognition_time_title">Tempo de reconhecimento</string>
+  <string name="touch_setting_recognition_mi_band_signal_title">
+    Aviso da %1$s
+  </string>
+  <!-- %1$s = Watch name -->
+  <string name="touch_setting_recognition_succeeded_title">
+    Padrão touch reconhecido
+  </string>
+  <string name="touch_setting_recognition_failed_title">
+    Padrão touch não reconhecido
+  </string>
 
-    <string name="touch_setting_recognition_mi_band_signal_title">Aviso da %1$s</string> <!-- %1$s = Watch name -->
-    <string name="touch_setting_recognition_succeeded_title">Padrão touch reconhecido</string>
-    <string name="touch_setting_recognition_failed_title">Padrão touch não reconhecido</string>
-
-    <string name="info_dialog_touch"><![CDATA[
+  <string
+    name="info_dialog_touch"
+  ><![CDATA[
         <p>Funciona corretamente no modo autônomo. Se você usar o modo compartilhado, o aplicativo oficial <app_official /> também lidará com essas funções, portanto, a operação adequada não pode ser garantida.</p>
         <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>Toques reconhecidos</u></b>
@@ -670,90 +1088,121 @@
         Vários toques podem ser gravados para uma função.
     ]]></string>
 
+  <!-- Weather -->
+  <string name="weather_tab_weather_forecast">Previsão do tempo</string>
+  <string name="weather_tab_location">Localização</string>
+  <string name="weather_tab_settings">@string/setting_name</string>
 
-    <!-- Weather -->
-    <string name="weather_tab_weather_forecast">Previsão do tempo</string>
-    <string name="weather_tab_location">Localização</string>
-    <string name="weather_tab_settings">@string/setting_name</string>
+  <string name="weather_location_title">Localização</string>
 
-    <string name="weather_location_title">Localização</string>
+  <string name="weather_forecast_title">Previsão do tempo</string>
 
-    <string name="weather_forecast_title">Previsão do tempo</string>
+  <string name="weather_setting_provider">Provedor de clima</string>
+  <string name="weather_city_title">Cidade</string>
+  <string name="weather_unit_title">Unidade</string>
+  <string name="weather_unit_metric">Métrico (Celsius)</string>
+  <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
+  <string name="weather_automatic_update">Atualizar automaticamente</string>
+  <string name="weather_automatic_update_title">Use sua localização</string>
+  <string name="weather_automatic_update_summary">
+    Este aplicativo coleta dados de localização para atualizar o clima para a
+    localização atual, mesmo quando o aplicativo está fechado ou não estiver em
+    uso.
+  </string>
 
-    <string name="weather_setting_provider">Provedor de clima</string>
-    <string name="weather_city_title">Cidade</string>
-    <string name="weather_unit_title">Unidade</string>
-    <string name="weather_unit_metric">Métrico (Celsius)</string>
-    <string name="weather_unit_imperial">Imperial (Fahrenheit)</string>
-    <string name="weather_automatic_update">Atualizar automaticamente</string>
-    <string name="weather_automatic_update_title">Use sua localização</string>
-    <string name="weather_automatic_update_summary">Este aplicativo coleta dados de localização para atualizar o clima para a localização atual, mesmo quando o aplicativo está fechado ou não estiver em uso.</string>
+  <string name="permission_background_location">
+    %1$s terá permissão para coletar dados de localização, mesmo quando o
+    aplicativo estiver fechado ou não estiver em uso
+  </string>
+  <string name="permission_error_title">
+    %1$s não pode atualizar as permissões
+  </string>
+  <string name="permission_error_description">
+    Abrir Configurações e selecionar a opção “%1$s“ para permissões de
+    localização
+  </string>
+  <string name="all_the_time">O tempo todo</string>
 
-    <string name="permission_background_location">%1$s terá permissão para coletar dados de localização, mesmo quando o aplicativo estiver fechado ou não estiver em uso</string>
-    <string name="permission_error_title">%1$s não pode atualizar as permissões</string>
-    <string name="permission_error_description">Abrir Configurações e selecionar a opção “%1$s“ para permissões de localização</string>
-    <string name="all_the_time">O tempo todo</string>
+  <string name="weather_current_title">Clima atual</string>
+  <string name="weather_current_location">Localização atual</string>
+  <string name="weather_current_temperature">Temperatura atual</string>
 
-    <string name="weather_current_title">Clima atual</string>
-    <string name="weather_current_location">Localização atual</string>
-    <string name="weather_current_temperature">Temperatura atual</string>
+  <string name="weather_display">Ecrã</string>
 
-    <string name="weather_display">Ecrã</string>
+  <string name="weather_precipitation_rain">Chuva</string>
+  <string name="weather_precipitation_snow">Neve</string>
+  <string name="weather_cloud_cover_abbreviation">En</string>
+  <string name="weather_cloud_cover">Nuvem</string>
+  <string name="weather_humidity">Umidade</string>
 
-    <string name="weather_precipitation_rain">Chuva</string>
-    <string name="weather_precipitation_snow">Neve</string>
-    <string name="weather_cloud_cover_abbreviation">En</string>
-    <string name="weather_cloud_cover">Nuvem</string>
-    <string name="weather_humidity">Umidade</string>
+  <string name="weather_north">N</string>
+  <string name="weather_east">E</string>
+  <string name="weather_south">S</string>
+  <string name="weather_west">W</string>
 
-    <string name="weather_north">N</string>
-    <string name="weather_east">E</string>
-    <string name="weather_south">S</string>
-    <string name="weather_west">W</string>
+  <!-- Text display -->
+  <string name="pref_text_emoticon_title">Conversão de Emojis</string>
+  <string name="pref_text_emoticon_summary_on">
+    Converter Emojis em Emoticons
+  </string>
+  <string name="pref_text_uppercase_title">Conversão para MAIÚSCULA</string>
+  <string name="pref_text_uppercase_summary_on">
+    Converte letras minúsculas em MAIÚSCULAS
+  </string>
+  <string name="pref_text_alphanumeric_title">
+    Caracteres alfanuméricos e ASCII
+  </string>
+  <string name="pref_text_alphanumeric_summary_on">
+    Exibir apenas caracteres alfanuméricos e ASCII
+  </string>
+  <string name="pref_text_transliteration_title">Transliteração</string>
+  <string name="pref_text_transliteration_summary_on">
+    Convert accented letters to unaccented
+  </string>
+  <string name="pref_text_line_separator_title">
+    Substituição do separador de linha
+  </string>
+  <string name="pref_text_line_separator_summary_on">
+    Substitua o separador de linha padrão por outros caracteres
+  </string>
+  <string name="pref_text_line_separator_value_title">
+    Substituição de caracteres
+  </string>
+  <string name="pref_text_char_replacement_title">
+    Substituição de Emoji, Caractere
+  </string>
+  <string name="pref_text_char_replacement_summary_on">
+    Substitua um caractere por outro
+  </string>
+  <string name="pref_text_char_replacement_find">Procurar</string>
+  <string name="pref_text_char_replacement_replace">Reescrever com</string>
 
+  <!-- Export -->
+  <string name="export_tab_database">Exportação de dados</string>
 
-    <!-- Text display -->
-    <string name="pref_text_emoticon_title">Conversão de Emojis</string>
-    <string name="pref_text_emoticon_summary_on">Converter Emojis em Emoticons</string>
-    <string name="pref_text_uppercase_title">Conversão para MAIÚSCULA</string>
-    <string name="pref_text_uppercase_summary_on">Converte letras minúsculas em MAIÚSCULAS</string>
-    <string name="pref_text_alphanumeric_title">Caracteres alfanuméricos e ASCII</string>
-    <string name="pref_text_alphanumeric_summary_on">Exibir apenas caracteres alfanuméricos e ASCII</string>
-    <string name="pref_text_transliteration_title">Transliteração</string>
-    <string name="pref_text_transliteration_summary_on">Convert accented letters to unaccented</string>
-    <string name="pref_text_line_separator_title">Substituição do separador de linha</string>
-    <string name="pref_text_line_separator_summary_on">Substitua o separador de linha padrão por outros caracteres</string>
-    <string name="pref_text_line_separator_value_title">Substituição de caracteres</string>
-    <string name="pref_text_char_replacement_title">Substituição de Emoji, Caractere</string>
-    <string name="pref_text_char_replacement_summary_on">Substitua um caractere por outro</string>
-    <string name="pref_text_char_replacement_find">Procurar</string>
-    <string name="pref_text_char_replacement_replace">Reescrever com</string>
+  <string name="export_start_date">Data de início</string>
 
+  <!-- Theme -->
+  <string name="theme_tab_theme">Tema</string>
 
-    <!-- Export -->
-    <string name="export_tab_database">Exportação de dados</string>
+  <string name="theme_title">Selecionar um tema</string>
+  <string name="theme_background_color_title">Cor de fundo</string>
 
-    <string name="export_start_date">Data de início</string>
+  <string name="theme_widget_background_color_title">Cor</string>
+  <string name="theme_color_dynamic_color_title">Dynamic color</string>
+  <string name="theme_color_predefined_colors_title">Predefined colors</string>
 
+  <string name="theme_notification_title">
+    Mostrar o status na barra de notificação
+  </string>
 
-    <!-- Theme -->
-    <string name="theme_tab_theme">Tema</string>
+  <string name="theme_cat_color_setting">Configuração de cor</string>
 
-    <string name="theme_title">Selecionar um tema</string>
-    <string name="theme_background_color_title">Cor de fundo</string>
-
-    <string name="theme_widget_background_color_title">Cor</string>
-    <string name="theme_color_dynamic_color_title">Dynamic color</string>
-    <string name="theme_color_predefined_colors_title">Predefined colors</string>
-
-    <string name="theme_notification_title">Mostrar o status na barra de notificação</string>
-
-    <string name="theme_cat_color_setting">Configuração de cor</string>
-
-
-    <!-- Premium mode -->
-    <string name="purchase_advantage_title">Vantagens do Modo Premium</string>
-    <string name="purchase_advantage"><![CDATA[
+  <!-- Premium mode -->
+  <string name="purchase_advantage_title">Vantagens do Modo Premium</string>
+  <string
+    name="purchase_advantage"
+  ><![CDATA[
         <p>• apoio financeiro para o desenvolvimento</p>
         <p>• sem propagandas</p>
         <p>• sem limite de configuração de notificação</p>
@@ -765,8 +1214,12 @@
         <p>• gráficos diários detalhados</p>
         • removendo outras restrições …
     ]]></string>
-    <string name="purchase_policy_title">Termos e condições do Modo Premium</string>
-    <string name="purchase_policy"><![CDATA[
+  <string name="purchase_policy_title">
+    Termos e condições do Modo Premium
+  </string>
+  <string
+    name="purchase_policy"
+  ><![CDATA[
         <p>• Eu tenho testado a aplicação e ela está funcionando corretamente.</p>
         <p>• Eu estou ciente de que não posso exigir compensação ou reembolso devido a bugs, erros de software causados ​​por alterações, ambiente do hardware ou outras aplicações usadas.</p>
         <p>• Todas as vendas são finais e não podem ser reembolsadas (exceto pela política de reembolso do Google).</p>
@@ -774,33 +1227,59 @@
         <i>Depois da compra, você precisa reiniciar a aplicação.</i>
     ]]></string>
 
-    <string name="purchase_google_play_services_not_available">Os serviços do Google Play não estão disponíveis</string>
+  <string name="purchase_google_play_services_not_available">
+    Os serviços do Google Play não estão disponíveis
+  </string>
 
-    <string name="purchase_agree">Eu concordo com os Termos e Condições.</string>
-    <string name="purchase_order_id">ID da encomenda</string>
-    <string name="purchase_order_id_help">Copia de:
-        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
-        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_info">Taxa única ・ %1$s</string> <!-- %1$s = price</string>-->
-    <string name="purchase_button_purchase">Comprar</string>
+  <string name="purchase_agree">Eu concordo com os Termos e Condições.</string>
+  <string name="purchase_order_id">ID da encomenda</string>
+  <string name="purchase_order_id_help">
+    Copia de:
+        \n
+    <a href="https://play.google.com/store/account">
+      https://play.google.com/store/account
+    </a>
+    \n
+    <a href="https://payments.google.com">https://payments.google.com</a>
+  </string>
+  <string name="purchase_info">Taxa única ・ %1$s</string>
+  <!-- %1$s = price</string>-->
+  <string name="purchase_button_purchase">Comprar</string>
 
-    <!-- Feedback -->
-    <string name="action_log_notification">Registro</string>
+  <!-- Feedback -->
+  <string name="action_log_notification">Registro</string>
 
-    <string name="feedback_google_play_title">Avaliar esta aplicação</string>
-    <string name="feedback_request_feature_title">Recurso de solicitação/Reporte de Bugs</string>
-    <string name="feedback_request_feature_summary">O processamento de e-mail é automático; Você pode não obter uma resposta</string>
-    <string name="feedback_translation_title">Tradução da %1$s</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">Ajude na tradução por favor</string>
+  <string name="feedback_google_play_title">Avaliar esta aplicação</string>
+  <string name="feedback_request_feature_title">
+    Recurso de solicitação/Reporte de Bugs
+  </string>
+  <string name="feedback_request_feature_summary">
+    O processamento de e-mail é automático; Você pode não obter uma resposta
+  </string>
+  <string name="feedback_translation_title">Tradução da %1$s</string>
+  <!-- %1$s = App name -->
+  <string name="feedback_translation_title_summary">
+    Ajude na tradução por favor
+  </string>
 
-    <!-- Privacy policy -->
-    <string name="privacy_policy_tab_privacy_policy">Política de privacidade</string>
-    <string name="privacy_policy_tab_user_consent">User consent management</string>
-    <string name="privacy_policy_tab_eu_consent">EU consentimento do usuário</string>
-    <string name="privacy_policy_tab_non_eu_consent">Non-EU user consent</string>
+  <!-- Privacy policy -->
+  <string name="privacy_policy_tab_privacy_policy">
+    Política de privacidade
+  </string>
+  <string name="privacy_policy_tab_user_consent">
+    User consent management
+  </string>
+  <string name="privacy_policy_tab_eu_consent">
+    EU consentimento do usuário
+  </string>
+  <string name="privacy_policy_tab_non_eu_consent">Non-EU user consent</string>
 
-    <string name="privacy_policy_collect_title">Informações que nós coletamos</string>
-    <string name="privacy_policy_collect"><![CDATA[
+  <string name="privacy_policy_collect_title">
+    Informações que nós coletamos
+  </string>
+  <string
+    name="privacy_policy_collect"
+  ><![CDATA[
         <p>• Nós apenas coletamos informações anônimas.</p>
         <p>• Nós coletamos informação ao nível da aplicação acerca dos serviços que você usa e como os usa (Google Analytics).</p>
         <p>• Nós coletamos informação ao nível da aplicação sobre bugs, erros e crashes para proporcionar melhorias (Firebase Crashlytics).</p>
@@ -811,24 +1290,38 @@
         • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">Informação que nós não coletamos</string>
-    <string name="privacy_policy_not_collect"><![CDATA[
+  <string name="privacy_policy_not_collect_title">
+    Informação que nós não coletamos
+  </string>
+  <string
+    name="privacy_policy_not_collect"
+  ><![CDATA[
         <p>• Nós não coletamos informações pessoais que o possam identificar. Em outras palavras, nós não coletamos informações sobre o seu nome, residência, número do telefone, endereço de e-mail ou endereço MAC.</p>
         • Nós não coletamos informação da sua saúde pessoal, contatos e textos das notificações do seu dispositivo.
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
-    <string name="privacy_policy_share"><![CDATA[
+  <string name="privacy_policy_share_title">Information we share</string>
+  <string
+    name="privacy_policy_share"
+  ><![CDATA[
         • We do not share any data with companies or organisations other than Google and advertising providers.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
-    <string name="privacy_policy_use"><![CDATA[
+  <string name="privacy_policy_use_title">
+    Personal and sensitive user data we use
+  </string>
+  <string
+    name="privacy_policy_use"
+  ><![CDATA[
         • We use location data to update the weather (optional).
     ]]></string>
 
-    <string name="privacy_policy_links_title">Política de privacidade dos prestadores de serviço externos</string>
-    <string name="privacy_policy_links"><![CDATA[
+  <string name="privacy_policy_links_title">
+    Política de privacidade dos prestadores de serviço externos
+  </string>
+  <string
+    name="privacy_policy_links"
+  ><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
         <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
@@ -836,211 +1329,225 @@
         <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
-    <string name="privacy_policy_eu_consent_title">Estado</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">Publicidade personalizada, relevante</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">Publicidade não personalizada, que é menos relevante</string>
-    <string name="privacy_policy_eu_consent_title_unknown">Desconhecido</string>
+  <string name="privacy_policy_eu_consent_title">Estado</string>
+  <string name="privacy_policy_eu_consent_title_obtained">
+    Consent obtained
+  </string>
+  <string name="privacy_policy_eu_consent_title_personalized">
+    Publicidade personalizada, relevante
+  </string>
+  <string name="privacy_policy_eu_consent_title_non_personalized">
+    Publicidade não personalizada, que é menos relevante
+  </string>
+  <string name="privacy_policy_eu_consent_title_unknown">Desconhecido</string>
 
-    <string name="privacy_policy_eu_consent_setting">Definições</string>
+  <string name="privacy_policy_eu_consent_setting">Definições</string>
 
+  <!-- Custom vibration dialog -->
+  <string name="custom_vibration_title">Configuração da vibração</string>
 
-    <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">Configuração da vibração</string>
+  <!-- Shortcuts -->
+  <string name="shortcut">Shortcut</string>
+  <string name="shortcut_visible_items">Shortcut items</string>
+  <string name="shortcut_hidden_items">Hidden shortcut items</string>
 
+  <string name="shortcut_status">Estado</string>
+  <string name="shortcut_heart_rate">Frequência cardíaca</string>
+  <string name="shortcut_blood_oxygen">Oxigênio no sangue</string>
+  <string name="shortcut_Sleep">Sono</string>
+  <string name="shortcut_breathing">Breathing</string>
+  <string name="shortcut_weather">Meteorologia</string>
+  <string name="shortcut_stress">Stress</string>
 
-    <!-- Shortcuts -->
-    <string name="shortcut">Shortcut</string>
-    <string name="shortcut_visible_items">Shortcut items</string>
-    <string name="shortcut_hidden_items">Hidden shortcut items</string>
+  <!-- Others -->
+  <string name="tab_daily_charts">Gráficos diários</string>
+  <string name="tab_weekly_charts">Gráficos semanais</string>
+  <string name="tab_monthly_charts">Gráficos mensais</string>
+  <string name="tab_yearly_charts">Gráfico anual</string>
 
-    <string name="shortcut_status">Estado</string>
-    <string name="shortcut_heart_rate">Frequência cardíaca</string>
-    <string name="shortcut_blood_oxygen">Oxigênio no sangue</string>
-    <string name="shortcut_Sleep">Sono</string>
-    <string name="shortcut_breathing">Breathing</string>
-    <string name="shortcut_weather">Meteorologia</string>
-    <string name="shortcut_stress">Stress</string>
+  <string name="ad_attribution">de Anúncios</string>
+  <string name="on">Ligado</string>
+  <string name="off">Desligado</string>
+  <string name="none">Nenhum</string>
+  <string name="heart_rate_bpm">bpm</string>
+  <string name="heart_rate_mhr">MHR</string>
+  <string name="date">Data</string>
+  <string name="time">Hora</string>
+  <string name="time_start">Hora de início</string>
+  <string name="time_end">Hora de fim</string>
+  <string name="ringer_mode_vibrate">Vibrar</string>
+  <string name="ringer_mode_silent">Silenciar</string>
+  <string name="ringer_mode_dnd_priority_only">
+    Não perturbar (apenas prioridade)
+  </string>
+  <string name="ringer_mode_dnd_alarms_only">
+    Não perturbar (apenas alarmes)
+  </string>
+  <string name="ringer_mode_dnd_total_silence">
+    Não perturbar (silêncio total)
+  </string>
+  <string name="unknown">Desconhecido</string>
+  <string name="maximum">Máximo</string>
+  <string name="all_day">Todo o dia</string>
+  <string name="timed">Cronometrado</string>
+  <string name="file_name">Nome do arquivo</string>
+  <string name="default_">Predefinido</string>
+  <string name="default_by_phone">Padrão (configurado pelo dispositivo)</string>
+  <string name="custom">Custom</string>
+  <string name="invalid_setting">Configuração inválida</string>
+  <string name="ringtone">Tom de toque</string>
+  <string name="ringtone_chooser">Ringtone chooser</string>
+  <string name="uninstalled">Não instalado</string>
+  <string name="value">Valor</string>
+  <string name="downloads">Downloads</string>
+  <string name="share">Compartilhar</string>
+  <string name="send">Send</string>
+  <string name="narrow">Narrow</string>
+  <string name="short_">Short</string>
+  <string name="medium">Medium</string>
+  <string name="long_">Long</string>
+  <string name="full">Full</string>
+  <string name="alignment_left">Alinhamento à esquerda</string>
+  <string name="alignment_center">Alinhamento para o centro</string>
+  <string name="alignment_right">Alinhamento direito</string>
+  <string name="visible">Visível</string>
+  <string name="invisible">Invisível</string>
+  <string name="placeholder">Placeholder</string>
+  <string name="image_scale_fit">Fit</string>
+  <string name="image_scale_crop">Crop</string>
+  <string name="image_scale_stretch">Stretch</string>
+  <string name="resource_manager">Resource manager</string>
 
+  <string name="action_premium_mode">Modo Premium</string>
+  <string name="action_dismiss">Recusar</string>
+  <string name="action_setting">Definições</string>
+  <string name="action_delete">Apagar</string>
+  <string name="action_rename">Renomear</string>
+  <string name="action_export">Exportar</string>
+  <string name="action_synchronization">Sincronização</string>
+  <string name="action_download">Download</string>
+  <string name="action_upload">Upload</string>
+  <string name="action_filter_no">Não filtrar</string>
+  <string name="action_bluetooth">Bluetooth</string>
+  <string name="action_favorite">Favorito</string>
+  <string name="action_save">Guardar</string>
+  <string name="action_test">Testar</string>
+  <string name="action_discard">Rejeitar</string>
+  <string name="action_keep_editing">Continuar a editar</string>
+  <string name="action_new">Novo</string>
+  <string name="action_new_file_extension">Novo %1$s</string>
+  <string name="action_edit">Editar</string>
+  <string name="action_start_stop">Iniciar/Parar</string>
+  <string name="action_contacts">Contatos</string>
+  <string name="action_single_selection">Single selection</string>
+  <string name="action_multiple_selection">Multiple selection</string>
+  <string name="action_selection_boundaries">Selection boundaries</string>
+  <string name="action_object_boundaries">Object boundaries</string>
+  <string name="action_select_all">Select all</string>
+  <string name="action_select_texts">Select texts</string>
+  <string name="action_select_images">Select images</string>
+  <string name="action_deselect_all">Deselect all</string>
+  <string name="synchronized_from_watch">Sincronizado do relógio</string>
+  <string name="synchronization_succeeded">Sincronização bem-sucedida</string>
+  <string name="synchronization_failed">Falha na sincronização</string>
 
-    <!-- Others -->
-    <string name="tab_daily_charts">Gráficos diários</string>
-    <string name="tab_weekly_charts">Gráficos semanais</string>
-    <string name="tab_monthly_charts">Gráficos mensais</string>
-    <string name="tab_yearly_charts">Gráfico anual</string>
+  <string name="action_chart">Gráfico</string>
+  <string name="action_zoom_in">Zoom</string>
+  <string name="action_chart_normalize_minute">Valores medidos</string>
+  <string name="action_chart_normalize_quarter_hourly">
+    Valores de 15 em 15 minutos
+  </string>
+  <string name="action_chart_normalize_half_hourly">
+    Valores de 30 em 30 minutos
+  </string>
+  <string name="action_chart_normalize_hourly">Valores de 1 em 1 hora</string>
+  <string name="action_chart_sort_time_asc">Ascender por horas</string>
+  <string name="action_chart_sort_time_desc">Descender por horas</string>
+  <string name="action_chart_sort_step_asc">Ascender por passos</string>
+  <string name="action_chart_sort_step_desc">Descender por passos</string>
+  <string name="action_chart_sort_duration_asc">Duration ascending</string>
+  <string name="action_chart_sort_duration_desc">Duration descending</string>
+  <string name="action_chart_sort_pulse_asc">Ascender por pulsação</string>
+  <string name="action_chart_sort_pulse_desc">Descender por pulsação</string>
+  <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
+  <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
+  <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+  <string name="action_chart_sort_pressure_desc">Pressure descending</string>
+  <string name="action_chart_monthly_calendar">Calendário</string>
+  <string name="action_chart_monthly_compact">Compacto</string>
 
-    <string name="ad_attribution">de Anúncios</string>
-    <string name="on">Ligado</string>
-    <string name="off">Desligado</string>
-    <string name="none">Nenhum</string>
-    <string name="heart_rate_bpm">bpm</string>
-    <string name="heart_rate_mhr">MHR</string>
-    <string name="date">Data</string>
-    <string name="time">Hora</string>
-    <string name="time_start">Hora de início</string>
-    <string name="time_end">Hora de fim</string>
-    <string name="ringer_mode_vibrate">Vibrar</string>
-    <string name="ringer_mode_silent">Silenciar</string>
-    <string name="ringer_mode_dnd_priority_only">Não perturbar (apenas prioridade)</string>
-    <string name="ringer_mode_dnd_alarms_only">Não perturbar (apenas alarmes)</string>
-    <string name="ringer_mode_dnd_total_silence">Não perturbar (silêncio total)</string>
-    <string name="unknown">Desconhecido</string>
-    <string name="maximum">Máximo</string>
-    <string name="all_day">Todo o dia</string>
-    <string name="timed">Cronometrado</string>
-    <string name="file_name">Nome do arquivo</string>
-    <string name="default_">Predefinido</string>
-    <string name="default_by_phone">Padrão (configurado pelo dispositivo)</string>
-    <string name="custom">Custom</string>
-    <string name="invalid_setting">Configuração inválida</string>
-    <string name="ringtone">Tom de toque</string>
-    <string name="ringtone_chooser">Ringtone chooser</string>
-    <string name="uninstalled">Não instalado</string>
-    <string name="value">Valor</string>
-    <string name="downloads">Downloads</string>
-    <string name="share">Compartilhar</string>
-    <string name="send">Send</string>
-    <string name="narrow">Narrow</string>
-    <string name="short_">Short</string>
-    <string name="medium">Medium</string>
-    <string name="long_">Long</string>
-    <string name="full">Full</string>
-    <string name="alignment_left">Alinhamento à esquerda</string>
-    <string name="alignment_center">Alinhamento para o centro</string>
-    <string name="alignment_right">Alinhamento direito</string>
-    <string name="visible">Visível</string>
-    <string name="invisible">Invisível</string>
-    <string name="placeholder">Placeholder</string>
-    <string name="image_scale_fit">Fit</string>
-    <string name="image_scale_crop">Crop</string>
-    <string name="image_scale_stretch">Stretch</string>
-    <string name="resource_manager">Resource manager</string>
+  <string name="activity_progress_title_prepare">
+    Preparando para sincronizar…
+  </string>
+  <string name="activity_progress_title_sync">Sincronizando dados…</string>
+  <string name="activity_progress_title_save">Gravando dados…</string>
 
-    <string name="action_premium_mode">Modo Premium</string>
-    <string name="action_dismiss">Recusar</string>
-    <string name="action_setting">Definições</string>
-    <string name="action_delete">Apagar</string>
-    <string name="action_rename">Renomear</string>
-    <string name="action_export">Exportar</string>
-    <string name="action_synchronization">Sincronização</string>
-    <string name="action_download">Download</string>
-    <string name="action_upload">Upload</string>
-    <string name="action_filter_no">Não filtrar</string>
-    <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">Favorito</string>
-    <string name="action_save">Guardar</string>
-    <string name="action_test">Testar</string>
-    <string name="action_discard">Rejeitar</string>
-    <string name="action_keep_editing">Continuar a editar</string>
-    <string name="action_new">Novo</string>
-    <string name="action_new_file_extension">Novo %1$s</string>
-    <string name="action_edit">Editar</string>
-    <string name="action_start_stop">Iniciar/Parar</string>
-    <string name="action_contacts">Contatos</string>
-    <string name="action_single_selection">Single selection</string>
-    <string name="action_multiple_selection">Multiple selection</string>
-    <string name="action_selection_boundaries">Selection boundaries</string>
-    <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select_all">Select all</string>
-    <string name="action_select_texts">Select texts</string>
-    <string name="action_select_images">Select images</string>
-    <string name="action_deselect_all">Deselect all</string>
-    <string name="synchronized_from_watch">Sincronizado do relógio</string>
-    <string name="synchronization_succeeded">Sincronização bem-sucedida</string>
-    <string name="synchronization_failed">Falha na sincronização</string>
+  <string name="required_value">Necessário</string>
 
-    <string name="action_chart">Gráfico</string>
-    <string name="action_zoom_in">Zoom</string>
-    <string name="action_chart_normalize_minute">Valores medidos</string>
-    <string name="action_chart_normalize_quarter_hourly">Valores de 15 em 15 minutos</string>
-    <string name="action_chart_normalize_half_hourly">Valores de 30 em 30 minutos</string>
-    <string name="action_chart_normalize_hourly">Valores de 1 em 1 hora</string>
-    <string name="action_chart_sort_time_asc">Ascender por horas</string>
-    <string name="action_chart_sort_time_desc">Descender por horas</string>
-    <string name="action_chart_sort_step_asc">Ascender por passos</string>
-    <string name="action_chart_sort_step_desc">Descender por passos</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_pulse_asc">Ascender por pulsação</string>
-    <string name="action_chart_sort_pulse_desc">Descender por pulsação</string>
-    <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
-    <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
-    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
-    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
-    <string name="action_chart_monthly_calendar">Calendário</string>
-    <string name="action_chart_monthly_compact">Compacto</string>
+  <string name="percent_0">0%</string>
+  <string name="percent_10">10%</string>
+  <string name="percent_20">20%</string>
+  <string name="percent_30">30%</string>
+  <string name="percent_40">40%</string>
+  <string name="percent_50">50%</string>
+  <string name="percent_60">60%</string>
+  <string name="percent_70">70%</string>
+  <string name="percent_80">80%</string>
+  <string name="percent_90">90%</string>
+  <string name="percent_100">100%</string>
 
-    <string name="activity_progress_title_prepare">Preparando para sincronizar…</string>
-    <string name="activity_progress_title_sync">Sincronizando dados…</string>
-    <string name="activity_progress_title_save">Gravando dados…</string>
+  <!-- Constante -->
+  <string name="const_day_of_week_sunday">Sunday</string>
+  <string name="const_day_of_week_monday">Monday</string>
+  <string name="const_day_of_week_tuesday">Tuesday</string>
+  <string name="const_day_of_week_wednesday">Wednesday</string>
+  <string name="const_day_of_week_thursday">Thursday</string>
+  <string name="const_day_of_week_friday">Friday</string>
+  <string name="const_day_of_week_saturday">Saturday</string>
 
-    <string name="required_value">Necessário</string>
+  <string name="const_time_abbreviation_day">d</string>
+  <string name="const_time_abbreviation_hour">h</string>
+  <string name="const_time_abbreviation_minute">m</string>
+  <string name="const_time_abbreviation_sec">s</string>
+  <string name="const_time_abbreviation_milli_sec">ms</string>
 
-    <string name="percent_0">0%</string>
-    <string name="percent_10">10%</string>
-    <string name="percent_20">20%</string>
-    <string name="percent_30">30%</string>
-    <string name="percent_40">40%</string>
-    <string name="percent_50">50%</string>
-    <string name="percent_60">60%</string>
-    <string name="percent_70">70%</string>
-    <string name="percent_80">80%</string>
-    <string name="percent_90">90%</string>
-    <string name="percent_100">100%</string>
+  <string name="const_number">%1$,d</string>
+  <string name="const_number_float">%,.2f</string>
+  <string name="const_number_float_1_precision">%,.1f</string>
+  <string name="const_percentage">%1$,d%%</string>
+  <string name="const_percent_sign">%</string>
+  <string name="const_unit_kilometer">km</string>
+  <string name="const_unit_meter">m</string>
+  <string name="const_unit_centimeter">cm</string>
+  <string name="const_unit_mile">mi</string>
+  <string name="const_unit_kilogram">kg</string>
+  <string name="const_unit_kcal">kcal</string>
+  <string name="const_unit_dbm">dBm</string>
 
-    <!-- Constante -->
-    <string name="const_day_of_week_sunday">Sunday</string>
-    <string name="const_day_of_week_monday">Monday</string>
-    <string name="const_day_of_week_tuesday">Tuesday</string>
-    <string name="const_day_of_week_wednesday">Wednesday</string>
-    <string name="const_day_of_week_thursday">Thursday</string>
-    <string name="const_day_of_week_friday">Friday</string>
-    <string name="const_day_of_week_saturday">Saturday</string>
+  <plurals name="plural_time_hour">
+    <item quantity="zero">%d horas</item>
+    <item quantity="one">%d hora</item>
+    <item quantity="two">%d horas</item>
+    <item quantity="few">%d horas</item>
+    <item quantity="many">%d horas</item>
+    <item quantity="other">%d horas</item>
+  </plurals>
 
-    <string name="const_time_abbreviation_day">d</string>
-    <string name="const_time_abbreviation_hour">h</string>
-    <string name="const_time_abbreviation_minute">m</string>
-    <string name="const_time_abbreviation_sec">s</string>
-    <string name="const_time_abbreviation_milli_sec">ms</string>
+  <plurals name="plural_time_minute">
+    <item quantity="zero">%d minutos</item>
+    <item quantity="one">%d minuto</item>
+    <item quantity="two">%d minutos</item>
+    <item quantity="few">%d minutos</item>
+    <item quantity="many">%d minutos</item>
+    <item quantity="other">%d minutos</item>
+  </plurals>
 
-    <string name="const_number">%1$,d</string>
-    <string name="const_number_float">%,.2f</string>
-    <string name="const_number_float_1_precision">%,.1f</string>
-    <string name="const_percentage">%1$,d%%</string>
-    <string name="const_percent_sign">%</string>
-    <string name="const_unit_kilometer">km</string>
-    <string name="const_unit_meter">m</string>
-    <string name="const_unit_centimeter">cm</string>
-    <string name="const_unit_mile">mi</string>
-    <string name="const_unit_kilogram">kg</string>
-    <string name="const_unit_kcal">kcal</string>
-    <string name="const_unit_dbm">dBm</string>
-
-    <plurals name="plural_time_hour">
-        <item quantity="zero">%d horas</item>
-        <item quantity="one">%d hora</item>
-        <item quantity="two">%d horas</item>
-        <item quantity="few">%d horas</item>
-        <item quantity="many">%d horas</item>
-        <item quantity="other">%d horas</item>
-    </plurals>
-
-    <plurals name="plural_time_minute">
-        <item quantity="zero">%d minutos</item>
-        <item quantity="one">%d minuto</item>
-        <item quantity="two">%d minutos</item>
-        <item quantity="few">%d minutos</item>
-        <item quantity="many">%d minutos</item>
-        <item quantity="other">%d minutos</item>
-    </plurals>
-
-    <plurals name="plural_time_second">
-        <item quantity="zero">%d segundos</item>
-        <item quantity="one">%d segundo</item>
-        <item quantity="two">%d segundos</item>
-        <item quantity="few">%d segundos</item>
-        <item quantity="many">%d segundos</item>
-        <item quantity="other">%d segundos</item>
-    </plurals>
-
+  <plurals name="plural_time_second">
+    <item quantity="zero">%d segundos</item>
+    <item quantity="one">%d segundo</item>
+    <item quantity="two">%d segundos</item>
+    <item quantity="few">%d segundos</item>
+    <item quantity="many">%d segundos</item>
+    <item quantity="other">%d segundos</item>
+  </plurals>
 </resources>

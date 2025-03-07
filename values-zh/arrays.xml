@@ -1,104 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
+  <string-array name="pref_connected_have_notif_reminder_repeat_interval">
+    <item>3 分</item>
+    <item>5 分</item>
+    <item>10 分</item>
+    <item>15 分</item>
+    <item>20 分</item>
+    <item>30 分</item>
+    <item>1 小时</item>
+    <item>2 小时</item>
+    <item>3 小时</item>
+  </string-array>
 
-    <string-array name="pref_connected_have_notif_reminder_repeat_interval">
-        <item>3 分</item>
-        <item>5 分</item>
-        <item>10 分</item>
-        <item>15 分</item>
-        <item>20 分</item>
-        <item>30 分</item>
-        <item>1 小时</item>
-        <item>2 小时</item>
-        <item>3 小时</item>
-    </string-array>
+  <string-array name="notification_group_repeat">
+    <item>总是</item>
+    <item>决不</item>
+    <item>一次</item>
+    <item>两次</item>
+    <item>三次</item>
+  </string-array>
 
-    <string-array name="notification_group_repeat">
-        <item>总是</item>
-        <item>决不</item>
-        <item>一次</item>
-        <item>两次</item>
-        <item>三次</item>
-    </string-array>
+  <string-array name="pref_distance_unit">
+    <item>公制 (kilometre)</item>
+    <item>英制 (mile)</item>
+  </string-array>
 
-    <string-array name="pref_distance_unit">
-        <item>公制 (kilometre)</item>
-        <item>英制 (mile)</item>
-    </string-array>
+  <string-array name="notification_group_grouped_dispay">
+    <item>
+      Show all when the device is connecting, otherwise only the latest
+      notification
+    </item>
+    <item>Show all notifications</item>
+    <item>Show only the latest notification</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_dispay">
-        <item>Show all when the device is connecting, otherwise only the latest notification</item>
-        <item>Show all notifications</item>
-        <item>Show only the latest notification</item>
-    </string-array>
+  <string-array name="notification_group_grouped_order">
+    <item>In normal order</item>
+    <item>In reverse order</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_order">
-        <item>In normal order</item>
-        <item>In reverse order</item>
-    </string-array>
+  <string-array name="notification_group_display_time">
+    <item>自动 (3 – 5 秒)</item>
+    <item>3 秒</item>
+    <item>4 秒</item>
+    <item>5 秒</item>
+    <item>6 秒</item>
+    <item>7 秒</item>
+  </string-array>
 
-    <string-array name="notification_group_display_time">
-        <item>自动 (3 – 5 秒)</item>
-        <item>3 秒</item>
-        <item>4 秒</item>
-        <item>5 秒</item>
-        <item>6 秒</item>
-        <item>7 秒</item>
-    </string-array>
+  <string-array name="call_button_action">
+    <item>接听，结束</item>
+    <item>切换到静音模式</item>
+    <item>呼叫应答</item>
+  </string-array>
 
-    <string-array name="call_button_action">
-        <item>接听，结束</item>
-        <item>切换到静音模式</item>
-        <item>呼叫应答</item>
-    </string-array>
+  <string-array name="touch_mute_toggle_ringer_mode">
+    <item>震动</item>
+    <item>静音</item>
+    <item>请勿打扰（仅限特殊应用）</item>
+    <item>请勿打扰（仅限闹钟）</item>
+    <item>请勿打扰（完全静音）</item>
+  </string-array>
 
-    <string-array name="touch_mute_toggle_ringer_mode">
-        <item>震动</item>
-        <item>静音</item>
-        <item>请勿打扰（仅限特殊应用）</item>
-        <item>请勿打扰（仅限闹钟）</item>
-        <item>请勿打扰（完全静音）</item>
-    </string-array>
+  <string-array name="pref_theme_day_night">
+    <item>默认</item>
+    <item>光明</item>
+    <item>黑暗</item>
+  </string-array>
 
-    <string-array name="pref_theme_day_night">
-        <item>默认</item>
-        <item>光明</item>
-        <item>黑暗</item>
-    </string-array>
-
-    <string-array name="workout">
-        <item>Unknown</item>
-        <item>Outdoor running</item>
-        <item>Treadmill</item>
-        <item>Walking</item>
-        <item>Cycling</item>
-        <item>Hiking</item>
-        <item>Spinning</item>
-        <item>Yoga</item>
-        <item>Training</item>
-        <item>Gymnastics</item>
-        <item>Basketball</item>
-        <item>Football</item>
-        <item>Volleyball</item>
-        <item>Rowing</item>
-        <item>Jump rope</item>
-        <item>Tennis</item>
-        <item>Baseball</item>
-        <item>Badminton</item>
-        <item>Rugby</item>
-        <item>Table tennis</item>
-        <item>Cricket</item>
-        <item>Swimming</item>
-        <item>Indoor swimming</item>
-        <item>Outdoor swimming</item>
-        <item>Sit up</item>
-        <item>Jumping jack</item>
-        <item>Golf</item>
-        <item>Dance</item>
-        <item>Skateboarding</item>
-        <item>Fishing</item>
-        <item>Martial arts</item>
-        <item>Combat sport</item>
-    </string-array>
-
+  <string-array name="workout">
+    <item>Unknown</item>
+    <item>Outdoor running</item>
+    <item>Treadmill</item>
+    <item>Walking</item>
+    <item>Cycling</item>
+    <item>Hiking</item>
+    <item>Spinning</item>
+    <item>Yoga</item>
+    <item>Training</item>
+    <item>Gymnastics</item>
+    <item>Basketball</item>
+    <item>Football</item>
+    <item>Volleyball</item>
+    <item>Rowing</item>
+    <item>Jump rope</item>
+    <item>Tennis</item>
+    <item>Baseball</item>
+    <item>Badminton</item>
+    <item>Rugby</item>
+    <item>Table tennis</item>
+    <item>Cricket</item>
+    <item>Swimming</item>
+    <item>Indoor swimming</item>
+    <item>Outdoor swimming</item>
+    <item>Sit up</item>
+    <item>Jumping jack</item>
+    <item>Golf</item>
+    <item>Dance</item>
+    <item>Skateboarding</item>
+    <item>Fishing</item>
+    <item>Martial arts</item>
+    <item>Combat sport</item>
+  </string-array>
 </resources>

@@ -1,239 +1,382 @@
-<?xml version="1.0"?>
-
+<?xml version="1.0" ?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="ja">
-    <string name="menu_nav_home">@string/device_name</string>
-    <string name="menu_nav_notification">通知</string>
-    <string name="menu_nav_call">通話</string>
-    <string name="menu_nav_step">アクティビティ</string>
-    <string name="menu_nav_sleep">睡眠</string>
-    <string name="menu_nav_pulse">心拍数</string>
-    <string name="menu_nav_blood_oxygen">血中酸素</string>
-    <string name="menu_nav_blood_pressure">血圧</string>
-    <string name="menu_nav_workout">いい結果になる</string>
-    <string name="menu_nav_alarm">アラーム</string>
-    <string name="menu_nav_reminder">リマインダー</string>
-    <string name="menu_nav_dnd">DND（おやすみモード）</string>
-    <string name="menu_nav_watch_face">ウォッチフェイス</string>
-    <string name="menu_nav_weather">天気</string>
-    <string name="menu_nav_touch">タッチ</string>
-    <string name="menu_nav_more">もっと</string>
-    <string name="menu_nav_text_display">テキスト表示</string>
-    <string name="menu_nav_export">エクスポート</string>
-    <string name="menu_nav_premium_mode">プレミアムモード</string>
-    <string name="menu_nav_feedback">フィードバック</string>
-    <string name="menu_nav_privacy_policy">プライバシーポリシー</string>
-    <string name="menu_nav_theme">テーマ</string>
-<!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
+  <string name="menu_nav_home">@string/device_name</string>
+  <string name="menu_nav_notification">通知</string>
+  <string name="menu_nav_call">通話</string>
+  <string name="menu_nav_step">アクティビティ</string>
+  <string name="menu_nav_sleep">睡眠</string>
+  <string name="menu_nav_pulse">心拍数</string>
+  <string name="menu_nav_blood_oxygen">血中酸素</string>
+  <string name="menu_nav_blood_pressure">血圧</string>
+  <string name="menu_nav_workout">いい結果になる</string>
+  <string name="menu_nav_alarm">アラーム</string>
+  <string name="menu_nav_reminder">リマインダー</string>
+  <string name="menu_nav_dnd">DND（おやすみモード）</string>
+  <string name="menu_nav_watch_face">ウォッチフェイス</string>
+  <string name="menu_nav_weather">天気</string>
+  <string name="menu_nav_touch">タッチ</string>
+  <string name="menu_nav_more">もっと</string>
+  <string name="menu_nav_text_display">テキスト表示</string>
+  <string name="menu_nav_export">エクスポート</string>
+  <string name="menu_nav_premium_mode">プレミアムモード</string>
+  <string name="menu_nav_feedback">フィードバック</string>
+  <string name="menu_nav_privacy_policy">プライバシーポリシー</string>
+  <string name="menu_nav_theme">テーマ</string>
+  <!--    <string name="menu_nav_settings" type="string">@string/settings_name</string>-->
 
-    <string name="setting_name">設定</string>
-    <string name="settings_name">設定</string>
-    <string name="info_name">情報</string>
-    <string name="more_name">もっと</string>
+  <string name="setting_name">設定</string>
+  <string name="settings_name">設定</string>
+  <string name="info_name">情報</string>
+  <string name="more_name">もっと</string>
 
-<!--    <string name="mi_band_tracker_title">歩数・距離・カロリー・目標・心拍数</string>-->
-    <string name="main_tracker_title">歩数・目標</string>
-<!--    <string name="mi_band_battery">バッテリー残量・最後に充電した時間・推定残り時間</string>-->
-    <string name="device_battery">バッテリー残量・最後に充電した時間</string>
-    <string name="device_state_connected_disconnected_last_time">最後に接続、切断された時間</string>
-    <string name="device_alarm">次のアラーム</string>
-    <string name="device_reminder">次のリマインダー</string>
+  <!--    <string name="mi_band_tracker_title">歩数・距離・カロリー・目標・心拍数</string>-->
+  <string name="main_tracker_title">歩数・目標</string>
+  <!--    <string name="mi_band_battery">バッテリー残量・最後に充電した時間・推定残り時間</string>-->
+  <string name="device_battery">バッテリー残量・最後に充電した時間</string>
+  <string name="device_state_connected_disconnected_last_time">
+    最後に接続、切断された時間
+  </string>
+  <string name="device_alarm">次のアラーム</string>
+  <string name="device_reminder">次のリマインダー</string>
 
-    <string name="device_search">%1$s search</string> <!-- %1$s = Watch name -->
-    <string name="device_setting">%1$s の設定</string> <!-- %1$s = Watch name -->
+  <string name="device_search">%1$s search</string>
+  <!-- %1$s = Watch name -->
+  <string name="device_setting">%1$s の設定</string>
+  <!-- %1$s = Watch name -->
 
-    <string name="device_mac_address">MACアドレス</string>
-    <string name="device_mac_address_invalid">MACアドレスが無効です</string>
+  <string name="device_mac_address">MACアドレス</string>
+  <string name="device_mac_address_invalid">MACアドレスが無効です</string>
 
-    <string name="device_state_connected">接続済み</string>
-    <string name="device_state_disconnected">未接続</string>
-    <string name="device_state_bonded">ペアリングされたデバイス</string>
-    <string name="device_state_not_bonded">未ペアリングのデバイス</string>
+  <string name="device_state_connected">接続済み</string>
+  <string name="device_state_disconnected">未接続</string>
+  <string name="device_state_bonded">ペアリングされたデバイス</string>
+  <string name="device_state_not_bonded">未ペアリングのデバイス</string>
 
-    <string name="pref_dnd_title">DND（おやすみモード）</string>
+  <string name="pref_dnd_title">DND（おやすみモード）</string>
 
-    <string name="error_title">おっと！何かが間違っていた</string>
-    <string name="error_message">アプリを最新バージョンに更新します</string>
+  <string name="error_title">おっと！何かが間違っていた</string>
+  <string name="error_message">アプリを最新バージョンに更新します</string>
 
+  <!-- Haylou setting -->
+  <string name="mi_band_setting_button_title">
+    %1$sの設定・ﾌﾟﾛﾌｨｰﾙ・テキスト・通話・メニュー
+  </string>
+  <string name="mi_band_setting_title">%1$sの設定</string>
 
-    <!-- Haylou setting -->
-    <string name="mi_band_setting_button_title">%1$sの設定・ﾌﾟﾛﾌｨｰﾙ・テキスト・通話・メニュー</string>
-    <string name="mi_band_setting_title">%1$sの設定</string>
+  <string name="mi_band_setting_menu_connection">接続時の設定</string>
+  <string name="mi_band_setting_menu_setting">@string/setting_name</string>
+  <string name="mi_band_setting_menu_profile">ﾌﾟﾛﾌｨｰﾙ</string>
+  <string name="mi_band_setting_menu_text">テキスト</string>
+  <string name="mi_band_setting_menu_call">通話</string>
 
-    <string name="mi_band_setting_menu_connection">接続時の設定</string>
-    <string name="mi_band_setting_menu_setting">@string/setting_name</string>
-    <string name="mi_band_setting_menu_profile">ﾌﾟﾛﾌｨｰﾙ</string>
-    <string name="mi_band_setting_menu_text">テキスト</string>
-    <string name="mi_band_setting_menu_call">通話</string>
+  <string name="mi_band_setting_auth_mi_fit">%1$sとの連携</string>
+  <!-- Haylou Fit-->
+  <string name="mi_band_setting_auth_mi_fit_hint">
+    %1$sのインストールが必要です。%3$sを使用する前に%1$sで%2$sをペアリングしてください。
+  </string>
+  <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
+  <string name="mi_band_setting_auth_standalone">スタンドアロンモード</string>
+  <string name="mi_band_setting_auth_standalone_hint">
+    %1$s app is not required for the %3$s to work. After the pairing, uninstall
+    the %1$s app or unpair the smartwatch. When restoring the %1$s
+    cooperation, you will need to re-pair your %2$s in the %1$s application.If
+    you use the unpair function, the data on the smartwatch will be
+    deleted. The %2$s screen must be turned on while performing operations.
+  </string>
+  <string name="mi_band_standalone_sync_error">
+    Data synchronization is not possible in cooperation mode, since
+    synchronization would result in the data being deleted from the smartwatch
+    and incorrect data being displayed in both apps.
+  </string>
 
-    <string name="mi_band_setting_auth_mi_fit">%1$sとの連携</string> <!-- Haylou Fit-->
-    <string name="mi_band_setting_auth_mi_fit_hint">%1$sのインストールが必要です。%3$sを使用する前に%1$sで%2$sをペアリングしてください。</string> <!-- %1$s= Official app name; %2$s= Watch name,  %3$s= App name-->
-    <string name="mi_band_setting_auth_standalone">スタンドアロンモード</string>
-    <string name="mi_band_setting_auth_standalone_hint">%1$s app is not required for the %3$s to work. After the pairing, uninstall the %1$s app or unpair the smartwatch. When restoring the %1$s cooperation, you will need to re-pair your %2$s in the %1$s application.If you use the unpair function, the data on the smartwatch will be deleted. The %2$s screen must be turned on while performing operations.</string>
-    <string name="mi_band_standalone_sync_error">Data synchronization is not possible in cooperation mode, since synchronization would result in the data being deleted from the smartwatch and incorrect data being displayed in both apps.</string>
+  <string name="mi_band_setting_auth_key">認証キー</string>
+  <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
+  <string name="mi_band_setting_auth_request">Key request</string>
+  <string name="mi_band_setting_auth_pair">ペアリング</string>
+  <string name="mi_band_setting_auth_unpair">ペアリングを解除</string>
 
-    <string name="mi_band_setting_auth_key">認証キー</string>
-    <string name="mi_band_setting_auth_key_help">Enter any 4 numbers</string>
-    <string name="mi_band_setting_auth_request">Key request</string>
-    <string name="mi_band_setting_auth_pair">ペアリング</string>
-    <string name="mi_band_setting_auth_unpair">ペアリングを解除</string>
+  <string name="message_auth_request">
+    It is paired, if you do not know the key, use the unpair
+  </string>
 
-    <string name="message_auth_request">It is paired, if you do not know the key, use the unpair</string>
+  <string name="message_mi_band_setting_auth_press_band_button">
+    %1$sのボタンを押してペアリングしてください
+  </string>
+  <!-- %1$s = Watch name -->
+  <string name="message_mi_band_setting_auth_success">
+    %1$sのペアリングに成功しました
+  </string>
+  <string name="message_mi_band_setting_auth_fail">
+    %1$sのペアリングに失敗しました
+  </string>
+  <string name="message_mi_band_setting_auth_key_invalid">
+    認証キーが無効です
+  </string>
 
-    <string name="message_mi_band_setting_auth_press_band_button">%1$sのボタンを押してペアリングしてください</string> <!-- %1$s = Watch name -->
-    <string name="message_mi_band_setting_auth_success">%1$sのペアリングに成功しました</string>
-    <string name="message_mi_band_setting_auth_fail">%1$sのペアリングに失敗しました</string>
-    <string name="message_mi_band_setting_auth_key_invalid">認証キーが無効です</string>
+  <string name="pref_disconnect_device">切断</string>
 
-    <string name="pref_disconnect_device">切断</string>
-
-    <string name="mi_band_setting_connection_problem_title">In case of connection problem</string>
-    <string name="mi_band_setting_connection_problem_hint"><![CDATA[
+  <string name="mi_band_setting_connection_problem_title">
+    In case of connection problem
+  </string>
+  <string
+    name="mi_band_setting_connection_problem_hint"
+  ><![CDATA[
     - Unpair the watch in the phone\'s Bluetooth settings
     <br>- Turn Bluetooth off and on
     <br>- Force close the Application or restart the phone
     <br>- Pair your watch again on the main screen
     ]]></string>
 
-    <string name="mi_band_setting_dial">ウォッチフェイス</string>
-    <string name="mi_band_setting_language">言語</string>
-    <string name="mi_band_setting_time_24h">24時間表記</string>
-    <string name="mi_band_setting_distance_unit">距離の単位</string>
-    <string name="mi_band_setting_lift_wrist">手首を持ち上げて情報を表示</string>
-    <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
-    <string name="mi_band_setting_idle_alert">座りすぎ通知</string>
-    <string name="mi_band_setting_idle_alert_time">無活動時間</string>
-    <string name="mi_band_setting_idle_alert_dnd">休憩中は通知しない (12:00-14:00)</string>
+  <string name="mi_band_setting_dial">ウォッチフェイス</string>
+  <string name="mi_band_setting_language">言語</string>
+  <string name="mi_band_setting_time_24h">24時間表記</string>
+  <string name="mi_band_setting_distance_unit">距離の単位</string>
+  <string name="mi_band_setting_lift_wrist">手首を持ち上げて情報を表示</string>
+  <string name="mi_band_setting_screen_on_duration">Screen on duration</string>
+  <string name="mi_band_setting_idle_alert">座りすぎ通知</string>
+  <string name="mi_band_setting_idle_alert_time">無活動時間</string>
+  <string name="mi_band_setting_idle_alert_dnd">
+    休憩中は通知しない (12:00-14:00)
+  </string>
 
-    <string name="pref_synchronization">同期</string>
-    <string name="pref_synchronization_fetch_interval">Synchronization frequency</string>
-    <string name="pref_synchronization_summary">Select the data to be automatically synchronised in the background. If you do not need any of the data, turn it off for better performance. Data can still be synchronised manually on the home screen or in the appropriate menus (by sweeping down).</string>
+  <string name="pref_synchronization">同期</string>
+  <string name="pref_synchronization_fetch_interval">
+    Synchronization frequency
+  </string>
+  <string name="pref_synchronization_summary">
+    Select the data to be automatically synchronised in the background. If you
+    do not need any of the data, turn it off for better performance. Data can
+    still be synchronised manually on the home screen or in the appropriate
+    menus (by sweeping down).
+  </string>
 
-    <string name="mi_band_setting_profile">This data is needed to correctly calculate the number of steps, distance, and burned calories.</string>
-    <string name="mi_band_setting_gender">性別</string>
-    <string name="mi_band_setting_gender_male">男性</string>
-    <string name="mi_band_setting_gender_female">女性</string>
-    <string name="mi_band_setting_birthday">誕生日</string>
-    <string name="mi_band_setting_height">身長</string>
-    <string name="mi_band_setting_weight">体重</string>
-    <string name="mi_band_setting_wearing_place">Wearing place</string>
-    <string name="mi_band_setting_wearing_place_left_wrist">左手首</string>
-    <string name="mi_band_setting_wearing_place_right_wrist">右手首</string>
+  <string name="mi_band_setting_profile">
+    This data is needed to correctly calculate the number of
+    steps, distance, and burned calories.
+  </string>
+  <string name="mi_band_setting_gender">性別</string>
+  <string name="mi_band_setting_gender_male">男性</string>
+  <string name="mi_band_setting_gender_female">女性</string>
+  <string name="mi_band_setting_birthday">誕生日</string>
+  <string name="mi_band_setting_height">身長</string>
+  <string name="mi_band_setting_weight">体重</string>
+  <string name="mi_band_setting_wearing_place">Wearing place</string>
+  <string name="mi_band_setting_wearing_place_left_wrist">左手首</string>
+  <string name="mi_band_setting_wearing_place_right_wrist">右手首</string>
 
+  <!-- Battery -->
+  <string name="battery_details">バッテリーの使用状況</string>
 
-    <!-- Battery -->
-    <string name="battery_details">バッテリーの使用状況</string>
+  <string name="mi_band_battery_settings">バッテリーの設定</string>
+  <string name="mi_band_battery_notification">残量低下通知</string>
+  <string name="mi_band_battery_notification_level">
+    通知するバッテリー残量
+  </string>
+  <string name="mi_band_battery_notification_repeat_interval">
+    繰り返し間隔
+  </string>
+  <string name="mi_band_battery_notification_shade">端末に通知</string>
+  <string name="mi_band_battery_notification_shade_error">
+    Notification display permission is restricted
+  </string>
+  <string name="mi_band_battery_notification_shade_ongoing">通知を固定</string>
+  <string name="mi_band_battery_notification_shade_message">
+    バッテリー残量低下：%1$,d%%
+  </string>
+  <string name="mi_band_battery_notification_mi_band">バンドに通知</string>
+  <string name="mi_band_battery_notification_mi_band_message">
+    バッテリー：%1$,d%%
+  </string>
 
-    <string name="mi_band_battery_settings">バッテリーの設定</string>
-    <string name="mi_band_battery_notification">残量低下通知</string>
-    <string name="mi_band_battery_notification_level">通知するバッテリー残量</string>
-    <string name="mi_band_battery_notification_repeat_interval">繰り返し間隔</string>
-    <string name="mi_band_battery_notification_shade">端末に通知</string>
-    <string name="mi_band_battery_notification_shade_error">Notification display permission is restricted</string>
-    <string name="mi_band_battery_notification_shade_ongoing">通知を固定</string>
-    <string name="mi_band_battery_notification_shade_message">バッテリー残量低下：%1$,d%%</string>
-    <string name="mi_band_battery_notification_mi_band">バンドに通知</string>
-    <string name="mi_band_battery_notification_mi_band_message">バッテリー：%1$,d%%</string>
+  <!-- PreferenceScreen -->
+  <string name="pref_connected_have_notif_interval_title">
+    リマインダーの繰り返し間隔
+  </string>
+  <string name="pref_connected_have_notif_interval_summary">
+    Notification/reminder signal function uses this timing
+  </string>
 
-    <!-- PreferenceScreen -->
-    <string name="pref_connected_have_notif_interval_title">リマインダーの繰り返し間隔</string>
-    <string name="pref_connected_have_notif_interval_summary">Notification/reminder signal function uses this timing</string>
+  <string name="pref_battery_phone">端末のバッテリー</string>
+  <string name="pref_battery_phone_summary">残量低下・フル充電通知</string>
+  <string name="pref_cat_battery_phone_low">残量低下</string>
+  <string name="pref_battery_phone_low_title">残量低下通知</string>
+  <string name="pref_battery_phone_low_level_title">
+    通知するバッテリー残量
+  </string>
+  <string name="pref_battery_phone_low_repeat_interval_title">
+    繰り返し間隔
+  </string>
+  <string name="pref_cat_battery_phone_full">フル充電</string>
+  <string name="pref_battery_phone_full_title">フル充電通知</string>
+  <string name="pref_battery_phone_full_plugged_ac">AC充電器</string>
+  <string name="pref_battery_phone_full_plugged_usb">USBポート</string>
+  <string name="pref_battery_phone_full_plugged_wireless">
+    ワイヤレス充電器
+  </string>
 
-    <string name="pref_battery_phone">端末のバッテリー</string>
-    <string name="pref_battery_phone_summary">残量低下・フル充電通知</string>
-    <string name="pref_cat_battery_phone_low">残量低下</string>
-    <string name="pref_battery_phone_low_title">残量低下通知</string>
-    <string name="pref_battery_phone_low_level_title">通知するバッテリー残量</string>
-    <string name="pref_battery_phone_low_repeat_interval_title">繰り返し間隔</string>
-    <string name="pref_cat_battery_phone_full">フル充電</string>
-    <string name="pref_battery_phone_full_title">フル充電通知</string>
-    <string name="pref_battery_phone_full_plugged_ac">AC充電器</string>
-    <string name="pref_battery_phone_full_plugged_usb">USBポート</string>
-    <string name="pref_battery_phone_full_plugged_wireless">ワイヤレス充電器</string>
+  <string name="pref_battery_phone_message">
+    端末のバッテリー：\n %1$,d%%
+  </string>
 
-    <string name="pref_battery_phone_message">端末のバッテリー：\n %1$,d%%</string>
+  <string name="pref_language">言語</string>
+  <string name="pref_cat_language">アプリ</string>
+  <string name="pref_language_title">言語</string>
 
-    <string name="pref_language">言語</string>
-    <string name="pref_cat_language">アプリ</string>
-    <string name="pref_language_title">言語</string>
+  <string name="pref_menu">メニュー</string>
+  <string name="pref_cat_menu">Main menu bar</string>
+  <string name="pref_menu_item_2">Second menu item</string>
+  <string name="pref_menu_item_3">Third menu item</string>
 
-    <string name="pref_menu">メニュー</string>
-    <string name="pref_cat_menu">Main menu bar</string>
-    <string name="pref_menu_item_2">Second menu item</string>
-    <string name="pref_menu_item_3">Third menu item</string>
+  <string name="pref_diagnostic">システム</string>
+  <string name="pref_cat_diagnostic_closing_protection">
+    アプリの自動終了制限
+  </string>
+  <string name="pref_diagnostic_battery_optimisation">
+    バッテリー最適化を無視
+  </string>
+  <string name="pref_diagnostic_companion_device">
+    コンパニオンデバイスペアリング
+  </string>
+  <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
+  <string name="pref_diagnostic_autostart">自動起動</string>
+  <string name="pref_diagnostic_autostart_summary">
+    Enable the application to restart automatically in the phone\'s Auto-start
+    manager
+  </string>
+  <string name="pref_diagnostic_info">詳しくは</string>
+  <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
 
-    <string name="pref_diagnostic">システム</string>
-    <string name="pref_cat_diagnostic_closing_protection">アプリの自動終了制限</string>
-    <string name="pref_diagnostic_battery_optimisation">バッテリー最適化を無視</string>
-    <string name="pref_diagnostic_companion_device">コンパニオンデバイスペアリング</string>
-    <string name="pref_diagnostic_bluetooth_pairing">Bluetooth pairing</string>
-    <string name="pref_diagnostic_autostart">自動起動</string>
-    <string name="pref_diagnostic_autostart_summary">Enable the application to restart automatically in the phone\'s Auto-start manager</string>
-    <string name="pref_diagnostic_info">詳しくは</string>
-    <string name="pref_diagnostic_info_summary">https://dontkillmyapp.com</string>
+  <string name="pref_cat_diagnostic_permissions">権限</string>
+  <string name="pref_diagnostic_permission_allow_notification_access_settings">
+    Allow notification access
+  </string>
+  <string name="pref_diagnostic_permission_schedule_exact_alarm">
+    正確なアラームをスケジュールします
+  </string>
+  <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">
+    Additional permission is required to schedule the task at an exact time.
+  </string>
+  <string name="pref_diagnostic_permission_post_notifications">
+    Post notifications
+  </string>
+  <string name="pref_diagnostic_permission_post_notifications_summary">
+    Additional permission is required to display the notification
+  </string>
+  <string name="pref_diagnostic_permission_access_notification_policy">
+    着信拒否へのアクセス
+  </string>
 
-    <string name="pref_cat_diagnostic_permissions">権限</string>
-    <string name="pref_diagnostic_permission_allow_notification_access_settings">Allow notification access</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm">正確なアラームをスケジュールします</string>
-    <string name="pref_diagnostic_permission_schedule_exact_alarm_summary">Additional permission is required to schedule the task at an exact time.</string>
-    <string name="pref_diagnostic_permission_post_notifications">Post notifications</string>
-    <string name="pref_diagnostic_permission_post_notifications_summary">Additional permission is required to display the notification</string>
-    <string name="pref_diagnostic_permission_access_notification_policy">着信拒否へのアクセス</string>
+  <!-- Snackbar Messages -->
+  <string name="message_enable_bluetooth">
+    Bluetoothを有効にしてスマートウォッチを携帯電話に近づけてください
+  </string>
+  <string name="message_discover_device">
+    %1$s が設定されていません。接続してください
+  </string>
+  <string name="message_discovering_device">
+    バンドを検出中（1分程度かかることがあります） &#8230;
+  </string>
+  <string name="message_discover_device_succeeded">
+    %1$sの接続に成功しました
+  </string>
+  <string name="message_discover_device_failed">%1$s 接続に失敗しました</string>
+  <string name="message_discover_device_not_found">
+    バンドが検出されない場合は、Haylou
+    Sportのマイデバイスの設定から「検出可能」をオンにするか、端末のBluetooth設定でバンドをペアリングしてください
+  </string>
+  <string name="message_enable_notification_listener_access">
+    端末の通知設定で通知へのアクセスを許可してください
+  </string>
+  <string name="message_enable_notification_listener_access_4_4">
+    端末のセキュリティ設定で通知へのアクセスを許可してください
+  </string>
 
+  <string name="message_deleted">削除しました</string>
+  <string name="message_undo">取り消しました</string>
 
-    <!-- Snackbar Messages -->
-    <string name="message_enable_bluetooth">Bluetoothを有効にしてスマートウォッチを携帯電話に近づけてください</string>
-    <string name="message_discover_device">%1$s が設定されていません。接続してください</string>
-    <string name="message_discovering_device">バンドを検出中（1分程度かかることがあります）&#8230;</string>
-    <string name="message_discover_device_succeeded">%1$sの接続に成功しました</string>
-    <string name="message_discover_device_failed">%1$s 接続に失敗しました</string>
-    <string name="message_discover_device_not_found">バンドが検出されない場合は、Haylou Sportのマイデバイスの設定から「検出可能」をオンにするか、端末のBluetooth設定でバンドをペアリングしてください</string>
-    <string name="message_enable_notification_listener_access">端末の通知設定で通知へのアクセスを許可してください</string>
-    <string name="message_enable_notification_listener_access_4_4">端末のセキュリティ設定で通知へのアクセスを許可してください</string>
+  <string name="message_app_chooser_no_selected">
+    アプリを選択してください
+  </string>
 
-    <string name="message_deleted">削除しました</string>
-    <string name="message_undo">取り消しました</string>
+  <string name="message_free_counter">
+    Up to %1$,d setting can be used in free mode
+  </string>
+  <!-- %1$,d = 1 or more  -->
 
-    <string name="message_app_chooser_no_selected">アプリを選択してください</string>
+  <string name="message_notification_free_groups">
+    ノーマルモードでは通知グループは最大%1$,d個まで使用可能です
+  </string>
+  <string name="message_notification_free_app">
+    Up to 1 application can be selected in free mode
+  </string>
+  <string name="message_notification_free_apps">
+    Up to %1$,d applications can be selected in free mode
+  </string>
+  <!-- %1$s = 2 or more  -->
 
-    <string name="message_free_counter">Up to %1$,d setting can be used in free mode</string> <!-- %1$,d = 1 or more  -->
+  <string name="message_notification_free_text">
+    Up to 1 text can be recorded in free mode
+  </string>
 
-    <string name="message_notification_free_groups">ノーマルモードでは通知グループは最大%1$,d個まで使用可能です</string>
-    <string name="message_notification_free_app">Up to 1 application can be selected in free mode</string>
-    <string name="message_notification_free_apps">Up to %1$,d applications can be selected in free mode</string>   <!-- %1$s = 2 or more  -->
+  <string name="message_time_alarm_free_counter">
+    Up to 1 alarm can be used in free mode
+  </string>
+  <string name="message_time_alarm_max_counter">
+    アラームは最大%1$dつまで使用可能です
+  </string>
+  <string name="message_time_alarm_enabled">アラームが有効になりました</string>
+  <string name="message_time_alarm_disabled">アラームが無効になりました</string>
+  <string name="message_time_alarm_off">アラームがオフになりました</string>
 
-    <string name="message_notification_free_text">Up to 1 text can be recorded in free mode</string>
+  <string name="message_touch_pattern_error">
+    パターンが類似しています。別のパターンを記録してください
+  </string>
+  <string name="message_touch_free_patterns">
+    ノーマルモードでは%1$,d個以上のパターンは使用できません
+  </string>
+  <string name="message_touch_record_help">
+    Use the %1$s music control/find my phone features
+  </string>
+  <!-- %1$s = smartwatch -->
 
-    <string name="message_time_alarm_free_counter">Up to 1 alarm can be used in free mode</string>
-    <string name="message_time_alarm_max_counter">アラームは最大%1$dつまで使用可能です</string>
-    <string name="message_time_alarm_enabled">アラームが有効になりました</string>
-    <string name="message_time_alarm_disabled">アラームが無効になりました</string>
-    <string name="message_time_alarm_off">アラームがオフになりました</string>
+  <string name="message_premium_mode_only">
+    この機能はプレミアムモードでのみ利用可能です
+  </string>
+  <string name="message_feature_is_not_supported">
+    %1$sはこの機能をサポートしていません
+  </string>
+  <string name="message_general_error">
+    設定に失敗しました（接続が切断されました）。再試行してください
+  </string>
+  <string name="message_internet_error">インターネット接続がありません</string>
+  <string name="message_internet_traffic_blocked">
+    ネットワークトラフィックがブロックされています
+  </string>
+  <string name="message_internet_ads_blocked">광고가 차단되었습니다</string>
+  <string name="message_gps_enable">GPSを有効にしてください</string>
+  <string name="message_location_enable">
+    Enable the location info permission
+  </string>
 
-    <string name="message_touch_pattern_error">パターンが類似しています。別のパターンを記録してください</string>
-    <string name="message_touch_free_patterns">ノーマルモードでは%1$,d個以上のパターンは使用できません</string>
-    <string name="message_touch_record_help">Use the %1$s music control/find my phone features</string> <!-- %1$s = smartwatch -->
+  <string name="message_in_progress">処理中…</string>
+  <string name="message_no_data">利用可能なデータなし</string>
 
-    <string name="message_premium_mode_only">この機能はプレミアムモードでのみ利用可能です</string>
-    <string name="message_feature_is_not_supported">%1$sはこの機能をサポートしていません</string>
-    <string name="message_general_error">設定に失敗しました（接続が切断されました）。再試行してください</string>
-    <string name="message_internet_error">インターネット接続がありません</string>
-    <string name="message_internet_traffic_blocked">ネットワークトラフィックがブロックされています</string>
-    <string name="message_internet_ads_blocked">광고가 차단되었습니다</string>
-    <string name="message_gps_enable">GPSを有効にしてください</string>
-    <string name="message_location_enable">Enable the location info permission</string>
+  <string name="message_rewarded_error">動画の読み込みに失敗しました</string>
 
-    <string name="message_in_progress">処理中…</string>
-    <string name="message_no_data">利用可能なデータなし</string>
+  <string name="message_new_message">
+    新着メッセージがあります。端末で確認してください。
+  </string>
 
-    <string name="message_rewarded_error">動画の読み込みに失敗しました</string>
+  <string name="message_permission_not_granted">
+    権限が付与されていません: %1$s
+  </string>
+  <!-- %1$s = permission name -->
 
-    <string name="message_new_message">新着メッセージがあります。端末で確認してください。</string>
-
-    <string name="message_permission_not_granted">権限が付与されていません: %1$s</string> <!-- %1$s = permission name -->
-
-    <!-- Dialog -->
-    <string name="dialog_welcome_title">ようこそ！</string>
-    <string name="dialog_welcome_message"><![CDATA[サポートされているデバイス：
+  <!-- Dialog -->
+  <string name="dialog_welcome_title">ようこそ！</string>
+  <string
+    name="dialog_welcome_message"
+  ><![CDATA[サポートされているデバイス：
     <watch_types/>
     <p><app_name/> requires the installation of the official <device_type/> app on the same phone. At first you have to pair your smartwatch in the <device_type/> app, then you can use this app.</p>
     <p>バンドが見つからない場合はMACアドレス</p>
@@ -245,421 +388,575 @@
     <br><br><small>This product and its features are not designed for medical purposes, and are not intended to predict, diagnose, prevent, or cure any diseases. All data and measurements are for personal reference only and shall not be used as a basis for diagnosis and treatment.</small>
     ]]></string>
 
+  <!-- Notification Dialog -->
+  <string name="notification_group_nav_setting">設定</string>
+  <string name="notification_group_nav_filter">フィルタ</string>
+  <string name="notification_group_nav_correction">修正</string>
 
-    <!-- Notification Dialog -->
-    <string name="notification_group_nav_setting">設定</string>
-    <string name="notification_group_nav_filter">フィルタ</string>
-    <string name="notification_group_nav_correction">修正</string>
+  <string name="notification_group_name">グループ名</string>
+  <string name="notification_group_monitoring">通知を監視</string>
+  <string name="notification_group_monitoring_disabled">
+    通知を無効化（アプリからの通知を送信しない）
+  </string>
+  <string name="notification_group_alert_title">%1$sの通知</string>
+  <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
+  <string name="notification_group_text">表示するテキスト</string>
+  <string name="notification_group_text_app_name">アプリ名</string>
+  <string name="notification_group_text_name">名前</string>
+  <string name="notification_group_text_title">タイトル</string>
+  <string name="notification_group_text_content">内容</string>
+  <string name="notification_group_text_big_content">完全なコンテンツ</string>
+  <string name="notification_group_text_content_slice_title">
+    テキストの長さ
+  </string>
+  <string name="notification_group_display_time_title">表示時間</string>
+  <string name="notification_group_display_notification_title">
+    通知の表示
+  </string>
+  <string name="notification_group_immediate">通知をすぐに送信</string>
+  <string name="notification_group_connecting">端末の接続中に通知を送信</string>
+  <string name="notification_group_reminder">リマインダーの通知を送信</string>
+  <string name="notification_group_ongoing">固定された通知を送信</string>
+  <string name="notification_group_screen_off">画面オフ時のみ通知を送信</string>
+  <string name="notification_group_repeat_title">通知の繰り返し</string>
+  <string name="notification_group_wakelock">端末の画面を点灯</string>
+  <string name="notification_group_grouped_display_title">
+    通知グループの表示設定
+  </string>
+  <string name="notification_group_grouped_sort_order_title">
+    通知グループの並べ替え
+  </string>
 
-    <string name="notification_group_name">グループ名</string>
-    <string name="notification_group_monitoring">通知を監視</string>
-    <string name="notification_group_monitoring_disabled">通知を無効化（アプリからの通知を送信しない）</string>
-    <string name="notification_group_alert_title">%1$sの通知</string> <!-- %1$s = Haylou Smart Watch, Haylou Smart Watch ... -->
-    <string name="notification_group_text">表示するテキスト</string>
-    <string name="notification_group_text_app_name">アプリ名</string>
-    <string name="notification_group_text_name">名前</string>
-    <string name="notification_group_text_title">タイトル</string>
-    <string name="notification_group_text_content">内容</string>
-    <string name="notification_group_text_big_content">完全なコンテンツ</string>
-    <string name="notification_group_text_content_slice_title">テキストの長さ</string>
-    <string name="notification_group_display_time_title">表示時間</string>
-    <string name="notification_group_display_notification_title">通知の表示</string>
-    <string name="notification_group_immediate">通知をすぐに送信</string>
-    <string name="notification_group_connecting">端末の接続中に通知を送信</string>
-    <string name="notification_group_reminder">リマインダーの通知を送信</string>
-    <string name="notification_group_ongoing">固定された通知を送信</string>
-    <string name="notification_group_screen_off">画面オフ時のみ通知を送信</string>
-    <string name="notification_group_repeat_title">通知の繰り返し</string>
-    <string name="notification_group_wakelock">端末の画面を点灯</string>
-    <string name="notification_group_grouped_display_title">通知グループの表示設定</string>
-    <string name="notification_group_grouped_sort_order_title">通知グループの並べ替え</string>
+  <string name="notification_group_filter">通知のフィルタ</string>
+  <string name="notification_group_filter_title">タイトルのフィルタ</string>
+  <string name="notification_group_filter_content">内容のフィルタ</string>
+  <string name="notification_group_filter_regex">正規表現（Regex）</string>
+  <string name="notification_group_filter_hint">
+    通知のタイトルまたは内容が次の条件を満たすときのみ通知を送信（大文字・小文字の区別なし）
+  </string>
+  <string name="notification_group_filter_contains">
+    以下の語句のいずれかを含むとき
+  </string>
+  <string name="notification_group_filter_not_contains">
+    以下の語句のいずれも含まないとき
+  </string>
 
-    <string name="notification_group_filter">通知のフィルタ</string>
-    <string name="notification_group_filter_title">タイトルのフィルタ</string>
-    <string name="notification_group_filter_content">内容のフィルタ</string>
-    <string name="notification_group_filter_regex">正規表現（Regex）</string>
-    <string name="notification_group_filter_hint">通知のタイトルまたは内容が次の条件を満たすときのみ通知を送信（大文字・小文字の区別なし）</string>
-    <string name="notification_group_filter_contains">以下の語句のいずれかを含むとき</string>
-    <string name="notification_group_filter_not_contains">以下の語句のいずれも含まないとき</string>
+  <string name="notification_group_sample_sms">SMS</string>
+  <string name="notification_group_sample_facebook">Messenger</string>
+  <string name="notification_group_sample_whatsapp">WhatsApp</string>
 
-    <string name="notification_group_sample_sms">SMS</string>
-    <string name="notification_group_sample_facebook">Messenger</string>
-    <string name="notification_group_sample_whatsapp">WhatsApp</string>
+  <string name="notification_group_correction">テキストの修正</string>
+  <string name="notification_group_correction_title">タイトルの修正</string>
+  <string name="notification_group_correction_content">内容の修正</string>
+  <string name="notification_group_correction_regex">正規表現（Regex）</string>
+  <string name="notification_group_correction_hint">
+    大文字・小文字の区別なし
+  </string>
+  <string name="notification_group_correction_items">修正するテキスト</string>
+  <string name="notification_group_correction_find">検索</string>
+  <string name="notification_group_correction_replace">置換</string>
 
-    <string name="notification_group_correction">テキストの修正</string>
-    <string name="notification_group_correction_title">タイトルの修正</string>
-    <string name="notification_group_correction_content">内容の修正</string>
-    <string name="notification_group_correction_regex">正規表現（Regex）</string>
-    <string name="notification_group_correction_hint">大文字・小文字の区別なし</string>
-    <string name="notification_group_correction_items">修正するテキスト</string>
-    <string name="notification_group_correction_find">検索</string>
-    <string name="notification_group_correction_replace">置換</string>
+  <string name="notification_regex_hint">
+    英数字以外の文字を使って形式を指定する方法です。使用しない場合はオフにしてください
+  </string>
 
-    <string name="notification_regex_hint">英数字以外の文字を使って形式を指定する方法です。使用しない場合はオフにしてください</string>
+  <string name="notification_confirm_close">変更を破棄しますか？</string>
 
-    <string name="notification_confirm_close">変更を破棄しますか？</string>
-
-    <string name="notification_edit_play_text_title">通知のタイトル</string>
-    <string name="notification_edit_play_text_content">通知の内容：
+  <string name="notification_edit_play_text_title">通知のタイトル</string>
+  <string name="notification_edit_play_text_content">
+    通知の内容：
     親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。
     \n別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃したからである。
-    </string>
-    <string name="notification_edit_play_info"><![CDATA[<img src="ALERT_MESSAGE_TEXT">通知のタイトルまたは内容を表示するにはこのアイコンを選択してください。]]></string>
+  </string>
+  <string
+    name="notification_edit_play_info"
+  ><![CDATA[<img src="ALERT_MESSAGE_TEXT">通知のタイトルまたは内容を表示するにはこのアイコンを選択してください。]]></string>
 
+  <!-- Call -->
+  <string name="call_tab_call">着信</string>
+  <string name="call_tab_contacts">連絡先</string>
 
-    <!-- Call -->
-    <string name="call_tab_call">着信</string>
-    <string name="call_tab_contacts">連絡先</string>
+  <string name="pref_cat_call">着信</string>
+  <string name="pref_call_summary_on">
+    必ず%1$sで着信通知をオフにしてください。
+  </string>
+  <!-- %1$s = official app name -->
+  <string name="pref_call_text_title">発信者のIDを表示</string>
 
-    <string name="pref_cat_call">着信</string>
-    <string name="pref_call_summary_on">必ず%1$sで着信通知をオフにしてください。</string> <!-- %1$s = official app name -->
-    <string name="pref_call_text_title">発信者のIDを表示</string>
+  <string name="pref_call_notification_rejected">着信拒否の通知を表示</string>
+  <string name="pref_call_notification_rejected_message">着信拒否</string>
+  <string name="pref_call_notification_rejected_action">通話</string>
 
-    <string name="pref_call_notification_rejected">着信拒否の通知を表示</string>
-    <string name="pref_call_notification_rejected_message">着信拒否</string>
-    <string name="pref_call_notification_rejected_action">通話</string>
+  <string name="pref_call_net_text_title">インターネット通話の着信通知</string>
 
-    <string name="pref_call_net_text_title">インターネット通話の着信通知</string>
+  <string name="pref_cat_call_missed">不在着信</string>
+  <string name="pref_call_missed_title">不在着信通知</string>
 
-    <string name="pref_cat_call_missed">不在着信</string>
-    <string name="pref_call_missed_title">不在着信通知</string>
+  <string name="pref_call_missed_alert_title">%1$sの通知</string>
+  <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
 
-    <string name="pref_call_missed_alert_title">%1$sの通知</string> <!-- Haylou Smart Watch, Haylou Smart Watch ... -->
+  <string name="call_reject_button_action">着信拒否ボタン</string>
 
-    <string name="call_reject_button_action">着信拒否ボタン</string>
+  <string name="touch_call_answer_title">着信の応答</string>
+  <string name="touch_call_answer_speakerphone_title">スピーカー</string>
 
-    <string name="touch_call_answer_title">着信の応答</string>
-    <string name="touch_call_answer_speakerphone_title">スピーカー</string>
+  <string name="touch_call_end_title">着信を拒否・終了</string>
 
-    <string name="touch_call_end_title">着信を拒否・終了</string>
+  <string name="touch_call_mute_title">通話をミュート</string>
+  <string name="touch_call_mute_only_call_state_ringing_title">
+    着信時のみ
+  </string>
+  <string name="touch_call_mute_recognition_title">着信時</string>
 
-    <string name="touch_call_mute_title">通話をミュート</string>
-    <string name="touch_call_mute_only_call_state_ringing_title">着信時のみ</string>
-    <string name="touch_call_mute_recognition_title">着信時</string>
+  <string name="call_contact_edit_contact">接触</string>
+  <string name="call_contact_edit_name">名前</string>
+  <string name="call_contact_edit_phone_number">電話番号</string>
 
-    <string name="call_contact_edit_contact">接触</string>
-    <string name="call_contact_edit_name">名前</string>
-    <string name="call_contact_edit_phone_number">電話番号</string>
+  <string name="call_contact_edit_setting_name_order">名前順</string>
+  <string name="call_contact_edit_setting_default">@string/default_</string>
+  <string name="call_contact_edit_setting_first_name">ファーストネーム</string>
+  <string name="call_contact_edit_setting_last_name">苗字</string>
 
-    <string name="call_contact_edit_setting_name_order">名前順</string>
-    <string name="call_contact_edit_setting_default">@string/default_</string>
-    <string name="call_contact_edit_setting_first_name">ファーストネーム</string>
-    <string name="call_contact_edit_setting_last_name">苗字</string>
+  <string name="message_call_contacts_free_counter">
+    Up to %1$d contacts can be used in free mode
+  </string>
+  <!-- %1$d = 1, 2 ,3 ... -->
+  <string name="message_call_contacts_max_counter">
+    Up to %1$d contacts can be used
+  </string>
+  <!-- %1$d = 1, 2 ,3 ... -->
 
-    <string name="message_call_contacts_free_counter">Up to %1$d contacts can be used in free mode</string> <!-- %1$d = 1, 2 ,3 ... -->
-    <string name="message_call_contacts_max_counter">Up to %1$d contacts can be used</string> <!-- %1$d = 1, 2 ,3 ... -->
+  <!-- App chooser dialog -->
+  <string name="app_chooser">アプリ選択</string>
+  <string name="action_search">検索</string>
+  <string name="action_filter_notification">通知フィルタ</string>
 
-    <!-- App chooser dialog -->
-    <string name="app_chooser">アプリ選択</string>
-    <string name="action_search">検索</string>
-    <string name="action_filter_notification">通知フィルタ</string>
+  <string name="main_control">操作</string>
 
-    <string name="main_control">操作</string>
+  <!-- Activity -->
+  <string name="step_details">アクティビティの詳細</string>
 
-    <!-- Activity -->
-    <string name="step_details">アクティビティの詳細</string>
+  <string name="mi_band_tracker_step_title">%1$,d</string>
+  <!-- none -->
+  <string name="mi_band_tracker_distance_meter_title">%1$,d m</string>
+  <!-- meter -->
+  <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string>
+  <!-- kilometre -->
+  <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string>
+  <!-- mile -->
+  <string name="mi_band_tracker_calorie_title">%1$,d kcal</string>
+  <!-- kilo calorie -->
 
-    <string name="mi_band_tracker_step_title">%1$,d</string> <!-- none -->
-    <string name="mi_band_tracker_distance_meter_title">%1$,d m</string> <!-- meter -->
-    <string name="mi_band_tracker_distance_kilometer_title">%,.2f km</string> <!-- kilometre -->
-    <string name="mi_band_tracker_distance_mile_title">%,.2f mi</string> <!-- mile -->
-    <string name="mi_band_tracker_calorie_title">%1$,d kcal</string> <!-- kilo calorie -->
+  <string name="action_tracker_step">歩数</string>
+  <string name="action_tracker_distance">距離</string>
+  <string name="action_tracker_calorie">カロリー</string>
+  <string name="action_tracker_duration">ワークアウト期間</string>
 
-    <string name="action_tracker_step">歩数</string>
-    <string name="action_tracker_distance">距離</string>
-    <string name="action_tracker_calorie">カロリー</string>
-    <string name="action_tracker_duration">ワークアウト期間</string>
+  <string name="step_goal_default_title">目標</string>
 
-    <string name="step_goal_default_title">目標</string>
+  <!-- Sleep monitoring -->
+  <string name="sleep_details">睡眠の詳細</string>
 
+  <string name="sleep_awake">Awake</string>
+  <string name="sleep_light">Light</string>
+  <string name="sleep_deep">Deep</string>
+  <string name="sleep_rem">REM</string>
 
-    <!-- Sleep monitoring -->
-    <string name="sleep_details">睡眠の詳細</string>
+  <!-- Pulse -->
+  <string name="pulse_details">心拍数の詳細</string>
 
-    <string name="sleep_awake">Awake</string>
-    <string name="sleep_light">Light</string>
-    <string name="sleep_deep">Deep</string>
-    <string name="sleep_rem">REM</string>
+  <string name="pulse_continuous_title">連続測定</string>
 
+  <string name="heart_rate_warning_title">Heart rate warning</string>
+  <string name="low_and_high_heart_rates">
+    Low and high heart rate thresholds
+  </string>
+  <string name="low_heart_rate">Low heart rate</string>
+  <string name="high_heart_rate">High heart rate</string>
 
-    <!-- Pulse -->
-    <string name="pulse_details">心拍数の詳細</string>
+  <!-- Blood oxygen -->
+  <string name="blood_oxygen_details">血中酸素の詳細</string>
 
-    <string name="pulse_continuous_title">連続測定</string>
+  <string name="blood_oxygen_level_measurement">
+    Blood oxygen level measurement
+  </string>
+  <string name="measurement_interval">Measurement interval</string>
 
-    <string name="heart_rate_warning_title">Heart rate warning</string>
-    <string name="low_and_high_heart_rates">Low and high heart rate thresholds</string>
-    <string name="low_heart_rate">Low heart rate</string>
-    <string name="high_heart_rate">High heart rate</string>
+  <!-- Blood pressure -->
+  <string name="blood_pressure_details">血圧の詳細</string>
 
+  <string name="blood_pressure_level_measurement">
+    Blood pressure level measurement
+  </string>
 
-    <!-- Blood oxygen -->
-    <string name="blood_oxygen_details">血中酸素の詳細</string>
+  <string name="blood_pressure_systolic_abbreviation">Sys</string>
+  <string name="blood_pressure_diastolic_abbreviation">Dia</string>
+  <string name="blood_pressure_unit">mmHg</string>
 
-    <string name="blood_oxygen_level_measurement">Blood oxygen level measurement</string>
-    <string name="measurement_interval">Measurement interval</string>
+  <!-- Workout -->
+  <string name="workout_details">ワークアウトの詳細</string>
 
+  <!-- Alarm -->
+  <string name="action_time_alarm_sort_state_asc">ステータス/昇順</string>
+  <string name="action_time_alarm_sort_watch_asc">時間/昇順</string>
+  <string name="action_time_alarm_sort_name_asc">名前/昇順</string>
 
-    <!-- Blood pressure -->
-    <string name="blood_pressure_details">血圧の詳細</string>
+  <string name="message_time_alarm_sync">%1$sのアラームを同期しますか？</string>
+  <!-- %1$s = Haylou Smart Watch ... -->
 
-    <string name="blood_pressure_level_measurement">Blood pressure level measurement</string>
-
-    <string name="blood_pressure_systolic_abbreviation">Sys</string>
-    <string name="blood_pressure_diastolic_abbreviation">Dia</string>
-    <string name="blood_pressure_unit">mmHg</string>
-
-
-    <!-- Workout -->
-    <string name="workout_details">ワークアウトの詳細</string>
-
-
-    <!-- Alarm -->
-    <string name="action_time_alarm_sort_state_asc">ステータス/昇順</string>
-    <string name="action_time_alarm_sort_watch_asc">時間/昇順</string>
-    <string name="action_time_alarm_sort_name_asc">名前/昇順</string>
-
-    <string name="message_time_alarm_sync">%1$sのアラームを同期しますか？</string> <!-- %1$s = Haylou Smart Watch ... -->
-
-    <string name="info_dialog_alarm"><![CDATA[
+  <string
+    name="info_dialog_alarm"
+  ><![CDATA[
         <p>When using cooperation mode, the settings of the official application and the <app_name/> application can overwrite and delete each other\'s settings.</p>
         The last operation performed will take effect.
     ]]></string>
 
+  <!-- Reminder -->
+  <string name="message_reminder_enabled">
+    リマインダーが有効になりました
+  </string>
+  <string name="message_reminder_disabled">
+    リマインダーが無効になりました
+  </string>
 
-    <!-- Reminder -->
-    <string name="message_reminder_enabled">リマインダーが有効になりました</string>
-    <string name="message_reminder_disabled">リマインダーが無効になりました</string>
+  <string name="reminder_repeat">期間を指定</string>
+  <string name="reminder_notification_shade">端末に通知</string>
 
-    <string name="reminder_repeat">期間を指定</string>
-    <string name="reminder_notification_shade">端末に通知</string>
+  <string name="message_time_reminder_free_counter">
+    Up to 1 reminder can be used in free mode
+  </string>
 
-    <string name="message_time_reminder_free_counter">Up to 1 reminder can be used in free mode</string>
-
-    <string name="info_dialog_reminder"><![CDATA[
+  <string
+    name="info_dialog_reminder"
+  ><![CDATA[
         リマインダーの表示にはBluetooth接続が必要です。
         ]]>
     </string>
 
+  <!-- Do not disturb -->
+  <string name="pref_dnd_summary">DND時の挙動設定</string>
+  <string name="pref_dnd_enable_bluetooth">
+    DND開始時にBluetoothオフ、終了時オン
+  </string>
 
-    <!-- Do not disturb -->
-    <string name="pref_dnd_summary">DND時の挙動設定</string>
-    <string name="pref_dnd_enable_bluetooth">DND開始時にBluetoothオフ、終了時オン</string>
-
-    <string name="info_dialog_dnd"><![CDATA[
+  <string
+    name="info_dialog_dnd"
+  ><![CDATA[
         If you are using cooperation mode, in the official <device_type/> application the do not disturb (DnD) mode must be between 00:00 and 23:59 and its status must be turned off.
-    ]]></string> <!-- %1$s Haylou fit-->
+    ]]></string>
+  <!-- %1$s Haylou fit-->
 
+  <!-- Watch face -->
+  <string name="watch_face_tab_watch_faces">ウォッチフェイス</string>
+  <string name="watch_face_tab_watch_face_custom">Custom files</string>
+  <string name="watch_face_tab_watch_face_editor">編集者</string>
 
-    <!-- Watch face -->
-    <string name="watch_face_tab_watch_faces">ウォッチフェイス</string>
-    <string name="watch_face_tab_watch_face_custom">Custom files</string>
-    <string name="watch_face_tab_watch_face_editor">編集者</string>
+  <string name="watch_face_download_title">ダウンロード</string>
+  <string name="watch_face_upload_title">アップロード</string>
+  <string name="watch_face_tool_title">Tools</string>
 
-    <string name="watch_face_download_title">ダウンロード</string>
-    <string name="watch_face_upload_title">アップロード</string>
-    <string name="watch_face_tool_title">Tools</string>
+  <string name="watch_face_share_content">
+    You can share the watch face you have created with others. E-mail the watch
+    face and preview files and enter the following information: author, watch
+    face name (max. 30 characters in total) and the watch face language. We only
+    publish high quality watch faces.
+  </string>
 
-    <string name="watch_face_share_content">You can share the watch face you have created with others. E-mail the watch face and preview files and enter the following information: author, watch face name (max. 30 characters in total) and the watch face language. We only publish high quality watch faces.</string>
+  <string name="watch_face_upload_prepare">アップロードの準備中…</string>
+  <string name="watch_face_upload_progress">アップロード中：%1$,d%%</string>
 
-    <string name="watch_face_upload_prepare">アップロードの準備中…</string>
-    <string name="watch_face_upload_progress">アップロード中：%1$,d%%</string>
+  <string name="watch_face_invalid_firmware">
+    %1$s firmware does not support uploading the watch face, update the firmware
+    in the official application
+  </string>
+  <!-- %1$s = Haylou Smart watch ... -->
+  <string name="watch_face_invalid_auth">
+    Use in standalone mode, when using cooperation mode, the official
+    application may block the watch face upload
+  </string>
+  <string name="watch_face_invalid_free">
+    In the free mode, more dials cannot be uploaded today
+  </string>
+  <string name="watch_face_watch_rewarded_ads">
+    続行するビデオをご覧ください
+  </string>
+  <string name="watch_face_watch_rewarded_ads_uploading">
+    Watch a video to continue uploading
+  </string>
+  <string name="watch_face_watch_rewarded_ads_countdown">
+    Video starting…
+  </string>
 
-    <string name="watch_face_invalid_firmware">%1$s firmware does not support uploading the watch face, update the firmware in the official application</string> <!-- %1$s = Haylou Smart watch ... -->
-    <string name="watch_face_invalid_auth">Use in standalone mode, when using cooperation mode, the official application may block the watch face upload</string>
-    <string name="watch_face_invalid_free">In the free mode, more dials cannot be uploaded today</string>
-    <string name="watch_face_watch_rewarded_ads">続行するビデオをご覧ください</string>
-    <string name="watch_face_watch_rewarded_ads_uploading">Watch a video to continue uploading</string>
-    <string name="watch_face_watch_rewarded_ads_countdown">Video starting…</string>
+  <string name="watch_face_upload_method_title">Method</string>
+  <string name="watch_face_upload_method_default">@string/default_</string>
+  <string name="watch_face_upload_method_alternative">Alternative</string>
 
-    <string name="watch_face_upload_method_title">Method</string>
-    <string name="watch_face_upload_method_default">@string/default_</string>
-    <string name="watch_face_upload_method_alternative">Alternative</string>
+  <string name="watch_face_upload_speed_title">Upload speed</string>
+  <string name="watch_face_upload_invalid_speed_hint">
+    Set a lower speed if the watch face uploading process is interrupted
+  </string>
+  <string name="watch_face_upload_invalid_size_hint">
+    Invalid watch face file size, set lower watch face quality or remove items
+    from watch face
+  </string>
+  <string name="watch_face_upload_invalid_battery_hint">
+    The smartwatch battery is running low, please charge the watch
+  </string>
 
-    <string name="watch_face_upload_speed_title">Upload speed</string>
-    <string name="watch_face_upload_invalid_speed_hint">Set a lower speed if the watch face uploading process is interrupted</string>
-    <string name="watch_face_upload_invalid_size_hint">Invalid watch face file size, set lower watch face quality or remove items from watch face</string>
-    <string name="watch_face_upload_invalid_battery_hint">The smartwatch battery is running low, please charge the watch</string>
+  <string name="watch_face_tbwf_quality_title">
+    .tbwf watch face quality setting
+  </string>
+  <string name="watch_face_tbwf_quality_hint">
+    The file size can be reduced if the watch allows it
+  </string>
 
-    <string name="watch_face_tbwf_quality_title">.tbwf watch face quality setting</string>
-    <string name="watch_face_tbwf_quality_hint">The file size can be reduced if the watch allows it</string>
+  <string name="watch_face_tbwf_locale_title">
+    .tbwf watch face language and country setting
+  </string>
+  <string name="watch_face_tbwf_locale_hint">
+    Day of week, month separator and decimal separator
+  </string>
 
-    <string name="watch_face_tbwf_locale_title">.tbwf watch face language and country setting</string>
-    <string name="watch_face_tbwf_locale_hint">Day of week, month separator and decimal separator</string>
+  <string name="message_watch_face_file_invalid">
+    無効なウォッチフェイスファイルです
+  </string>
+  <string name="message_watch_face_file_invalid_size">
+    Invalid watch face file size
+  </string>
+  <string name="message_watch_face_file_invalid_battery">
+    The smartwatch battery is running low
+  </string>
+  <string name="message_watch_face_image_file_error">無効な画像ファイル</string>
+  <string name="message_watch_face_font_file_error">
+    無効なフォントファイル
+  </string>
 
-    <string name="message_watch_face_file_invalid">無効なウォッチフェイスファイルです</string>
-    <string name="message_watch_face_file_invalid_size">Invalid watch face file size</string>
-    <string name="message_watch_face_file_invalid_battery">The smartwatch battery is running low</string>
-    <string name="message_watch_face_image_file_error">無効な画像ファイル</string>
-    <string name="message_watch_face_font_file_error">無効なフォントファイル</string>
+  <string name="action_chart_layout_2_columns">2-column layout</string>
+  <string name="action_chart_layout_3_columns">3-column layout</string>
 
-    <string name="action_chart_layout_2_columns">2-column layout</string>
-    <string name="action_chart_layout_3_columns">3-column layout</string>
+  <string name="watch_face_edit_dial">Dial</string>
+  <string name="watch_face_edit_preview">Preview</string>
+  <string name="watch_face_edit_hour_digital">時間</string>
+  <string name="watch_face_edit_minute_digital">分</string>
+  <string name="watch_face_edit_second_digital">秒</string>
+  <string name="watch_face_edit_am_pm">AM/PM indicator</string>
+  <string name="watch_face_edit_am">AM</string>
+  <string name="watch_face_edit_pm">PM</string>
+  <string name="watch_face_edit_hour_analog">Hour hand</string>
+  <string name="watch_face_edit_minute_analog">Minute hand</string>
+  <string name="watch_face_edit_second_analog">Second hand</string>
+  <string name="watch_face_edit_axis">Axis of rotation</string>
+  <string name="watch_face_edit_hour_minute_separator">
+    時間と分のセパレータ
+  </string>
+  <string name="watch_face_edit_year">年</string>
+  <string name="watch_face_edit_year_month_separator">
+    年と月のセパレーター
+  </string>
+  <string name="watch_face_edit_month">月</string>
+  <string name="watch_face_edit_month_name">月の名前</string>
+  <string name="watch_face_edit_month_day_separator">月と日の区切り文字</string>
+  <string name="watch_face_edit_day">日</string>
+  <string name="watch_face_edit_dayOfWeek">週の日</string>
+  <string name="watch_face_edit_battery_level">バッテリーレベル</string>
+  <string name="watch_face_edit_battery_level_percent_sign">
+    バッテリーレベル %
+  </string>
+  <string name="watch_face_edit_battery_level_image">バッテリー画像</string>
+  <string name="watch_face_edit_weather_temperature">温度</string>
+  <string name="watch_face_edit_weather_temperature_unit_sign">
+    温度単位 °
+  </string>
+  <string name="watch_face_edit_weather_image">Weather image</string>
+  <string name="watch_face_edit_connection_indicator_image">
+    Connection indicator image
+  </string>
+  <string name="watch_face_edit_connected">接続済み</string>
+  <string name="watch_face_edit_disconnected">未接続</string>
+  <string name="watch_face_edit_steps">歩数</string>
+  <string name="watch_face_edit_steps_image">ステップ画像</string>
+  <string name="watch_face_edit_steps_goal_progress">
+    Steps goal progress
+  </string>
+  <string name="watch_face_edit_distance">距離</string>
+  <string name="watch_face_edit_distance_image">Distance image</string>
+  <string name="watch_face_edit_calories">カロリー</string>
+  <string name="watch_face_edit_calories_image">カロリー画像</string>
+  <string name="watch_face_edit_heart_rate">心拍数</string>
+  <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
 
-    <string name="watch_face_edit_dial">Dial</string>
-    <string name="watch_face_edit_preview">Preview</string>
-    <string name="watch_face_edit_hour_digital">時間</string>
-    <string name="watch_face_edit_minute_digital">分</string>
-    <string name="watch_face_edit_second_digital">秒</string>
-    <string name="watch_face_edit_am_pm">AM/PM indicator</string>
-    <string name="watch_face_edit_am">AM</string>
-    <string name="watch_face_edit_pm">PM</string>
-    <string name="watch_face_edit_hour_analog">Hour hand</string>
-    <string name="watch_face_edit_minute_analog">Minute hand</string>
-    <string name="watch_face_edit_second_analog">Second hand</string>
-    <string name="watch_face_edit_axis">Axis of rotation</string>
-    <string name="watch_face_edit_hour_minute_separator">時間と分のセパレータ</string>
-    <string name="watch_face_edit_year">年</string>
-    <string name="watch_face_edit_year_month_separator">年と月のセパレーター</string>
-    <string name="watch_face_edit_month">月</string>
-    <string name="watch_face_edit_month_name">月の名前</string>
-    <string name="watch_face_edit_month_day_separator">月と日の区切り文字</string>
-    <string name="watch_face_edit_day">日</string>
-    <string name="watch_face_edit_dayOfWeek">週の日</string>
-    <string name="watch_face_edit_battery_level">バッテリーレベル</string>
-    <string name="watch_face_edit_battery_level_percent_sign">バッテリーレベル %</string>
-    <string name="watch_face_edit_battery_level_image">バッテリー画像</string>
-    <string name="watch_face_edit_weather_temperature">温度</string>
-    <string name="watch_face_edit_weather_temperature_unit_sign">温度単位 °</string>
-    <string name="watch_face_edit_weather_image">Weather image</string>
-    <string name="watch_face_edit_connection_indicator_image">Connection indicator image</string>
-    <string name="watch_face_edit_connected">接続済み</string>
-    <string name="watch_face_edit_disconnected">未接続</string>
-    <string name="watch_face_edit_steps">歩数</string>
-    <string name="watch_face_edit_steps_image">ステップ画像</string>
-    <string name="watch_face_edit_steps_goal_progress">Steps goal progress</string>
-    <string name="watch_face_edit_distance">距離</string>
-    <string name="watch_face_edit_distance_image">Distance image</string>
-    <string name="watch_face_edit_calories">カロリー</string>
-    <string name="watch_face_edit_calories_image">カロリー画像</string>
-    <string name="watch_face_edit_heart_rate">心拍数</string>
-    <string name="watch_face_edit_heart_rate_image">Heart rate image</string>
+  <string name="watch_face_edit_color">色</string>
+  <string name="watch_face_edit_font_family">フォント</string>
+  <string name="watch_face_edit_font_size">フォントサイズ</string>
+  <string name="watch_face_edit_character">Character</string>
+  <string name="watch_face_edit_image">画像</string>
+  <string name="watch_face_edit_image_png_jpeg">画像 (.png, .jpeg)</string>
+  <string name="watch_face_edit_image_png">画像 (.png)</string>
+  <string name="watch_face_edit_icon">Icon</string>
+  <string name="watch_face_edit_image_size">画像サイズ</string>
 
-    <string name="watch_face_edit_color">色</string>
-    <string name="watch_face_edit_font_family">フォント</string>
-    <string name="watch_face_edit_font_size">フォントサイズ</string>
-    <string name="watch_face_edit_character">Character</string>
-    <string name="watch_face_edit_image">画像</string>
-    <string name="watch_face_edit_image_png_jpeg">画像 (.png, .jpeg)</string>
-    <string name="watch_face_edit_image_png">画像 (.png)</string>
-    <string name="watch_face_edit_icon">Icon</string>
-    <string name="watch_face_edit_image_size">画像サイズ</string>
+  <string name="watch_face_custom_watch_face_not_supported_title">
+    The watch does not support uploading a custom watch face
+  </string>
+  <string name="watch_face_custom_watch_face_under_development_title">
+    The ability to upload custom watch faces is currently in development and may
+    be available in the future, but it is not yet confirmed
+  </string>
 
-    <string name="watch_face_custom_watch_face_not_supported_title">The watch does not support uploading a custom watch face</string>
-    <string name="watch_face_custom_watch_face_under_development_title">The ability to upload custom watch faces is currently in development and may be available in the future, but it is not yet confirmed</string>
+  <!-- Touch monitoring -->
+  <string name="touch_tab_function">機能</string>
+  <string name="touch_tab_control">操作</string>
+  <string name="touch_tab_testing">テスト</string>
+  <string name="touch_tab_setting">@string/setting_name</string>
 
-    <!-- Touch monitoring -->
-    <string name="touch_tab_function">機能</string>
-    <string name="touch_tab_control">操作</string>
-    <string name="touch_tab_testing">テスト</string>
-    <string name="touch_tab_setting">@string/setting_name</string>
+  <string name="touch_function_summary">
+    スタンドアロンモードを使っている場合や、Mi
+    Fitが正しく機能しない場合に設定してください
+  </string>
+  <string name="touch_function">%1$sの機能を使用する</string>
+  <!-- %1$s = Watch name -->
+  <string name="touch_function_as_touch">操作タブでタッチを割り当てる</string>
 
-    <string name="touch_function_summary">スタンドアロンモードを使っている場合や、Mi Fitが正しく機能しない場合に設定してください</string>
-    <string name="touch_function">%1$sの機能を使用する</string> <!-- %1$s = Watch name -->
-    <string name="touch_function_as_touch">操作タブでタッチを割り当てる</string>
+  <string name="touch_headline_incoming_call_title">着信</string>
+  <string name="touch_headline_other_function_title">その他の機能</string>
+  <string name="touch_headline_call_title">通話の操作</string>
+  <string name="touch_headline_music_title">音楽の操作</string>
+  <string name="touch_headline_time_title">
+    タイマー・ストップウォッチの操作
+  </string>
+  <string name="touch_headline_other_title">その他の操作</string>
 
-    <string name="touch_headline_incoming_call_title">着信</string>
-    <string name="touch_headline_other_function_title">その他の機能</string>
-    <string name="touch_headline_call_title">通話の操作</string>
-    <string name="touch_headline_music_title">音楽の操作</string>
-    <string name="touch_headline_time_title">タイマー・ストップウォッチの操作</string>
-    <string name="touch_headline_other_title">その他の操作</string>
+  <string name="touch_device_location_title">端末を探す</string>
+  <string name="touch_device_location_not_muted_only_title">
+    ミュート・DND時は鳴動しない
+  </string>
 
+  <string name="touch_mute_toggle_title">端末のミュート</string>
+  <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
+  <string name="touch_mute_toggle_mute_off_title">Mute off</string>
 
-    <string name="touch_device_location_title">端末を探す</string>
-    <string name="touch_device_location_not_muted_only_title">ミュート・DND時は鳴動しない</string>
+  <string name="touch_music_title">音楽</string>
+  <string name="touch_music_function_launch">
+    音楽プレーヤーが認識されない場合に、再生ボタンで音楽を再生
+  </string>
+  <string name="touch_music_function_mi_band_message_launch">
+    音楽を再生します
+  </string>
+  <string name="touch_music_function_mi_band_message_no_track_title">
+    曲名が取得できません
+  </string>
 
-    <string name="touch_mute_toggle_title">端末のミュート</string>
-    <string name="touch_mute_toggle_ringer_mode_title">Mute mode</string>
-    <string name="touch_mute_toggle_mute_off_title">Mute off</string>
+  <string name="touch_call_out_title">発信</string>
+  <string name="touch_call_out_no_contact">連絡先を選択</string>
+  <string name="touch_call_out_summary">2回押して電話に出る</string>
+  <string name="touch_call_out_summary_support_call_display_button">
+    ボタンを押して電話に出る
+  </string>
+  <string name="touch_call_out_speakerphone_title">スピーカー</string>
+  <string name="touch_call_out_call_text">発信：%1$s</string>
 
-    <string name="touch_music_title">音楽</string>
-    <string name="touch_music_function_launch">音楽プレーヤーが認識されない場合に、再生ボタンで音楽を再生</string>
-    <string name="touch_music_function_mi_band_message_launch">音楽を再生します</string>
-    <string name="touch_music_function_mi_band_message_no_track_title">曲名が取得できません</string>
+  <string name="touch_weather_title">天気</string>
+  <string name="touch_weather_location">現在地を更新</string>
+  <string name="touch_weather_precipitation">降水量</string>
+  <string name="touch_weather_cloud_cover">雲量</string>
+  <string name="touch_weather_wind">風</string>
 
-    <string name="touch_call_out_title">発信</string>
-    <string name="touch_call_out_no_contact">連絡先を選択</string>
-    <string name="touch_call_out_summary">2回押して電話に出る</string>
-    <string name="touch_call_out_summary_support_call_display_button">ボタンを押して電話に出る</string>
-    <string name="touch_call_out_speakerphone_title">スピーカー</string>
-    <string name="touch_call_out_call_text">発信：%1$s</string>
+  <string name="touch_repeat_notif_title">通知を繰り返す</string>
+  <string name="touch_repeat_notif_clear_all">
+    繰り返した後通知をすべて消去
+  </string>
 
-    <string name="touch_weather_title">天気</string>
-    <string name="touch_weather_location">現在地を更新</string>
-    <string name="touch_weather_precipitation">降水量</string>
-    <string name="touch_weather_cloud_cover">雲量</string>
-    <string name="touch_weather_wind">風</string>
+  <string name="touch_clear_notif_title">端末から通知を消去</string>
 
-    <string name="touch_repeat_notif_title">通知を繰り返す</string>
-    <string name="touch_repeat_notif_clear_all">繰り返した後通知をすべて消去</string>
+  <string name="touch_music_play_pause_title">再生・停止</string>
+  <string name="touch_music_skip_previous_title">前の曲</string>
+  <string name="touch_music_skip_next_title">次の曲</string>
+  <string name="touch_music_headset_only_title">ヘッドセット接続時のみ</string>
+  <string name="touch_music_launch">音楽プレーヤーを開く</string>
+  <string name="touch_music_volume_up_title">音量を上げる</string>
+  <string name="touch_music_volume_down_title">音量を下げる</string>
+  <string name="touch_music_track_info_title">トラック情報を表示</string>
 
-    <string name="touch_clear_notif_title">端末から通知を消去</string>
+  <string name="touch_time_launch_title">時計を起動</string>
+  <string name="touch_time_launch_type_timer_title">ﾀｲﾏｰ</string>
+  <string name="touch_time_launch_type_stopper_title">ｽﾄｯﾌﾟｳｫｯﾁ</string>
+  <string name="touch_time_launch_type_interval_title">ｲﾝﾀｰﾊﾞﾙ</string>
+  <string name="touch_time_launch_restart">進行中の場合は再スタート</string>
+  <string name="touch_time_reminder_title">残り時間・経過時間を表示</string>
 
-    <string name="touch_music_play_pause_title">再生・停止</string>
-    <string name="touch_music_skip_previous_title">前の曲</string>
-    <string name="touch_music_skip_next_title">次の曲</string>
-    <string name="touch_music_headset_only_title">ヘッドセット接続時のみ</string>
-    <string name="touch_music_launch">音楽プレーヤーを開く</string>
-    <string name="touch_music_volume_up_title">音量を上げる</string>
-    <string name="touch_music_volume_down_title">音量を下げる</string>
-    <string name="touch_music_track_info_title">トラック情報を表示</string>
+  <string name="touch_google_assistant_title">Googleアシスタント</string>
 
-    <string name="touch_time_launch_title">時計を起動</string>
-    <string name="touch_time_launch_type_timer_title">ﾀｲﾏｰ</string>
-    <string name="touch_time_launch_type_stopper_title">ｽﾄｯﾌﾟｳｫｯﾁ</string>
-    <string name="touch_time_launch_type_interval_title">ｲﾝﾀｰﾊﾞﾙ</string>
-    <string name="touch_time_launch_restart">進行中の場合は再スタート</string>
-    <string name="touch_time_reminder_title">残り時間・経過時間を表示</string>
+  <string name="touch_flashlight_title">懐中電灯</string>
 
-    <string name="touch_google_assistant_title">Googleアシスタント</string>
+  <string name="touch_camera_title">写真を撮影</string>
+  <string name="touch_camera_front_title">フロントカメラ</string>
+  <string name="touch_camera_rear_title">リアカメラ</string>
+  <string name="touch_camera_install_title">インストール</string>
 
-    <string name="touch_flashlight_title">懐中電灯</string>
+  <string name="touch_app_launcher1_title">アプリを起動</string>
+  <string name="touch_app_launcher_package_no_title">アプリを選択</string>
+  <string name="touch_app_launcher1_not_wakelock_only_title">
+    画面ロック解除時のみ
+  </string>
 
-    <string name="touch_camera_title">写真を撮影</string>
-    <string name="touch_camera_front_title">フロントカメラ</string>
-    <string name="touch_camera_rear_title">リアカメラ</string>
-    <string name="touch_camera_install_title">インストール</string>
+  <string name="touch_broadcast1_title">ブロードキャストを送信</string>
+  <string name="touch_broadcast1_action_title">インテントのアクション</string>
+  <string name="touch_broadcast1_package_title">
+    インテントのパッケージ名
+  </string>
 
-    <string name="touch_app_launcher1_title">アプリを起動</string>
-    <string name="touch_app_launcher_package_no_title">アプリを選択</string>
-    <string name="touch_app_launcher1_not_wakelock_only_title">画面ロック解除時のみ</string>
+  <string name="touch_http_request1_title">1. HTTPリクエスト</string>
+  <string name="touch_http_request2_title">2. HTTPリクエスト</string>
+  <string name="touch_http_request_url_title">URL</string>
+  <string name="touch_http_request_method_title">Method</string>
+  <string name="touch_http_request_body_title">Body</string>
+  <string name="touch_http_request_show_response_title">
+    レスポンスを表示
+  </string>
 
-    <string name="touch_broadcast1_title">ブロードキャストを送信</string>
-    <string name="touch_broadcast1_action_title">インテントのアクション</string>
-    <string name="touch_broadcast1_package_title">インテントのパッケージ名</string>
+  <string name="touch_tasker_launcher1_title">1. Taskerでタスクを実行</string>
+  <string name="touch_tasker_launcher2_title">2. Taskerでタスクを実行</string>
+  <string name="touch_tasker_launcher_no_permission_title">
+    TaskerをMi Bandageの後にインストールしてください
+  </string>
+  <string name="touch_tasker_launcher_no_access_title">
+    外部ストレージへのアクセスを許可してください
+  </string>
+  <string name="touch_tasker_launcher_no_task_title">
+    タスクを選択してください
+  </string>
 
-    <string name="touch_http_request1_title">1. HTTPリクエスト</string>
-    <string name="touch_http_request2_title">2. HTTPリクエスト</string>
-    <string name="touch_http_request_url_title">URL</string>
-    <string name="touch_http_request_method_title">Method</string>
-    <string name="touch_http_request_body_title">Body</string>
-    <string name="touch_http_request_show_response_title">レスポンスを表示</string>
+  <string name="touch_testing_title">タッチを監視中…</string>
+  <string name="touch_testing_second">秒</string>
 
-    <string name="touch_tasker_launcher1_title">1. Taskerでタスクを実行</string>
-    <string name="touch_tasker_launcher2_title">2. Taskerでタスクを実行</string>
-    <string name="touch_tasker_launcher_no_permission_title">TaskerをMi Bandageの後にインストールしてください</string>
-    <string name="touch_tasker_launcher_no_access_title">外部ストレージへのアクセスを許可してください</string>
-    <string name="touch_tasker_launcher_no_task_title">タスクを選択してください</string>
+  <string name="touch_setting_detection_time_title">タッチの検出時間</string>
+  <string name="touch_setting_detection_time_music_hint">
+    値が小さいほど、音楽操作画面を素早く閉じる必要があります
+  </string>
+  <string name="touch_setting_detection_time_button_hint">
+    値が小さいほど、ボタンを素早く押す必要があります
+  </string>
 
-    <string name="touch_testing_title">タッチを監視中…</string>
-    <string name="touch_testing_second">秒</string>
+  <string name="touch_setting_detection_method_title">タッチの検出方法</string>
 
-    <string name="touch_setting_detection_time_title">タッチの検出時間</string>
-    <string name="touch_setting_detection_time_music_hint">値が小さいほど、音楽操作画面を素早く閉じる必要があります</string>
-    <string name="touch_setting_detection_time_button_hint">値が小さいほど、ボタンを素早く押す必要があります</string>
+  <string name="touch_setting_recognition_start_title">タッチの認識開始</string>
+  <string name="touch_setting_recognition_start_trigger_title">トリガー</string>
+  <string name="touch_setting_recognition_time_title">認識時間</string>
 
-    <string name="touch_setting_detection_method_title">タッチの検出方法</string>
+  <string name="touch_setting_recognition_mi_band_signal_title">
+    %1$sへの通知
+  </string>
+  <!-- %1$s = Watch name -->
+  <string name="touch_setting_recognition_succeeded_title">
+    タッチのパターン認識成功
+  </string>
+  <string name="touch_setting_recognition_failed_title">
+    タッチのパターン認識失敗
+  </string>
 
-    <string name="touch_setting_recognition_start_title">タッチの認識開始</string>
-    <string name="touch_setting_recognition_start_trigger_title">トリガー</string>
-    <string name="touch_setting_recognition_time_title">認識時間</string>
-
-    <string name="touch_setting_recognition_mi_band_signal_title">%1$sへの通知</string> <!-- %1$s = Watch name -->
-    <string name="touch_setting_recognition_succeeded_title">タッチのパターン認識成功</string>
-    <string name="touch_setting_recognition_failed_title">タッチのパターン認識失敗</string>
-
-    <string name="info_dialog_touch"><![CDATA[
+  <string
+    name="info_dialog_touch"
+  ><![CDATA[
         <p>Works properly in standalone mode. If you use cooperation mode, the official <app_official/> application will also handle these functions, so proper operation cannot be guaranteed.</p>
         <p><b>Phones Bluetooth settings:</b> <device_name/> disable input device</p>
         <b><u>Recognised touches</u></b>
@@ -671,90 +968,114 @@
         Multiple touches can be recorded for each function.
     ]]></string>
 
+  <!-- Weather  -->
+  <string name="weather_tab_weather_forecast">天気</string>
+  <string name="weather_tab_location">場所</string>
+  <string name="weather_tab_settings">@string/setting_name</string>
 
-    <!-- Weather  -->
-    <string name="weather_tab_weather_forecast">天気</string>
-    <string name="weather_tab_location">場所</string>
-    <string name="weather_tab_settings">@string/setting_name</string>
+  <string name="weather_location_title">場所</string>
 
-    <string name="weather_location_title">場所</string>
+  <string name="weather_forecast_title">天気</string>
 
-    <string name="weather_forecast_title">天気</string>
+  <string name="weather_setting_provider">Weather provider</string>
+  <string name="weather_city_title">都市</string>
+  <string name="weather_unit_title">単位</string>
+  <string name="weather_unit_metric">摂氏（℃）</string>
+  <string name="weather_unit_imperial">華氏（℉）</string>
+  <string name="weather_automatic_update">自動更新</string>
+  <string name="weather_automatic_update_title">現在地を使用する</string>
+  <string name="weather_automatic_update_summary">
+    This application collects location data to update the weather for the
+    current location, even when the app is closed or not in use.
+  </string>
 
-    <string name="weather_setting_provider">Weather provider</string>
-    <string name="weather_city_title">都市</string>
-    <string name="weather_unit_title">単位</string>
-    <string name="weather_unit_metric">摂氏（℃）</string>
-    <string name="weather_unit_imperial">華氏（℉）</string>
-    <string name="weather_automatic_update">自動更新</string>
-    <string name="weather_automatic_update_title">現在地を使用する</string>
-    <string name="weather_automatic_update_summary">This application collects location data to update the weather for the current location, even when the app is closed or not in use.</string>
+  <string name="permission_background_location">
+    %1$s は、アプリが閉じられているか使用されていない場合でも位置情報を収集する権限を持ちます
+  </string>
+  <string name="permission_error_title">%1$s は権限を更新できません</string>
+  <string name="permission_error_description">
+    設定を開き、位置情報の権限に対するオプション%1$sを選択してください
+  </string>
+  <string name="all_the_time">すべての時間</string>
 
-    <string name="permission_background_location">%1$s は、アプリが閉じられているか使用されていない場合でも位置情報を収集する権限を持ちます</string>
-    <string name="permission_error_title">%1$s は権限を更新できません</string>
-    <string name="permission_error_description">設定を開き、位置情報の権限に対するオプション%1$sを選択してください</string>
-    <string name="all_the_time">すべての時間</string>
+  <string name="weather_current_title">現在の天気</string>
+  <string name="weather_current_location">現在地</string>
+  <string name="weather_current_temperature">現在の気温</string>
 
-    <string name="weather_current_title">現在の天気</string>
-    <string name="weather_current_location">現在地</string>
-    <string name="weather_current_temperature">現在の気温</string>
+  <string name="weather_display">表示</string>
 
-    <string name="weather_display">表示</string>
+  <string name="weather_precipitation_rain">降水量</string>
+  <string name="weather_precipitation_snow">降雪量</string>
+  <string name="weather_cloud_cover_abbreviation">雲量</string>
+  <string name="weather_cloud_cover">雲量</string>
+  <string name="weather_humidity">湿度</string>
 
-    <string name="weather_precipitation_rain">降水量</string>
-    <string name="weather_precipitation_snow">降雪量</string>
-    <string name="weather_cloud_cover_abbreviation">雲量</string>
-    <string name="weather_cloud_cover">雲量</string>
-    <string name="weather_humidity">湿度</string>
+  <string name="weather_north">北</string>
+  <string name="weather_east">東</string>
+  <string name="weather_south">南</string>
+  <string name="weather_west">西</string>
 
-    <string name="weather_north">北</string>
-    <string name="weather_east">東</string>
-    <string name="weather_south">南</string>
-    <string name="weather_west">西</string>
+  <!-- Text display -->
+  <string name="pref_text_emoticon_title">絵文字の変換</string>
+  <string name="pref_text_emoticon_summary_on">
+    絵文字を顔文字に変換します
+  </string>
+  <string name="pref_text_uppercase_title">大文字に変換</string>
+  <string name="pref_text_uppercase_summary_on">
+    小文字を大文字に変換します
+  </string>
+  <string name="pref_text_alphanumeric_title">
+    Alphanumeric and ASCII characters
+  </string>
+  <string name="pref_text_alphanumeric_summary_on">
+    Display only alphanumeric and ASCII characters
+  </string>
+  <string name="pref_text_transliteration_title">Transliteration</string>
+  <string name="pref_text_transliteration_summary_on">
+    Convert accented letters to unaccented
+  </string>
+  <string name="pref_text_line_separator_title">
+    Line separator replacement
+  </string>
+  <string name="pref_text_line_separator_summary_on">
+    Replace the default line separator with another characters
+  </string>
+  <string name="pref_text_line_separator_value_title">
+    Replacement characters
+  </string>
+  <string name="pref_text_char_replacement_title">
+    Character, emoji replacement
+  </string>
+  <string name="pref_text_char_replacement_summary_on">
+    Replace one character with another
+  </string>
+  <string name="pref_text_char_replacement_find">検索</string>
+  <string name="pref_text_char_replacement_replace">検索</string>
 
+  <!-- Export -->
+  <string name="export_tab_database">Data export</string>
 
-    <!-- Text display -->
-    <string name="pref_text_emoticon_title">絵文字の変換</string>
-    <string name="pref_text_emoticon_summary_on">絵文字を顔文字に変換します</string>
-    <string name="pref_text_uppercase_title">大文字に変換</string>
-    <string name="pref_text_uppercase_summary_on">小文字を大文字に変換します</string>
-    <string name="pref_text_alphanumeric_title">Alphanumeric and ASCII characters</string>
-    <string name="pref_text_alphanumeric_summary_on">Display only alphanumeric and ASCII characters</string>
-    <string name="pref_text_transliteration_title">Transliteration</string>
-    <string name="pref_text_transliteration_summary_on">Convert accented letters to unaccented</string>
-    <string name="pref_text_line_separator_title">Line separator replacement</string>
-    <string name="pref_text_line_separator_summary_on">Replace the default line separator with another characters</string>
-    <string name="pref_text_line_separator_value_title">Replacement characters</string>
-    <string name="pref_text_char_replacement_title">Character, emoji replacement</string>
-    <string name="pref_text_char_replacement_summary_on">Replace one character with another</string>
-    <string name="pref_text_char_replacement_find">検索</string>
-    <string name="pref_text_char_replacement_replace">検索</string>
+  <string name="export_start_date">Starting date</string>
 
+  <!-- Theme -->
+  <string name="theme_tab_theme">テーマ</string>
 
-    <!-- Export -->
-    <string name="export_tab_database">Data export</string>
+  <string name="theme_title">テーマを選択</string>
+  <string name="theme_background_color_title">背景色</string>
 
-    <string name="export_start_date">Starting date</string>
+  <string name="theme_widget_background_color_title">色</string>
+  <string name="theme_color_dynamic_color_title">Dynamic color</string>
+  <string name="theme_color_predefined_colors_title">Predefined colors</string>
 
+  <string name="theme_notification_title">通知パネルにステータスを表示</string>
 
-    <!-- Theme -->
-    <string name="theme_tab_theme">テーマ</string>
+  <string name="theme_cat_color_setting">Color setting</string>
 
-    <string name="theme_title">テーマを選択</string>
-    <string name="theme_background_color_title">背景色</string>
-
-    <string name="theme_widget_background_color_title">色</string>
-    <string name="theme_color_dynamic_color_title">Dynamic color</string>
-    <string name="theme_color_predefined_colors_title">Predefined colors</string>
-
-    <string name="theme_notification_title">通知パネルにステータスを表示</string>
-
-    <string name="theme_cat_color_setting">Color setting</string>
-
-
-    <!-- Premium mode -->
-    <string name="purchase_advantage_title">プレミアムモードの特典</string>
-    <string name="purchase_advantage"><![CDATA[
+  <!-- Premium mode -->
+  <string name="purchase_advantage_title">プレミアムモードの特典</string>
+  <string
+    name="purchase_advantage"
+  ><![CDATA[
         <p>• financial support for development</p>
         <p>• no ads</p>
         <p>• notification setting is not limited</p>
@@ -766,8 +1087,10 @@
         <p>• detailed daily graphs</p>
         • removing other restrictions…
     ]]></string>
-    <string name="purchase_policy_title">プレミアムモードの利用規約</string>
-    <string name="purchase_policy"><![CDATA[
+  <string name="purchase_policy_title">プレミアムモードの利用規約</string>
+  <string
+    name="purchase_policy"
+  ><![CDATA[
         <p>• 正常に動作することを確認済みです。</p>
         <p>• 設定変更や他のアプリの使用によるソフトウェアのエラー、バグに対する賠償や払い戻しは受け付けかねます。</p>
         <p>• 購入は払い戻しできません（Googleの払い戻しポリシーを除く）。</p>
@@ -775,34 +1098,54 @@
         <i>購入後はアプリを再起動してください。<i>
     ]]></string>
 
-    <string name="purchase_google_play_services_not_available">Google Playサービスが利用できない</string>
+  <string name="purchase_google_play_services_not_available">
+    Google Playサービスが利用できない
+  </string>
 
-    <!--<string name="purchase_price">価格：</string>-->
-    <string name="purchase_agree">利用規約に同意する</string>
-    <string name="purchase_order_id">オーダーID</string>
-    <string name="purchase_order_id_help">以下からコピーしてください。
-        \n<a href="https://play.google.com/store/account">https://play.google.com/store/account</a>
-        \n<a href="https://payments.google.com">https://payments.google.com</a></string>
-    <string name="purchase_info">One-time fee ・ %1$s</string> <!-- %1$s = price</string>-->
-    <string name="purchase_button_purchase">購入</string>
+  <!--<string name="purchase_price">価格：</string>-->
+  <string name="purchase_agree">利用規約に同意する</string>
+  <string name="purchase_order_id">オーダーID</string>
+  <string name="purchase_order_id_help">
+    以下からコピーしてください。
+        \n
+    <a href="https://play.google.com/store/account">
+      https://play.google.com/store/account
+    </a>
+    \n
+    <a href="https://payments.google.com">https://payments.google.com</a>
+  </string>
+  <string name="purchase_info">One-time fee ・ %1$s</string>
+  <!-- %1$s = price</string>-->
+  <string name="purchase_button_purchase">購入</string>
 
-    <!-- Feedback -->
-    <string name="action_log_notification">ログ</string>
+  <!-- Feedback -->
+  <string name="action_log_notification">ログ</string>
 
-    <string name="feedback_google_play_title">アプリを評価</string>
-    <string name="feedback_request_feature_title">機能のリクエスト・バグの報告</string>
-    <string name="feedback_request_feature_summary">メールは自動処理のため返信はありません</string>
-    <string name="feedback_translation_title">%1$sの翻訳</string> <!-- %1$s = App name -->
-    <string name="feedback_translation_title_summary">翻訳にご協力ください</string>
+  <string name="feedback_google_play_title">アプリを評価</string>
+  <string name="feedback_request_feature_title">
+    機能のリクエスト・バグの報告
+  </string>
+  <string name="feedback_request_feature_summary">
+    メールは自動処理のため返信はありません
+  </string>
+  <string name="feedback_translation_title">%1$sの翻訳</string>
+  <!-- %1$s = App name -->
+  <string name="feedback_translation_title_summary">
+    翻訳にご協力ください
+  </string>
 
-    <!-- Privacy policy -->
-    <string name="privacy_policy_tab_privacy_policy">プライバシーポリシー</string>
-    <string name="privacy_policy_tab_user_consent">User consent management</string>
-    <string name="privacy_policy_tab_eu_consent">EUユーザーの同意</string>
-    <string name="privacy_policy_tab_non_eu_consent">Non-EU user consent</string>
+  <!-- Privacy policy -->
+  <string name="privacy_policy_tab_privacy_policy">プライバシーポリシー</string>
+  <string name="privacy_policy_tab_user_consent">
+    User consent management
+  </string>
+  <string name="privacy_policy_tab_eu_consent">EUユーザーの同意</string>
+  <string name="privacy_policy_tab_non_eu_consent">Non-EU user consent</string>
 
-    <string name="privacy_policy_collect_title">収集する情報</string>
-    <string name="privacy_policy_collect"><![CDATA[
+  <string name="privacy_policy_collect_title">収集する情報</string>
+  <string
+    name="privacy_policy_collect"
+  ><![CDATA[
         <p>• 匿名の情報のみ収集します。</p>
         <p>• お使いのサービスについての情報をGoogle Analyticsからアプリケーションレベルで収集します。</p>
         <p>• 品質向上のため、バグやエラー、クラッシュなどの情報をFirebase Crashlyticsからアプリケーションレベルで収集します。</p>
@@ -813,24 +1156,36 @@
         • We collect location data to update the weather based on your current location (optional).
     ]]></string>
 
-    <string name="privacy_policy_not_collect_title">収集しない情報</string>
-    <string name="privacy_policy_not_collect"><![CDATA[
+  <string name="privacy_policy_not_collect_title">収集しない情報</string>
+  <string
+    name="privacy_policy_not_collect"
+  ><![CDATA[
         <p>• 個人を特定できる情報（氏名、住所、電話番号、メールアドレス、IPアドレス、MACアドレスなど）。</p>
         • 個人の健康データや連絡先、通知のテキストは収集しません。
     ]]></string>
 
-    <string name="privacy_policy_share_title">Information we share</string>
-    <string name="privacy_policy_share"><![CDATA[
+  <string name="privacy_policy_share_title">Information we share</string>
+  <string
+    name="privacy_policy_share"
+  ><![CDATA[
         • We do not share any data with companies or organisations other than Google and advertising providers.
     ]]></string>
 
-    <string name="privacy_policy_use_title">Personal and sensitive user data we use</string>
-    <string name="privacy_policy_use"><![CDATA[
+  <string name="privacy_policy_use_title">
+    Personal and sensitive user data we use
+  </string>
+  <string
+    name="privacy_policy_use"
+  ><![CDATA[
         • We use location data to update the weather (optional).
     ]]></string>
 
-    <string name="privacy_policy_links_title">外部ｻｰﾋﾞｽﾌﾟﾛﾊﾞｲﾀﾞのﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ</string>
-    <string name="privacy_policy_links"><![CDATA[
+  <string name="privacy_policy_links_title">
+    外部ｻｰﾋﾞｽﾌﾟﾛﾊﾞｲﾀﾞのﾌﾟﾗｲﾊﾞｼｰﾎﾟﾘｼｰ
+  </string>
+  <string
+    name="privacy_policy_links"
+  ><![CDATA[
         <a href="https://policies.google.com/privacy">Google Play Services</a>
         <p><a href="https://support.google.com/admob/answer/6128543?hl=en">AdMob</a></p>
         <p><a href="https://firebase.google.com/policies/analytics">Google Analytics</a></p>
@@ -838,210 +1193,215 @@
         <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>
     ]]></string>
 
-    <string name="privacy_policy_eu_consent_title">ステータス</string>
-    <string name="privacy_policy_eu_consent_title_obtained">Consent obtained</string>
-    <string name="privacy_policy_eu_consent_title_personalized">パーソナライズ広告</string>
-    <string name="privacy_policy_eu_consent_title_non_personalized">関連性の低い広告</string>
-    <string name="privacy_policy_eu_consent_title_unknown">不明</string>
+  <string name="privacy_policy_eu_consent_title">ステータス</string>
+  <string name="privacy_policy_eu_consent_title_obtained">
+    Consent obtained
+  </string>
+  <string name="privacy_policy_eu_consent_title_personalized">
+    パーソナライズ広告
+  </string>
+  <string name="privacy_policy_eu_consent_title_non_personalized">
+    関連性の低い広告
+  </string>
+  <string name="privacy_policy_eu_consent_title_unknown">不明</string>
 
-    <string name="privacy_policy_eu_consent_setting">設定</string>
+  <string name="privacy_policy_eu_consent_setting">設定</string>
 
+  <!-- Custom vibration dialog -->
+  <string name="custom_vibration_title">バイブレーション設定</string>
 
-    <!-- Custom vibration dialog -->
-    <string name="custom_vibration_title">バイブレーション設定</string>
+  <!-- Shortcuts -->
+  <string name="shortcut">Shortcut</string>
+  <string name="shortcut_visible_items">ショートカット</string>
+  <string name="shortcut_hidden_items">Hidden shortcut items</string>
 
+  <string name="shortcut_status">ステータス</string>
+  <string name="shortcut_heart_rate">心拍数</string>
+  <string name="shortcut_blood_oxygen">血中酸素</string>
+  <string name="shortcut_Sleep">アクティビティ</string>
+  <string name="shortcut_breathing">Breathing</string>
+  <string name="shortcut_weather">天気</string>
+  <string name="shortcut_stress">Stress</string>
 
-    <!-- Shortcuts -->
-    <string name="shortcut">Shortcut</string>
-    <string name="shortcut_visible_items">ショートカット</string>
-    <string name="shortcut_hidden_items">Hidden shortcut items</string>
+  <!-- Others -->
+  <string name="tab_daily_charts">日別</string>
+  <string name="tab_weekly_charts">週別</string>
+  <string name="tab_monthly_charts">月別</string>
+  <string name="tab_yearly_charts">Yearly charts</string>
 
-    <string name="shortcut_status">ステータス</string>
-    <string name="shortcut_heart_rate">心拍数</string>
-    <string name="shortcut_blood_oxygen">血中酸素</string>
-    <string name="shortcut_Sleep">アクティビティ</string>
-    <string name="shortcut_breathing">Breathing</string>
-    <string name="shortcut_weather">天気</string>
-    <string name="shortcut_stress">Stress</string>
+  <string name="ad_attribution">広告</string>
+  <string name="on">オン</string>
+  <string name="off">オフ</string>
+  <string name="none">なし</string>
+  <string name="heart_rate_bpm">bpm</string>
+  <string name="heart_rate_mhr">MHR</string>
+  <string name="date">日付</string>
+  <string name="time">時間</string>
+  <string name="time_start">開始時間</string>
+  <string name="time_end">終了時間</string>
+  <string name="ringer_mode_vibrate">バイブレーション</string>
+  <string name="ringer_mode_silent">サイレント</string>
+  <string name="ringer_mode_dnd_priority_only">
+    DND（高優先度の通知のみ）
+  </string>
+  <string name="ringer_mode_dnd_alarms_only">DND（アラームのみ）</string>
+  <string name="ringer_mode_dnd_total_silence">DND（サイレント）</string>
+  <string name="unknown">不明</string>
+  <string name="maximum">最大</string>
+  <string name="all_day">終日</string>
+  <string name="timed">Timed</string>
+  <string name="file_name">ファイル名</string>
+  <string name="default_">デフォルト</string>
+  <string name="default_by_phone">デフォルト（端末の言語）</string>
+  <string name="custom">Custom</string>
+  <string name="invalid_setting">設定が無効です</string>
+  <string name="ringtone">着信音</string>
+  <string name="ringtone_chooser">Ringtone chooser</string>
+  <string name="uninstalled">Uninstalled</string>
+  <string name="value">価値</string>
+  <string name="downloads">Downloads</string>
+  <string name="share">共有</string>
+  <string name="send">Send</string>
+  <string name="narrow">Narrow</string>
+  <string name="short_">Short</string>
+  <string name="medium">Medium</string>
+  <string name="long_">Long</string>
+  <string name="full">Full</string>
+  <string name="alignment_left">アライメント左</string>
+  <string name="alignment_center">中央への位置合わせ</string>
+  <string name="alignment_right">アライメント右</string>
+  <string name="visible">見える</string>
+  <string name="invisible">見えない</string>
+  <string name="placeholder">Placeholder</string>
+  <string name="image_scale_fit">Fit</string>
+  <string name="image_scale_crop">Crop</string>
+  <string name="image_scale_stretch">Stretch</string>
+  <string name="resource_manager">Resource manager</string>
 
-    <!-- Others -->
-    <string name="tab_daily_charts">日別</string>
-    <string name="tab_weekly_charts">週別</string>
-    <string name="tab_monthly_charts">月別</string>
-    <string name="tab_yearly_charts">Yearly charts</string>
+  <string name="action_premium_mode">プレミアムモード</string>
+  <string name="action_dismiss">中止</string>
+  <string name="action_setting">設定</string>
+  <string name="action_delete">削除</string>
+  <string name="action_rename">名前を変更する</string>
+  <string name="action_export">エクスポート</string>
+  <string name="action_synchronization">同期</string>
+  <string name="action_download">ダウンロード</string>
+  <string name="action_upload">アップロード</string>
+  <string name="action_filter_no">フィルタなし</string>
+  <string name="action_bluetooth">Bluetooth</string>
+  <string name="action_favorite">お気に入り</string>
+  <string name="action_save">保存</string>
+  <string name="action_test">テスト</string>
+  <string name="action_discard">破棄</string>
+  <string name="action_keep_editing">編集を続行</string>
+  <string name="action_new">新規</string>
+  <string name="action_new_file_extension">新規 %1$s</string>
+  <string name="action_edit">編集</string>
+  <string name="action_start_stop">開始/停止</string>
+  <string name="action_contacts">Contacts</string>
+  <string name="action_single_selection">Single selection</string>
+  <string name="action_multiple_selection">Multiple selection</string>
+  <string name="action_selection_boundaries">Selection boundaries</string>
+  <string name="action_object_boundaries">Object boundaries</string>
+  <string name="action_select_all">Select all</string>
+  <string name="action_select_texts">Select texts</string>
+  <string name="action_select_images">Select images</string>
+  <string name="action_deselect_all">Deselect all</string>
+  <string name="synchronized_from_watch">バンドから同期</string>
+  <string name="synchronization_succeeded">同期に成功しました</string>
+  <string name="synchronization_failed">同期に失敗しました</string>
 
-    <string name="ad_attribution">広告</string>
-    <string name="on">オン</string>
-    <string name="off">オフ</string>
-    <string name="none">なし</string>
-    <string name="heart_rate_bpm">bpm</string>
-    <string name="heart_rate_mhr">MHR</string>
-    <string name="date">日付</string>
-    <string name="time">時間</string>
-    <string name="time_start">開始時間</string>
-    <string name="time_end">終了時間</string>
-    <string name="ringer_mode_vibrate">バイブレーション</string>
-    <string name="ringer_mode_silent">サイレント</string>
-    <string name="ringer_mode_dnd_priority_only">DND（高優先度の通知のみ）</string>
-    <string name="ringer_mode_dnd_alarms_only">DND（アラームのみ）</string>
-    <string name="ringer_mode_dnd_total_silence">DND（サイレント）</string>
-    <string name="unknown">不明</string>
-    <string name="maximum">最大</string>
-    <string name="all_day">終日</string>
-    <string name="timed">Timed</string>
-    <string name="file_name">ファイル名</string>
-    <string name="default_">デフォルト</string>
-    <string name="default_by_phone">デフォルト（端末の言語）</string>
-    <string name="custom">Custom</string>
-    <string name="invalid_setting">設定が無効です</string>
-    <string name="ringtone">着信音</string>
-    <string name="ringtone_chooser">Ringtone chooser</string>
-    <string name="uninstalled">Uninstalled</string>
-    <string name="value">価値</string>
-    <string name="downloads">Downloads</string>
-    <string name="share">共有</string>
-    <string name="send">Send</string>
-    <string name="narrow">Narrow</string>
-    <string name="short_">Short</string>
-    <string name="medium">Medium</string>
-    <string name="long_">Long</string>
-    <string name="full">Full</string>
-    <string name="alignment_left">アライメント左</string>
-    <string name="alignment_center">中央への位置合わせ</string>
-    <string name="alignment_right">アライメント右</string>
-    <string name="visible">見える</string>
-    <string name="invisible">見えない</string>
-    <string name="placeholder">Placeholder</string>
-    <string name="image_scale_fit">Fit</string>
-    <string name="image_scale_crop">Crop</string>
-    <string name="image_scale_stretch">Stretch</string>
-    <string name="resource_manager">Resource manager</string>
+  <string name="action_chart">チャート</string>
+  <string name="action_zoom_in">Zoom</string>
+  <string name="action_chart_normalize_minute">測定値</string>
+  <string name="action_chart_normalize_quarter_hourly">15分毎の値</string>
+  <string name="action_chart_normalize_half_hourly">30分毎の値</string>
+  <string name="action_chart_normalize_hourly">1時間毎の値</string>
+  <string name="action_chart_sort_time_asc">時間/昇順</string>
+  <string name="action_chart_sort_time_desc">時間/降順</string>
+  <string name="action_chart_sort_step_asc">歩数/昇順</string>
+  <string name="action_chart_sort_step_desc">歩数/降順</string>
+  <string name="action_chart_sort_duration_asc">Duration ascending</string>
+  <string name="action_chart_sort_duration_desc">Duration descending</string>
+  <string name="action_chart_sort_pulse_asc">心拍数/昇順</string>
+  <string name="action_chart_sort_pulse_desc">心拍数/降順</string>
+  <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
+  <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
+  <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
+  <string name="action_chart_sort_pressure_desc">Pressure descending</string>
+  <string name="action_chart_monthly_calendar">カレンダー</string>
+  <string name="action_chart_monthly_compact">コンパクト</string>
 
-    <string name="action_premium_mode">プレミアムモード</string>
-    <string name="action_dismiss">中止</string>
-    <string name="action_setting">設定</string>
-    <string name="action_delete">削除</string>
-    <string name="action_rename">名前を変更する</string>
-    <string name="action_export">エクスポート</string>
-    <string name="action_synchronization">同期</string>
-    <string name="action_download">ダウンロード</string>
-    <string name="action_upload">アップロード</string>
-    <string name="action_filter_no">フィルタなし</string>
-    <string name="action_bluetooth">Bluetooth</string>
-    <string name="action_favorite">お気に入り</string>
-    <string name="action_save">保存</string>
-    <string name="action_test">テスト</string>
-    <string name="action_discard">破棄</string>
-    <string name="action_keep_editing">編集を続行</string>
-    <string name="action_new">新規</string>
-    <string name="action_new_file_extension">新規 %1$s</string>
-    <string name="action_edit">編集</string>
-    <string name="action_start_stop">開始/停止</string>
-    <string name="action_contacts">Contacts</string>
-    <string name="action_single_selection">Single selection</string>
-    <string name="action_multiple_selection">Multiple selection</string>
-    <string name="action_selection_boundaries">Selection boundaries</string>
-    <string name="action_object_boundaries">Object boundaries</string>
-    <string name="action_select_all">Select all</string>
-    <string name="action_select_texts">Select texts</string>
-    <string name="action_select_images">Select images</string>
-    <string name="action_deselect_all">Deselect all</string>
-    <string name="synchronized_from_watch">バンドから同期</string>
-    <string name="synchronization_succeeded">同期に成功しました</string>
-    <string name="synchronization_failed">同期に失敗しました</string>
+  <string name="activity_progress_title_prepare">同期の準備中…</string>
+  <string name="activity_progress_title_sync">データ同期中…</string>
+  <string name="activity_progress_title_save">データ保存中…</string>
 
-    <string name="action_chart">チャート</string>
-    <string name="action_zoom_in">Zoom</string>
-    <string name="action_chart_normalize_minute">測定値</string>
-    <string name="action_chart_normalize_quarter_hourly">15分毎の値</string>
-    <string name="action_chart_normalize_half_hourly">30分毎の値</string>
-    <string name="action_chart_normalize_hourly">1時間毎の値</string>
-    <string name="action_chart_sort_time_asc">時間/昇順</string>
-    <string name="action_chart_sort_time_desc">時間/降順</string>
-    <string name="action_chart_sort_step_asc">歩数/昇順</string>
-    <string name="action_chart_sort_step_desc">歩数/降順</string>
-    <string name="action_chart_sort_duration_asc">Duration ascending</string>
-    <string name="action_chart_sort_duration_desc">Duration descending</string>
-    <string name="action_chart_sort_pulse_asc">心拍数/昇順</string>
-    <string name="action_chart_sort_pulse_desc">心拍数/降順</string>
-    <string name="action_chart_sort_spo2_asc">SpO2 ascending</string>
-    <string name="action_chart_sort_spo2_desc">SpO2 descending</string>
-    <string name="action_chart_sort_pressure_asc">Pressure ascending</string>
-    <string name="action_chart_sort_pressure_desc">Pressure descending</string>
-    <string name="action_chart_monthly_calendar">カレンダー</string>
-    <string name="action_chart_monthly_compact">コンパクト</string>
+  <string name="required_value">必須</string>
 
-    <string name="activity_progress_title_prepare">同期の準備中…</string>
-    <string name="activity_progress_title_sync">データ同期中…</string>
-    <string name="activity_progress_title_save">データ保存中…</string>
+  <string name="percent_0">0%</string>
+  <string name="percent_10">10%</string>
+  <string name="percent_20">20%</string>
+  <string name="percent_30">30%</string>
+  <string name="percent_40">40%</string>
+  <string name="percent_50">50%</string>
+  <string name="percent_60">60%</string>
+  <string name="percent_70">70%</string>
+  <string name="percent_80">80%</string>
+  <string name="percent_90">90%</string>
+  <string name="percent_100">100%</string>
 
-    <string name="required_value">必須</string>
+  <!-- Constante -->
+  <string name="const_day_of_week_sunday">Sunday</string>
+  <string name="const_day_of_week_monday">Monday</string>
+  <string name="const_day_of_week_tuesday">Tuesday</string>
+  <string name="const_day_of_week_wednesday">Wednesday</string>
+  <string name="const_day_of_week_thursday">Thursday</string>
+  <string name="const_day_of_week_friday">Friday</string>
+  <string name="const_day_of_week_saturday">Saturday</string>
 
-    <string name="percent_0">0%</string>
-    <string name="percent_10">10%</string>
-    <string name="percent_20">20%</string>
-    <string name="percent_30">30%</string>
-    <string name="percent_40">40%</string>
-    <string name="percent_50">50%</string>
-    <string name="percent_60">60%</string>
-    <string name="percent_70">70%</string>
-    <string name="percent_80">80%</string>
-    <string name="percent_90">90%</string>
-    <string name="percent_100">100%</string>
+  <string name="const_time_abbreviation_day">d</string>
+  <string name="const_time_abbreviation_hour">h</string>
+  <string name="const_time_abbreviation_minute">m</string>
+  <string name="const_time_abbreviation_sec">s</string>
+  <string name="const_time_abbreviation_milli_sec">ms</string>
 
-    <!-- Constante -->
-    <string name="const_day_of_week_sunday">Sunday</string>
-    <string name="const_day_of_week_monday">Monday</string>
-    <string name="const_day_of_week_tuesday">Tuesday</string>
-    <string name="const_day_of_week_wednesday">Wednesday</string>
-    <string name="const_day_of_week_thursday">Thursday</string>
-    <string name="const_day_of_week_friday">Friday</string>
-    <string name="const_day_of_week_saturday">Saturday</string>
+  <string name="const_number">%1$,d</string>
+  <string name="const_number_float">%,.2f</string>
+  <string name="const_number_float_1_precision">%,.1f</string>
+  <string name="const_percentage">%1$,d%%</string>
+  <string name="const_percent_sign">%</string>
+  <string name="const_unit_kilometer">km</string>
+  <string name="const_unit_meter">m</string>
+  <string name="const_unit_centimeter">cm</string>
+  <string name="const_unit_mile">mi</string>
+  <string name="const_unit_kilogram">kg</string>
+  <string name="const_unit_kcal">kcal</string>
+  <string name="const_unit_dbm">dBm</string>
 
-    <string name="const_time_abbreviation_day">d</string>
-    <string name="const_time_abbreviation_hour">h</string>
-    <string name="const_time_abbreviation_minute">m</string>
-    <string name="const_time_abbreviation_sec">s</string>
-    <string name="const_time_abbreviation_milli_sec">ms</string>
+  <plurals name="plural_time_hour">
+    <item quantity="zero">%d時間</item>
+    <item quantity="one">%d時間</item>
+    <item quantity="two">%d時間</item>
+    <item quantity="few">%d時間</item>
+    <item quantity="many">%d時間</item>
+    <item quantity="other">%d時間</item>
+  </plurals>
 
-    <string name="const_number">%1$,d</string>
-    <string name="const_number_float">%,.2f</string>
-    <string name="const_number_float_1_precision">%,.1f</string>
-    <string name="const_percentage">%1$,d%%</string>
-    <string name="const_percent_sign">%</string>
-    <string name="const_unit_kilometer">km</string>
-    <string name="const_unit_meter">m</string>
-    <string name="const_unit_centimeter">cm</string>
-    <string name="const_unit_mile">mi</string>
-    <string name="const_unit_kilogram">kg</string>
-    <string name="const_unit_kcal">kcal</string>
-    <string name="const_unit_dbm">dBm</string>
+  <plurals name="plural_time_minute">
+    <item quantity="zero">%d分</item>
+    <item quantity="one">%d分</item>
+    <item quantity="two">%d分</item>
+    <item quantity="few">%d分</item>
+    <item quantity="many">%d分</item>
+    <item quantity="other">%d分</item>
+  </plurals>
 
-    <plurals name="plural_time_hour">
-        <item quantity="zero">%d時間</item>
-        <item quantity="one">%d時間</item>
-        <item quantity="two">%d時間</item>
-        <item quantity="few">%d時間</item>
-        <item quantity="many">%d時間</item>
-        <item quantity="other">%d時間</item>
-    </plurals>
-
-    <plurals name="plural_time_minute">
-        <item quantity="zero">%d分</item>
-        <item quantity="one">%d分</item>
-        <item quantity="two">%d分</item>
-        <item quantity="few">%d分</item>
-        <item quantity="many">%d分</item>
-        <item quantity="other">%d分</item>
-    </plurals>
-
-    <plurals name="plural_time_second">
-        <item quantity="zero">%d秒</item>
-        <item quantity="one">%d秒</item>
-        <item quantity="two">%d秒</item>
-        <item quantity="few">%d秒</item>
-        <item quantity="many">%d秒</item>
-        <item quantity="other">%d秒</item>
-    </plurals>
-
+  <plurals name="plural_time_second">
+    <item quantity="zero">%d秒</item>
+    <item quantity="one">%d秒</item>
+    <item quantity="two">%d秒</item>
+    <item quantity="few">%d秒</item>
+    <item quantity="many">%d秒</item>
+    <item quantity="other">%d秒</item>
+  </plurals>
 </resources>

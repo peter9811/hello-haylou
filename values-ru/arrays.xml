@@ -1,104 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
+  <string-array name="pref_connected_have_notif_reminder_repeat_interval">
+    <item>3 минуты</item>
+    <item>5 минут</item>
+    <item>10 минут</item>
+    <item>15 минут</item>
+    <item>20 минут</item>
+    <item>30 минут</item>
+    <item>1 час</item>
+    <item>2 часа</item>
+    <item>3 часа</item>
+  </string-array>
 
-    <string-array name="pref_connected_have_notif_reminder_repeat_interval">
-        <item>3 минуты</item>
-        <item>5 минут</item>
-        <item>10 минут</item>
-        <item>15 минут</item>
-        <item>20 минут</item>
-        <item>30 минут</item>
-        <item>1 час</item>
-        <item>2 часа</item>
-        <item>3 часа</item>
-    </string-array>
+  <string-array name="notification_group_repeat">
+    <item>Неограниченно</item>
+    <item>Никогда</item>
+    <item>Один раз</item>
+    <item>Дважды</item>
+    <item>Трижды</item>
+  </string-array>
 
-    <string-array name="notification_group_repeat">
-        <item>Неограниченно</item>
-        <item>Никогда</item>
-        <item>Один раз</item>
-        <item>Дважды</item>
-        <item>Трижды</item>
-    </string-array>
+  <string-array name="notification_group_grouped_dispay">
+    <item>Отображать все при подключении, иначе только последнее</item>
+    <item>Отображать все уведомления</item>
+    <item>Отображать только последнее</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_dispay">
-        <item>Отображать все при подключении, иначе только последнее</item>
-        <item>Отображать все уведомления</item>
-        <item>Отображать только последнее</item>
-    </string-array>
+  <string-array name="notification_group_grouped_order">
+    <item>По порядку</item>
+    <item>В обратном порядке</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_order">
-        <item>По порядку</item>
-        <item>В обратном порядке</item>
-    </string-array>
+  <string-array name="notification_group_display_time">
+    <item>Авто (3 – 5 секунд)</item>
+    <item>3 секунды</item>
+    <item>4 секунды</item>
+    <item>5 секунд</item>
+    <item>6 секунд</item>
+    <item>7 секунд</item>
+  </string-array>
 
-    <string-array name="notification_group_display_time">
-        <item>Авто (3 – 5 секунд)</item>
-        <item>3 секунды</item>
-        <item>4 секунды</item>
-        <item>5 секунд</item>
-        <item>6 секунд</item>
-        <item>7 секунд</item>
-    </string-array>
+  <string-array name="call_button_action">
+    <item>Сброс звонка</item>
+    <item>Отключение звука звонка</item>
+    <item>Ответ на звонок</item>
+  </string-array>
 
-    <string-array name="call_button_action">
-        <item>Сброс звонка</item>
-        <item>Отключение звука звонка</item>
-        <item>Ответ на звонок</item>
-    </string-array>
+  <string-array name="pref_distance_unit">
+    <item>Метрическая (километр)</item>
+    <item>Имперская (миля)</item>
+  </string-array>
 
-    <string-array name="pref_distance_unit">
-        <item>Метрическая (километр)</item>
-        <item>Имперская (миля)</item>
-    </string-array>
+  <string-array name="touch_mute_toggle_ringer_mode">
+    <item>Вибрация</item>
+    <item>Без звука</item>
+    <item>Не беспокоить (только важные)</item>
+    <item>Не беспокоить (только будильник)</item>
+    <item>Не беспокоить (совсем)</item>
+  </string-array>
 
-    <string-array name="touch_mute_toggle_ringer_mode">
-        <item>Вибрация</item>
-        <item>Без звука</item>
-        <item>Не беспокоить (только важные)</item>
-        <item>Не беспокоить (только будильник)</item>
-        <item>Не беспокоить (совсем)</item>
-    </string-array>
+  <string-array name="pref_theme_day_night">
+    <item>По умолчанию</item>
+    <item>Светлая</item>
+    <item>Темная</item>
+  </string-array>
 
-    <string-array name="pref_theme_day_night">
-        <item>По умолчанию</item>
-        <item>Светлая</item>
-        <item>Темная</item>
-    </string-array>
-
-    <string-array name="workout">
-        <item>Неизвестно</item>
-        <item>Бег на открытом воздухе</item>
-        <item>Беговая дорожка</item>
-        <item>Ходьба</item>
-        <item>Велосипед</item>
-        <item>Туризм</item>
-        <item>Велотренажер</item>
-        <item>Йога</item>
-        <item>Зарядка</item>
-        <item>Гимнастика</item>
-        <item>Баскетбол</item>
-        <item>Футбол</item>
-        <item>Volleyball</item>
-        <item>Гребля</item>
-        <item>Прыгалки</item>
-        <item>Теннис</item>
-        <item>Бейсбол</item>
-        <item>Бадминтон</item>
-        <item>Регби</item>
-        <item>Настольный теннис</item>
-        <item>Cricket</item>
-        <item>Swimming</item>
-        <item>Плавание в бассейне</item>
-        <item>Плавание на открытой воде</item>
-        <item>Встань, засиделся</item>
-        <item>Джампинг Джек</item>
-        <item>Golf</item>
-        <item>Dance</item>
-        <item>Skateboarding</item>
-        <item>Fishing</item>
-        <item>Martial arts</item>
-        <item>Combat sport</item>
-    </string-array>
-
+  <string-array name="workout">
+    <item>Неизвестно</item>
+    <item>Бег на открытом воздухе</item>
+    <item>Беговая дорожка</item>
+    <item>Ходьба</item>
+    <item>Велосипед</item>
+    <item>Туризм</item>
+    <item>Велотренажер</item>
+    <item>Йога</item>
+    <item>Зарядка</item>
+    <item>Гимнастика</item>
+    <item>Баскетбол</item>
+    <item>Футбол</item>
+    <item>Volleyball</item>
+    <item>Гребля</item>
+    <item>Прыгалки</item>
+    <item>Теннис</item>
+    <item>Бейсбол</item>
+    <item>Бадминтон</item>
+    <item>Регби</item>
+    <item>Настольный теннис</item>
+    <item>Cricket</item>
+    <item>Swimming</item>
+    <item>Плавание в бассейне</item>
+    <item>Плавание на открытой воде</item>
+    <item>Встань, засиделся</item>
+    <item>Джампинг Джек</item>
+    <item>Golf</item>
+    <item>Dance</item>
+    <item>Skateboarding</item>
+    <item>Fishing</item>
+    <item>Martial arts</item>
+    <item>Combat sport</item>
+  </string-array>
 </resources>

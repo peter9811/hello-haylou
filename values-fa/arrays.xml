@@ -1,104 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
+  <string-array name="pref_connected_have_notif_reminder_repeat_interval">
+    <item>3 دقیقه</item>
+    <item>5 دقیقه</item>
+    <item>10 دقیقه</item>
+    <item>15 دقیقه</item>
+    <item>20 دقیقه</item>
+    <item>30 دقیقه</item>
+    <item>1 ساعت</item>
+    <item>2 ساعت</item>
+    <item>3 ساعت</item>
+  </string-array>
 
-    <string-array name="pref_connected_have_notif_reminder_repeat_interval">
-        <item>3 دقیقه</item>
-        <item>5 دقیقه</item>
-        <item>10 دقیقه</item>
-        <item>15 دقیقه</item>
-        <item>20 دقیقه</item>
-        <item>30 دقیقه</item>
-        <item>1 ساعت</item>
-        <item>2 ساعت</item>
-        <item>3 ساعت</item>
-    </string-array>
+  <string-array name="notification_group_repeat">
+    <item>همیشه</item>
+    <item>هیچ وقت</item>
+    <item>یکبار</item>
+    <item>دوبار</item>
+    <item>سه بار</item>
+  </string-array>
 
-    <string-array name="notification_group_repeat">
-        <item>همیشه</item>
-        <item>هیچ وقت</item>
-        <item>یکبار</item>
-        <item>دوبار</item>
-        <item>سه بار</item>
-    </string-array>
+  <string-array name="notification_group_grouped_dispay">
+    <item>
+      همه را بعد از وصل شدن نشان بده،در غیر اینصورت فقط اخرین اعلان ها
+    </item>
+    <item>تمام اعلان ها</item>
+    <item>فقط اخرین اعلان ها</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_dispay">
-        <item>همه را بعد از وصل شدن نشان بده،در غیر اینصورت فقط اخرین اعلان ها</item>
-        <item>تمام اعلان ها</item>
-        <item>فقط اخرین اعلان ها</item>
-    </string-array>
+  <string-array name="notification_group_grouped_order">
+    <item>ترتیب عادی</item>
+    <item>ترتیب برعکس</item>
+  </string-array>
 
-    <string-array name="notification_group_grouped_order">
-        <item>ترتیب عادی</item>
-        <item>ترتیب برعکس</item>
-    </string-array>
+  <string-array name="notification_group_display_time">
+    <item>خودکار (3 – 5 ثانیه)</item>
+    <item>3 ثانیه</item>
+    <item>4 ثانیه</item>
+    <item>5 ثانیه</item>
+    <item>6 ثانیه</item>
+    <item>7 ثانیه</item>
+  </string-array>
 
-    <string-array name="notification_group_display_time">
-        <item>خودکار (3 – 5 ثانیه)</item>
-        <item>3 ثانیه</item>
-        <item>4 ثانیه</item>
-        <item>5 ثانیه</item>
-        <item>6 ثانیه</item>
-        <item>7 ثانیه</item>
-    </string-array>
+  <string-array name="call_button_action">
+    <item>قطع تماس</item>
+    <item>قطع صدای تماس</item>
+    <item>پاسخ به تماس</item>
+  </string-array>
 
-    <string-array name="call_button_action">
-        <item>قطع تماس</item>
-        <item>قطع صدای تماس</item>
-        <item>پاسخ به تماس</item>
-    </string-array>
+  <string-array name="pref_distance_unit">
+    <item>متر(Metric)</item>
+    <item>مایل(Imperial)</item>
+  </string-array>
 
-    <string-array name="pref_distance_unit">
-        <item> متر(Metric)</item>
-        <item> مایل(Imperial)</item>
-    </string-array>
+  <string-array name="touch_mute_toggle_ringer_mode">
+    <item>ویبره</item>
+    <item>ساکت</item>
+    <item>بدون مزاحم(priority only)</item>
+    <item>بدون مزاحم (فقط هشدار ها)</item>
+    <item>بدون مزاحم(ساکت)</item>
+  </string-array>
 
-    <string-array name="touch_mute_toggle_ringer_mode">
-        <item>ویبره</item>
-        <item>ساکت</item>
-        <item>بدون مزاحم(priority only)</item>
-        <item>بدون مزاحم (فقط هشدار ها)</item>
-        <item>بدون مزاحم(ساکت)</item>
-    </string-array>
+  <string-array name="pref_theme_day_night">
+    <item>پیشفرض</item>
+    <item>روشن</item>
+    <item>تیره</item>
+  </string-array>
 
-    <string-array name="pref_theme_day_night">
-        <item>پیشفرض</item>
-        <item>روشن</item>
-        <item>تیره</item>
-    </string-array>
-
-    <string-array name="workout">
-        <item>Unknown</item>
-        <item>Running</item>
-        <item>Treadmill</item>
-        <item>Walking</item>
-        <item>Cycling</item>
-        <item>Hiking</item>
-        <item>Spinning</item>
-        <item>Yoga</item>
-        <item>Training</item>
-        <item>Gymnastics</item>
-        <item>Basketball</item>
-        <item>Football</item>
-        <item>Volleyball</item>
-        <item>Rowing</item>
-        <item>Jump rope</item>
-        <item>Tennis</item>
-        <item>Baseball</item>
-        <item>Badminton</item>
-        <item>Rugby</item>
-        <item>Table tennis</item>
-        <item>Cricket</item>
-        <item>Swimming</item>
-        <item>Indoor swimming</item>
-        <item>Outdoor swimming</item>
-        <item>Sit up</item>
-        <item>Jumping jack</item>
-        <item>Golf</item>
-        <item>Dance</item>
-        <item>Skateboarding</item>
-        <item>Fishing</item>
-        <item>Martial arts</item>
-        <item>Combat sport</item>
-    </string-array>
-
+  <string-array name="workout">
+    <item>Unknown</item>
+    <item>Running</item>
+    <item>Treadmill</item>
+    <item>Walking</item>
+    <item>Cycling</item>
+    <item>Hiking</item>
+    <item>Spinning</item>
+    <item>Yoga</item>
+    <item>Training</item>
+    <item>Gymnastics</item>
+    <item>Basketball</item>
+    <item>Football</item>
+    <item>Volleyball</item>
+    <item>Rowing</item>
+    <item>Jump rope</item>
+    <item>Tennis</item>
+    <item>Baseball</item>
+    <item>Badminton</item>
+    <item>Rugby</item>
+    <item>Table tennis</item>
+    <item>Cricket</item>
+    <item>Swimming</item>
+    <item>Indoor swimming</item>
+    <item>Outdoor swimming</item>
+    <item>Sit up</item>
+    <item>Jumping jack</item>
+    <item>Golf</item>
+    <item>Dance</item>
+    <item>Skateboarding</item>
+    <item>Fishing</item>
+    <item>Martial arts</item>
+    <item>Combat sport</item>
+  </string-array>
 </resources>

@@ -53,7 +53,7 @@ Esta aplicación funciona con o sin las aplicaciones originales de Haylou (pero 
 - repetición horaria
 
 <b>Modo No molestar</b>
-- activar y desactivar Bluetooth 
+- activar y desactivar Bluetooth
 - activar y desactivar la alerta de llamada o de notificación
 
 <b>Exportación</b>
