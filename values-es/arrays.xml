@@ -1,105 +1,104 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string-array name="pref_connected_have_notif_reminder_repeat_interval">
-    <item>3 minutos</item>
-    <item>5 minutos</item>
-    <item>10 minutos</item>
-    <item>15 minutos</item>
-    <item>20 minutos</item>
-    <item>30 minutos</item>
-    <item>1 hora</item>
-    <item>2 horas</item>
-    <item>3 horas</item>
-  </string-array>
 
-  <string-array name="notification_group_repeat">
-    <item>Siempre</item>
-    <item>Nunca</item>
-    <item>Una vez</item>
-    <item>Dos veces</item>
-    <item>Tres veces</item>
-  </string-array>
+    <string-array name="pref_connected_have_notif_reminder_repeat_interval">
+        <item>3 minutos</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>2 horas</item>
+        <item>3 horas</item>
+    </string-array>
 
-  <string-array name="notification_group_grouped_dispay">
-    <item>
-      Mostrar todo cuando el dispositivo esté conectado, de lo contrario sólo
-      la última notificación
-    </item>
-    <item>Mostrar todas las notificaciones</item>
-    <item>Mostrar sólo la última notificación</item>
-  </string-array>
+    <string-array name="notification_group_repeat">
+        <item>Siempre</item>
+        <item>Nunca</item>
+        <item>Una vez</item>
+        <item>Dos veces</item>
+        <item>Tres veces</item>
+    </string-array>
 
-  <string-array name="notification_group_grouped_order">
-    <item>En orden normal</item>
-    <item>En orden inverso</item>
-  </string-array>
+    <string-array name="notification_group_grouped_dispay">
+        <item>Mostrar todo cuando el dispositivo esté conectado, de lo contrario sólo la última notificación</item>
+        <item>Mostrar todas las notificaciones</item>
+        <item>Mostrar sólo la última notificación</item>
+    </string-array>
 
-  <string-array name="notification_group_display_time">
-    <item>Automático (3 – 5 segundos)</item>
-    <item>3 segundos</item>
-    <item>4 segundos</item>
-    <item>5 segundos</item>
-    <item>6 segundos</item>
-    <item>7 segundos</item>
-  </string-array>
+    <string-array name="notification_group_grouped_order">
+        <item>En orden normal</item>
+        <item>En orden inverso</item>
+    </string-array>
 
-  <string-array name="call_button_action">
-    <item>Rechazar llamada</item>
-    <item>Silenciar llamada</item>
-    <item>Responder llamada</item>
-  </string-array>
+    <string-array name="notification_group_display_time">
+        <item>Automático (3 – 5 segundos)</item>
+        <item>3 segundos</item>
+        <item>4 segundos</item>
+        <item>5 segundos</item>
+        <item>6 segundos</item>
+        <item>7 segundos</item>
+    </string-array>
 
-  <string-array name="pref_distance_unit">
-    <item>Sistema métrico (kilómetros)</item>
-    <item>Sistema imperial (millas)</item>
-  </string-array>
+    <string-array name="call_button_action">
+        <item>Rechazar llamada</item>
+        <item>Silenciar llamada</item>
+        <item>Responder llamada</item>
+    </string-array>
 
-  <string-array name="touch_mute_toggle_ringer_mode">
-    <item>Vibrar</item>
-    <item>Silenciar</item>
-    <item>No molestar (sólo prioridad)</item>
-    <item>No molestar (sólo alarmas)</item>
-    <item>No molestar (silencio total)</item>
-  </string-array>
+    <string-array name="pref_distance_unit">
+        <item>Sistema métrico (kilómetros)</item>
+        <item>Sistema imperial (millas)</item>
+    </string-array>
 
-  <string-array name="pref_theme_day_night">
-    <item>Predeterminado</item>
-    <item>Claro</item>
-    <item>Oscuro</item>
-  </string-array>
+    <string-array name="touch_mute_toggle_ringer_mode">
+        <item>Vibrar</item>
+        <item>Silenciar</item>
+        <item>No molestar (sólo prioridad)</item>
+        <item>No molestar (sólo alarmas)</item>
+        <item>No molestar (silencio total)</item>
+    </string-array>
 
-  <string-array name="workout">
-    <item>Desconocido</item>
-    <item>Carrera al aire libre</item>
-    <item>Cinta de correr</item>
-    <item>Caminata</item>
-    <item>Ciclismo</item>
-    <item>Senderismo</item>
-    <item>Spinning</item>
-    <item>Yoga</item>
-    <item>Entrenamiento</item>
-    <item>Gimnasia</item>
-    <item>Baloncesto</item>
-    <item>Fútbol</item>
-    <item>Voleibol</item>
-    <item>Remo</item>
-    <item>Saltar la cuerda</item>
-    <item>Tenis</item>
-    <item>Béisbol</item>
-    <item>Bádminton</item>
-    <item>Rugby</item>
-    <item>Tenis de mesa</item>
-    <item>Críquet</item>
-    <item>Natación</item>
-    <item>Natación en piscina</item>
-    <item>Natación al aire libre</item>
-    <item>Abdominales</item>
-    <item>Jumping jacks</item>
-    <item>Golf</item>
-    <item>Baile</item>
-    <item>Skate</item>
-    <item>Pesca</item>
-    <item>Artes marciales</item>
-    <item>Deportes de combate</item>
-  </string-array>
+    <string-array name="pref_theme_day_night">
+        <item>Predeterminado</item>
+        <item>Claro</item>
+        <item>Oscuro</item>
+    </string-array>
+
+    <string-array name="workout">
+        <item>Desconocido</item>
+        <item>Carrera al aire libre</item>
+        <item>Cinta de correr</item>
+        <item>Caminata</item>
+        <item>Ciclismo</item>
+        <item>Senderismo</item>
+        <item>Spinning</item>
+        <item>Yoga</item>
+        <item>Entrenamiento</item>
+        <item>Gimnasia</item>
+        <item>Baloncesto</item>
+        <item>Fútbol</item>
+        <item>Voleibol</item>
+        <item>Remo</item>
+        <item>Saltar la cuerda</item>
+        <item>Tenis</item>
+        <item>Béisbol</item>
+        <item>Bádminton</item>
+        <item>Rugby</item>
+        <item>Tenis de mesa</item>
+        <item>Críquet</item>
+        <item>Natación</item>
+        <item>Natación en piscina</item>
+        <item>Natación al aire libre</item>
+        <item>Abdominales</item>
+        <item>Jumping jacks</item>
+        <item>Golf</item>
+        <item>Baile</item>
+        <item>Skate</item>
+        <item>Pesca</item>
+        <item>Artes marciales</item>
+        <item>Deportes de combate</item>
+    </string-array>
+
 </resources>
